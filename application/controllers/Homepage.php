@@ -77,4 +77,4 @@ class Homepage extends Application
 			//Makes a data field
 			$this->data['totalInc'] = $totalInc;
 	}
-
+}
