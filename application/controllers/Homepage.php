@@ -70,7 +70,7 @@ class Homepage extends Application
             foreach ($source as $record)
             {
 					$stock = intval(preg_replace('/[^0-9]+/', '', $record['quantity']), 10);
-					$price = floatval(preg_replace('/[^0-9.+]/', '', $record['price']));
+					$price = floatval(preg_replace('/[^0-9.+]/', '', $record['receiving_cost']));
 					$totalInc += ($stock * $price);
 					
             }
