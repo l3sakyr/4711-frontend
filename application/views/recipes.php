@@ -1,6 +1,5 @@
 <div class="row">
     <h4>Edit Recipes</h4><br>
-
     <table border="1" cellpadding="5px">
         <tr>
             <th>Name</th>

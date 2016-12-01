@@ -6,7 +6,7 @@
             <input type="text" name="name" placeholder="{name}"><br>
             <input type="text" name="description" placeholder="{description}"><br>
             {ingredientList}
-            <input type="text" name="{name}" placeholder="{name} : {amount}mL"><br>
+            <input type="text" name="{ingredName}" placeholder="{ingredName} : {amount}mL"><br>
             {/ingredientList}
             <input type="submit"><br>
         </table>

@@ -27,6 +27,8 @@ class Homepage extends Application
 			// this is the data we want loaded onto the view
 			$this->invCal();
 			$this->saleCal();
+                        $this->countRecipy();
+                        $this->countProduct();
 			//this makes the view rendered
             $this->render();
 	}
@@ -45,14 +47,14 @@ class Homepage extends Application
 			//Calculates
             foreach ($source as $record)
             {
-					$rUniut = intval(preg_replace('/[^0-9]+/', '', $record['receiving_unit']), 10);
-					$rCost = intval(preg_replace('/[^0-9]+/', '', $record['receiving_cost']), 10);
-					$inv = intval(preg_replace('/[^0-9]+/', '', $record['quantity']), 10);
-					$totalCost += (($inv / $rUniut) * $rCost);
+                $rUniut = intval(preg_replace('/[^0-9]+/', '', $record['receiving_unit']), 10);
+                $rCost = intval(preg_replace('/[^0-9]+/', '', $record['receiving_cost']), 10);
+                $inv = intval(preg_replace('/[^0-9]+/', '', $record['quantity']), 10);
+                $totalCost += (($inv / $rUniut) * $rCost);
 					
             }
 			//Makes a data field
-			$this->data['totalCost'] = $totalCost;
+			$this->data['totalCost'] = (int)$totalCost;
 	}
 	/**
 	* Function for calculating the received from sales
@@ -60,7 +62,7 @@ class Homepage extends Application
 	public function saleCal() {
 	        $this->load->model('supplies');
             // gets a list of supplies
-            $source = $this->supplies->all();
+            $source = $this->stock->all();
             $supplies = array ();
 			
 			//Total
@@ -69,12 +71,38 @@ class Homepage extends Application
 			//Calculates
             foreach ($source as $record)
             {
-					$stock = intval(preg_replace('/[^0-9]+/', '', $record['quantity']), 10);
-					$price = floatval(preg_replace('/[^0-9.+]/', '', $record['receiving_cost']));
-					$totalInc += ($stock * $price);
+		$stock = intval(preg_replace('/[^0-9]+/', '', $record['quantity']), 10);
+		$price = floatval(preg_replace('/[^0-9.+]/', '', $record['price']));
+		$totalInc += ($stock * $price);
 					
             }
-			//Makes a data field
-			$this->data['totalInc'] = $totalInc;
+	    //Makes a data field
+            $this->data['totalInc'] = $totalInc;
 	}
+        
+        public function countRecipy(){
+             $this->load->model('recipes');
+            // gets a list of supplies
+            $source = $this->recipes->all();
+            $recipyCount=0;
+            foreach ($source as $record)
+            {
+                $recipyCount += count($record);
+            }
+            $this->data['recipyCount'] =$recipyCount;
+        }
+        
+        public function countProduct(){
+            $this->load->model('stock');
+            // gets a list of supplies
+            $source = $this->stock->all();
+            $productCount=0;
+            foreach ($source as $record)
+            {
+                $productCount += count($record);
+            }
+            $this->data['productCount'] =$productCount;
+        }
+
+        
 }

@@ -87,8 +87,8 @@ class Administration extends Application
             $source = $this->recipes->get($code);
             
             foreach($source['ingredients'] as $ingredient){
-                $stock = $this->supplies->getSupplyWithName($ingredient['name']);
-            }   $ingredients[] = array('name' => $ingredient['name'], 'amount' => $ingredient['amount']);
+                $stock = $this->supplies->getSupplyWithName($ingredient['ingredName']);
+            }   $ingredients[] = array('ingredName' => $ingredient['ingredName'], 'amount' => $ingredient['amount']);
             
             $this->data['ingredientList'] = $ingredients;
             $this->data['itemName'] = $source['name'];
