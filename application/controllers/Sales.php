@@ -46,7 +46,7 @@ class Sales extends Application
         
         public function gimme($id)
         {
-            $this->data['pagebody'] = 'justone';		
+            $this->data['pagebody'] = 'justone';	
             $source = $this->stock->get($id);
             $this->data = array_merge($this->data, $source);
             $this->render();

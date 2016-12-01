@@ -15,27 +15,27 @@ class Recipes extends CI_Model{
                     'description' => 'Sharpen concentration, increase stamina, and revitalize your senses',
                     'ingredients' => array(
                         'item1' => array(
-                            'name' => 'Spearmint',
+                            'ingredName' => 'Spearmint',
                             'amount' => '1'
                         ),
                         'item2' => array(
-                            'name' => 'Lavendar',
+                            'ingredName' => 'Lavendar',
                             'amount' => '1'
                         ), 
                         'item3' => array(
-                            'name' => 'Eucalyptus',
+                            'ingredName' => 'Eucalyptus',
                             'amount' => '1'
                         ),
                         'item4' => array(
-                            'name' => 'Lemon',
+                            'ingredName' => 'Lemon',
                             'amount' => '1'
                         ),
                         'item5' => array(
-                            'name' => 'Rosewood',
+                            'ingredName' => 'Rosewood',
                             'amount' => '.5'
                         ),
                         'item6' => array(
-                            'name' => 'Cedarwood',
+                            'ingredName' => 'Cedarwood',
                             'amount' => '.5'
                         )
                     )
@@ -46,19 +46,19 @@ class Recipes extends CI_Model{
                     'description' => 'Lift your spirits',
                     'ingredients' => array(
                         'item1' => array(
-                            'name' => 'Lavendar',
+                            'ingredName' => 'Lavendar',
                             'amount' => '2'
                         ),
                         'item2' => array(
-                            'name' => 'Ylang ylang',
+                            'ingredName' => 'Ylang ylang',
                             'amount' => '1'
                         ), 
                         'item3' => array(
-                            'name' => 'Neroli',
+                            'ingredName' => 'Neroli',
                             'amount' => '1'
                         ),
                         'item4' => array(
-                            'name' => 'Sandalwood',
+                            'ingredName' => 'Sandalwood',
                             'amount' => '1'
                         )
                     )
@@ -69,23 +69,23 @@ class Recipes extends CI_Model{
                     'description' => 'Invigorate and refresh your mind and body', 
                     'ingredients' => array(
                         'item1' => array(
-                            'name' => 'Peppermint',
+                            'ingredName' => 'Peppermint',
                             'amount' => '1.5'
                         ),
                         'item2' => array(
-                            'name' => 'Rosemary',
+                            'ingredName' => 'Rosemary',
                             'amount' => '1'
                         ), 
                         'item3' => array(
-                            'name' => 'Lemon',
+                            'ingredName' => 'Lemon',
                             'amount' => '1'
                         ),
                         'item4' => array(
-                            'name' => 'Bergamot',
+                            'ingredName' => 'Bergamot',
                             'amount' => '1'
                         ),
                         'item5' => array(
-                            'name' => 'Basil',
+                            'ingredName' => 'Basil',
                             'amount' => '.5'
                         )
                     )
@@ -96,19 +96,19 @@ class Recipes extends CI_Model{
                     'description' => 'An exhilarating essential oil blend that renews and strengthens', 
                     'ingredients' => array(
                         'item1' => array(
-                            'name' => 'Eucalyptus',
+                            'ingredName' => 'Eucalyptus',
                             'amount' => '2'
                         ),
                         'item2' => array(
-                            'name' => 'Peppermint',
+                            'ingredName' => 'Peppermint',
                             'amount' => '1.5'
                         ), 
                         'item3' => array(
-                            'name' => 'Rosemary',
+                            'ingredName' => 'Rosemary',
                             'amount' => '1'
                         ),
                         'item4' => array(
-                            'name' => 'Ginger',
+                            'ingredName' => 'Ginger',
                             'amount' => '.5'
                         )
                     )
@@ -119,19 +119,19 @@ class Recipes extends CI_Model{
                     'description' => 'For promoting a sense of calmness and positivity',
                     'ingredients' => array(
                         'item1' => array(
-                            'name' => 'Orange',
+                            'ingredName' => 'Orange',
                             'amount' => '2.5'
                         ),
                         'item2' => array(
-                            'name' => 'Grapefruit',
+                            'ingredName' => 'Grapefruit',
                             'amount' => '1'
                         ), 
                         'item3' => array(
-                            'name' => 'Lemon',
+                            'ingredName' => 'Lemon',
                             'amount' => '1'
                         ),
                         'item4' => array(
-                            'name' => 'Neroli',
+                            'ingredName' => 'Neroli',
                             'amount' => '.5'
                         )
                     )
@@ -142,19 +142,19 @@ class Recipes extends CI_Model{
                     'description' => 'For a deeper, more restful sleep',
                     'ingredients' => array(
                         'item1' => array(
-                            'name' => 'Orange',
+                            'ingredName' => 'Orange',
                             'amount' => '1.5'
                         ),
                         'item2' => array(
-                            'name' => 'Lavendar',
+                            'ingredName' => 'Lavendar',
                             'amount' => '1.5'
                         ), 
                         'item3' => array(
-                            'name' => 'Marjoram',
+                            'ingredName' => 'Marjoram',
                             'amount' => '1'
                         ),
                         'item4' => array(
-                            'name' => 'Chamomile',
+                            'ingredName' => 'Chamomile',
                             'amount' => '1'
                         )
                     )
@@ -165,19 +165,19 @@ class Recipes extends CI_Model{
                     'description' => 'Melt away stress and ease tension with this uplifting blend',
                     'ingredients' => array(
                         'item1' => array(
-                            'name' => 'Orange',
+                            'ingredName' => 'Orange',
                             'amount' => '2'
                         ),
                         'item2' => array(
-                            'name' => 'Lavendar',
+                            'ingredName' => 'Lavendar',
                             'amount' => '1.5'
                         ), 
                         'item3' => array(
-                            'name' => 'Bergamot',
+                            'ingredName' => 'Bergamot',
                             'amount' => '1'
                         ),
                         'item4' => array(
-                            'name' => 'Geranium',
+                            'ingredName' => 'Geranium',
                             'amount' => '.5'
                         )
                     )
@@ -205,7 +205,20 @@ class Recipes extends CI_Model{
                 return $record;
         return null;
     }
-       
+        
+
+    public function getIngre($code)
+    {
+        // iterate over the data until we find the one we want
+        foreach ($this->data as $record) {
+            if ($record['code'] == $code) {
+                return $record['ingredients'];
+            }
+        }
+        return null;
+    }
+
+    
     /**
     * Retrieve all of the recipes
     * @return $this->data

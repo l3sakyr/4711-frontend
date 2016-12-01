@@ -10,6 +10,7 @@
             <td><a href="/administration/editsupply/{code}">{name}<a></td>
             <td>{description}</td>
         </tr>
-    {/supplies}
+        {/supplies}
     </table>
+    </br>
 </div>

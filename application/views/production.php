@@ -10,5 +10,4 @@
             </tr>
         {/recipes}
     </table>
-    </br>
 </div>
