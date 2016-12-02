@@ -159,3 +159,27 @@ ERROR - 2016-12-02 03:56:55 --> Severity: error --> Exception: syntax error, une
 ERROR - 2016-12-02 03:57:10 --> Severity: Warning --> Invalid argument supplied for foreach() C:\Apps\XAMPP\htdocs\4711-frontend\system\libraries\Parser.php 223
 ERROR - 2016-12-02 03:58:26 --> Severity: Warning --> Invalid argument supplied for foreach() C:\Apps\XAMPP\htdocs\4711-frontend\system\libraries\Parser.php 223
 ERROR - 2016-12-02 04:01:27 --> Severity: error --> Exception: syntax error, unexpected 'fread' (T_STRING) C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 100
+ERROR - 2016-12-02 21:09:59 --> Severity: error --> Exception: Call to undefined function viewDB() C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 42
+ERROR - 2016-12-02 21:13:28 --> Severity: error --> Exception: syntax error, unexpected '}', expecting end of file C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 195
+ERROR - 2016-12-02 21:28:58 --> Severity: Notice --> Trying to get property of non-object C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 172
+ERROR - 2016-12-02 22:09:49 --> Severity: Notice --> Undefined variable: sql C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 169
+ERROR - 2016-12-02 22:09:49 --> Severity: Warning --> mysqli::query(): Empty query C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 169
+ERROR - 2016-12-02 22:22:13 --> Severity: 4096 --> Object of class mysqli_result could not be converted to string C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 181
+ERROR - 2016-12-02 22:22:52 --> Severity: 4096 --> Object of class mysqli_result could not be converted to string C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 182
+ERROR - 2016-12-02 22:23:19 --> Severity: Notice --> Undefined index: code C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 185
+ERROR - 2016-12-02 22:23:19 --> Severity: Notice --> Undefined index: name C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 185
+ERROR - 2016-12-02 22:23:19 --> Severity: Notice --> Undefined index: description C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 185
+ERROR - 2016-12-02 22:23:19 --> Severity: Notice --> Undefined index: receiving_cost C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 185
+ERROR - 2016-12-02 22:23:19 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 185
+ERROR - 2016-12-02 22:23:19 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 185
+ERROR - 2016-12-02 22:32:43 --> Severity: 4096 --> Object of class mysqli_result could not be converted to string C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 171
+ERROR - 2016-12-02 22:33:33 --> Severity: error --> Exception: Cannot use object of type mysqli_result as array C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 171
+ERROR - 2016-12-02 22:34:39 --> Severity: Notice --> Undefined variable: result C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 170
+ERROR - 2016-12-02 22:34:39 --> Severity: Notice --> Trying to get property of non-object C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 170
+ERROR - 2016-12-02 22:35:01 --> Severity: error --> Exception: syntax error, unexpected '=' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 169
+ERROR - 2016-12-02 22:38:45 --> Severity: error --> Exception: syntax error, unexpected 'echo' (T_ECHO) C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 191
+ERROR - 2016-12-02 22:39:06 --> Severity: Warning --> preg_match(): Delimiter must not be alphanumeric or backslash C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 191
+ERROR - 2016-12-02 22:40:56 --> Severity: error --> Exception: syntax error, unexpected 'echo' (T_ECHO) C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 192
+ERROR - 2016-12-02 22:41:06 --> Severity: Warning --> preg_match(): Delimiter must not be alphanumeric or backslash C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 191
+ERROR - 2016-12-02 22:42:38 --> Severity: Notice --> Array to string conversion C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 192
+ERROR - 2016-12-02 22:43:08 --> Severity: Notice --> Undefined offset: 1 C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 192
