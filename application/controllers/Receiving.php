@@ -51,20 +51,42 @@ class Receiving extends Application
     }
 	
 	
-	// gets the calculated cost
+	// gets the cost of the supply
 	public function getCost() {
-		return ($_GET['receiving_unit'] * $this->getRcost());
-	}
-	
-	// gets the receiving unit cost
-	public function getRcost() {
-		return 30;
+		$this->load->model('supplies');
+        // gets a list of supplies
+        $source = $this->supplies->all();
+        $supplies = array ();
+			
+		// compares the supply code to the list
+        foreach ($source as $record)
+        {
+			if($_GET['id'] == $record['code']) {
+				$price = floatval(preg_replace('/[^0-9.+]/', '', $record['receiving_cost']));
+			}
+        }
+
+		return $price;
 	}
 
 	// logs the transaction to a file and writes to it
 	// reads and shows the file output 
 	public function receipt() {
-		$log = $_GET['receiving_unit'] . " lavendar(s) was received at the cost of $" . $this->getCost() . ".";
+		$quantity = $_GET['receiving_unit/'.$_GET['id']];
+		$name = $this->supplies->getName($_GET['id']);
+		$totalCost = $this->getCost() * $_GET['receiving_unit/'.$_GET['id']];
+		$log = $quantity . " " . $name . "(s) was received at the cost of $" . $totalCost . ".";
+		
+		//NEW
+		$log .= "<br/> Extra: " . $_GET['id'];
+		/*
+		foreach($_POST as $name => $content) { // Most people refer to $key => $value
+			//echo "The HTML name: $name <br>";
+			$log .= $content;
+		}
+		*/
+		
+		//END NEW
 		
 		$file = fopen("log.txt","w");
 		fwrite($file,$log."<br/>");
