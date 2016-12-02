@@ -51,20 +51,46 @@ class Receiving extends Application
     }
 	
 	
-	// gets the calculated cost
+	// gets the cost of the supply
 	public function getCost() {
-		return ($_GET['receiving_unit'] * $this->getRcost());
-	}
-	
-	// gets the receiving unit cost
-	public function getRcost() {
-		return 30;
+		$this->load->model('supplies');
+        // gets a list of supplies
+        $source = $this->supplies->all();
+        $supplies = array ();
+			
+		// compares the supply code to the list
+        foreach ($source as $record)
+        {
+			if($_GET['id'] == $record['code']) {
+				$price = floatval(preg_replace('/[^0-9.+]/', '', $record['receiving_cost']));
+			}
+        }
+
+		return $price;
 	}
 
 	// logs the transaction to a file and writes to it
 	// reads and shows the file output 
 	public function receipt() {
-		$log = $_GET['receiving_unit'] . " lavendar(s) was received at the cost of $" . $this->getCost() . ".";
+		$this->data['pagebody'] = 'order';
+		$quantity = $_GET['receiving_unit/'.$_GET['id']];
+		$name = $this->supplies->getName($_GET['id']);
+		$totalCost = $this->getCost() * $_GET['receiving_unit/'.$_GET['id']];
+		
+		$log = $quantity . " " . $name . "(s) was received at the cost of $" . $totalCost . ".";
+		
+		//NEW
+		$log .= "<br/> Extra: " . $_GET['id'];
+		/*
+		foreach($_POST as $name => $content) { // Most people refer to $key => $value
+			//echo "The HTML name: $name <br>";
+			$log .= $content;
+		}
+		*/
+		
+		//END NEW
+		
+		$transaction = "";
 		
 		$file = fopen("log.txt","w");
 		fwrite($file,$log."<br/>");
@@ -72,7 +98,13 @@ class Receiving extends Application
 		
 		$myfile = fopen("log.txt", "r") or die("Unable to open file!");
 		echo fread($myfile,filesize("log.txt"));
+		//$transaction = fread($myfile,filesize("log.txt"));
 		fclose($myfile);
+		
+		//$supplies = array ($transaction);
+
+		//$this->data = array_merge($this->data, $supplies);
+		$this->render();
 	}
 	
 	//Read information from the receipt log file
@@ -81,7 +113,7 @@ class Receiving extends Application
 		echo fread($myfile,filesize("log.txt"));
 		fclose($myfile);
 	}
-	
+	/*
 	// logs the cost for total cost of supplies
 	// adds 1000 for testing purposes
 	public function totalCost() {
@@ -97,4 +129,5 @@ class Receiving extends Application
 		echo "Total Price:" . $total;
 		fclose($myfile2);
 	}
+	*/
 }

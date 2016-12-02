@@ -186,6 +186,20 @@ class Supplies extends CI_Model{
 				return $record;
 		return null;
 	}
+	
+	    /**
+         * Retrieve a single name by code
+         * @param $code
+         * @return $record['name']
+         */
+	public function getName($id)
+	{
+		// iterate over the data until we find the one we want
+		foreach ($this->data as $record)
+			if ($record['code'] == $id)
+				return $record['name'];
+		return null;
+	}
 
         /**
          * Adjust the quantity of a supply item

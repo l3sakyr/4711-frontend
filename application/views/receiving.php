@@ -17,16 +17,17 @@
             <tr>
                 <th>Name</th>
                 <th>Description</th>
-                <th>Order</th>
+                <th>Order Quantity</th>
+				<th>Order</th>
             </tr>
             {supplies}
             <tr align="center">
             <td><a href="/receiving/supply/{code}">{name}<a></td>
                 <td>{description}</td>
-                <td><input type="text" name="receiving_unit" style="width:20px"></td>
+                <td><input type="text" name="receiving_unit/{code}" style="width:20px"></td>
+				<td><input type="submit" name="id" value="{code}"></td>
             </tr>
             {/supplies}
         </table>
-        <input type="submit" name="submit">
     </form>
 </div>
