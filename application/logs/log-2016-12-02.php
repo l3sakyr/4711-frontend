@@ -154,3 +154,8 @@ ERROR - 2016-12-02 02:55:43 --> Severity: Notice --> Undefined index: receiving_
 ERROR - 2016-12-02 02:55:45 --> Severity: Notice --> Undefined index: receiving_unit/0 C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 75
 ERROR - 2016-12-02 02:55:45 --> Severity: Notice --> Undefined index: receiving_unit/0 C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 75
 ERROR - 2016-12-02 02:59:11 --> Severity: error --> Exception: syntax error, unexpected '$log' (T_VARIABLE) C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 78
+ERROR - 2016-12-02 03:34:57 --> Severity: Notice --> Undefined variable: log C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 79
+ERROR - 2016-12-02 03:56:55 --> Severity: error --> Exception: syntax error, unexpected ')' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 105
+ERROR - 2016-12-02 03:57:10 --> Severity: Warning --> Invalid argument supplied for foreach() C:\Apps\XAMPP\htdocs\4711-frontend\system\libraries\Parser.php 223
+ERROR - 2016-12-02 03:58:26 --> Severity: Warning --> Invalid argument supplied for foreach() C:\Apps\XAMPP\htdocs\4711-frontend\system\libraries\Parser.php 223
+ERROR - 2016-12-02 04:01:27 --> Severity: error --> Exception: syntax error, unexpected 'fread' (T_STRING) C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 100

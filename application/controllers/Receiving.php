@@ -72,9 +72,11 @@ class Receiving extends Application
 	// logs the transaction to a file and writes to it
 	// reads and shows the file output 
 	public function receipt() {
+		$this->data['pagebody'] = 'order';
 		$quantity = $_GET['receiving_unit/'.$_GET['id']];
 		$name = $this->supplies->getName($_GET['id']);
 		$totalCost = $this->getCost() * $_GET['receiving_unit/'.$_GET['id']];
+		
 		$log = $quantity . " " . $name . "(s) was received at the cost of $" . $totalCost . ".";
 		
 		//NEW
@@ -88,13 +90,21 @@ class Receiving extends Application
 		
 		//END NEW
 		
+		$transaction = "";
+		
 		$file = fopen("log.txt","w");
 		fwrite($file,$log."<br/>");
 		fclose($file);
 		
 		$myfile = fopen("log.txt", "r") or die("Unable to open file!");
 		echo fread($myfile,filesize("log.txt"));
+		//$transaction = fread($myfile,filesize("log.txt"));
 		fclose($myfile);
+		
+		//$supplies = array ($transaction);
+
+		//$this->data = array_merge($this->data, $supplies);
+		$this->render();
 	}
 	
 	//Read information from the receipt log file
@@ -103,7 +113,7 @@ class Receiving extends Application
 		echo fread($myfile,filesize("log.txt"));
 		fclose($myfile);
 	}
-	
+	/*
 	// logs the cost for total cost of supplies
 	// adds 1000 for testing purposes
 	public function totalCost() {
@@ -119,4 +129,5 @@ class Receiving extends Application
 		echo "Total Price:" . $total;
 		fclose($myfile2);
 	}
+	*/
 }
