@@ -293,7 +293,7 @@ class Supplies extends CI_Model{
 		
 		// Calculates the quantity in terms of stock
 		$quantity = $_GET['receiving_unit/'.$_GET['id']] * $matches[0];
-		echo "<br>Quant: " . $quantity;
+		echo "<br>Receiving Quantity: " . $quantity;
 		
 		// Modifies the database value of quantity
 		$sql = "UPDATE supplies SET quantity = quantity + " . $quantity . " WHERE code <=>" . $_GET['id'] . ";";

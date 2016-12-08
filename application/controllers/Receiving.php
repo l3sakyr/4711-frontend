@@ -37,7 +37,7 @@ class Receiving extends Application
             $this->data['supplies'] = $supplies;
 			
 			// View DB supplies
-			$this->supplies->viewSupplies();
+			//$this->supplies->viewSupplies();
 			
             $this->render();
             
@@ -78,6 +78,8 @@ class Receiving extends Application
 		$name = $this->supplies->getName($_GET['id']);
 		$totalCost = $this->getCost() * $_GET['receiving_unit/'.$_GET['id']];
 		
+
+		
 		$log = $quantity . " " . $name . "(s) was received at the cost of $" . $totalCost . ".";
 		
 		//NEW
@@ -92,7 +94,9 @@ class Receiving extends Application
 		fclose($file);
 		
 		$myfile = fopen("log.txt", "r") or die("Unable to open file!");
-		echo fread($myfile,filesize("log.txt"));
+		$filedata = fread($myfile,filesize("log.txt"));
+		$logger[] = array ('1' => $filedata);
+		$this->data['owo'] = $logger;
 		fclose($myfile);
 
 		$this->supplies->receiving_update_db();
