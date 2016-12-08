@@ -296,7 +296,7 @@ class Supplies extends CI_Model{
 		echo "<br>Quant: " . $quantity;
 		
 		// Modifies the database value of quantity
-		$sql = "UPDATE supplies SET quantity = quantity + " . $quantity . ";";
+		$sql = "UPDATE supplies SET quantity = quantity + " . $quantity . " WHERE code <=>" . $_GET['id'] . ";";
 		$result = $conn->query($sql);
 		
 		// Displays the Quantity after the modification

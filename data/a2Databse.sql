@@ -189,7 +189,7 @@ ALTER TABLE `recipes`
 -- Table structure for table `stock`
 --
 
-
+DROP TABLE stock;
 CREATE TABLE `stock` (
   `code` INT(2) NOT NULL,
   `name` TEXT,
