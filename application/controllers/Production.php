@@ -69,6 +69,35 @@ class Production extends Application
             $this->render();
         }
         
+        public function recipt(){
+            $this->data['pagebody'] = 'produce';
+            $quantity = $_GET['production_quantity/'.$_GET['id']];
+            $name = $this->recipes->getName($_GET['id']);
+            $totalProduction = $this->getProduce() * $_GET['production_quantity/'.$_GET['id']];
+		
+		$log = $quantity . " " . $name . " is produced with " . $totalProduction . ".";
+		
+		//NEW
+		$log .= "<br/> Extra: " . $_GET['id'];
+		
+		//END NEW
+		
+		$transaction = "";
+		
+		$file = fopen("log.txt","w");
+		fwrite($file,$log."<br/>");
+		fclose($file);
+		
+		$myfile = fopen("log.txt", "r") or die("Unable to open file!");
+		echo fread($myfile,filesize("log.txt"));
+		fclose($myfile);
+
+		$this->recipes->produce_update_db();
+		$this->render();
+	}
+	
+        
+        
 /**
         public function get($code){
             //the pagebody of the ingredients and amounts to make an item/recipe
