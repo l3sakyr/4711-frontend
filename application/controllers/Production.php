@@ -69,8 +69,9 @@ class Production extends Application
             $this->render();
         }
         
-        public function recipt(){
+        public function makeProduct(){
             $this->data['pagebody'] = 'produce';
+            /*
             $quantity = $_GET['production_quantity/'.$_GET['id']];
             $name = $this->recipes->getName($_GET['id']);
             $totalProduction = $this->getProduce() * $_GET['production_quantity/'.$_GET['id']];
@@ -92,7 +93,8 @@ class Production extends Application
 		echo fread($myfile,filesize("log.txt"));
 		fclose($myfile);
 
-		$this->recipes->produce_update_db();
+                */
+		$this->stock->produce_update_db();
 		$this->render();
 	}
 	

@@ -82,4 +82,37 @@ class Stock extends CI_Model{
 	{
 		return $this->data;
 	}
+        
+        public function produce_update_db() {
+		//SQL
+		$servername = "localhost";
+		$username = "root";
+		$password = "";
+		$dbname = "a2Database";
+
+		// Create connection
+		$conn = new mysqli($servername, $username, $password, $dbname);
+		// Check connection
+		if ($conn->connect_error) {
+			die("Connection failed: " . $conn->connect_error);
+		} 		
+		
+		// Template for adding product
+		$quantity = $_GET['production_quantity/'.$_GET['id']];
+
+		// Modifies the database value of quantity
+		//$sql = "UPDATE stock SET quantity = quantity;";     // + " . $quantity . ";";// . "WHERE code <=> " . $_GET['id'] . ";";
+                //
+                $sql = "UPDATE Stock SET quantity = quantity + " . $quantity . " WHERE code <=>" . $_GET['id'] . ";";
+		//$sql = "SELECT * from stock;"
+                $result = $conn->query($sql);
+		
+		if (mysqli_query($conn, $sql)) {
+			//echo "Record updated successfully";
+		} else {
+			echo "Error updating record: " . mysqli_error($conn);
+		}
+		$conn->close();
+		//SQL//
+	}
 }

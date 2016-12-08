@@ -13,7 +13,7 @@
         {/recipes}
     </table>
     -->
-    <form action="/Production/receipt"> 
+    <form action="/Production/makeProduct"> 
          <table border="1" cellpadding="5px">
             <tr>
                 <th>Recipes</th>
