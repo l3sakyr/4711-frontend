@@ -1,31 +1,5 @@
--- phpMyAdmin SQL Dump
--- version 4.5.1
--- http://www.phpmyadmin.net
---
--- Host: 127.0.0.1
--- Generation Time: Dec 02, 2016 at 08:31 PM
--- Server version: 10.1.13-MariaDB
--- PHP Version: 7.0.8
-
-SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET time_zone = "+00:00";
 
 
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
-
---
--- Database: `recipes`
---
--- drop table recipes;
--- drop table ingredients;
--- --------------------------------------------------------
-
---
--- Table structure for table `recipes`
---
 DROP TABLE IF EXISTS `Recipes`;
 CREATE TABLE `recipes` (
   `code` int(11) NOT NULL AUTO_INCREMENT,
@@ -67,93 +41,64 @@ CREATE TABLE `ingredients` (
 
 
 INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
-(1, 'item1', 'Spearmint', 1);
+(1,'Spearmint', 1);
 INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
-(1, 'item2', 'Lavendar', 1);
+(1,'Lavendar', 1);
 INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
-(1, 'item3', 'Eucalyptus', 1);
+(1,'Eucalyptus', 1);
 INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
-(1, 'item4', 'Lemon', 1);
+(1,'Lemon', 1);
 INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
-(1, 'item5', 'Rosewood', 0.5);
+(1,'Rosewood', 0.5);
 INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
-(1, 'item6', 'Cedarwood', 0.5);
+(1,'Cedarwood', 0.5);
 INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
-(2, 'item1', 'Lavendar',2);
+(2,'Lavendar',2);
 INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
-(2, 'item2', 'Ylang ylang', 1);
+(2,'Ylang ylang', 1);
 INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
-(2, 'item3', 'Neroli', 1);
+(2,'Neroli', 1);
 INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
-(2, 'item4', 'Sandalwood', 1);
+(2,'Sandalwood', 1);
 INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
-(3, 'item1', 'Peppermint', 1.5);
+(3,'Peppermint', 1.5);
 INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
-(3, 'item2', 'Rosemary', 1);
+(3,'Rosemary', 1);
 INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
-(3, 'item3', 'Lemon', 1);
+(3,'Lemon', 1);
 INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
-(3, 'item4', 'Bergamot', 1);
+(3,'Bergamot', 1);
 INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
-(3, 'item5', 'Basil', 0.5);
+(3,'Basil', 0.5);
 INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
-(4, 'item1', 'Eucalyptus', 2);
+(4,'Eucalyptus', 2);
 INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
-(4, 'item2', 'Peppermint', 1.5);
+(4,'Peppermint', 1.5);
 INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
-(4, 'item3', 'Rosemary', 1);
+(4,'Rosemary', 1);
 INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
-(4, 'item4', 'Ginger', 5);
+(4,'Ginger', 5);
 INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
-(5, 'item1', 'Orange', 2.5);
+(5,'Orange', 2.5);
 INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
-(5, 'item2', 'Grapefruit', 1);
+(5,'Grapefruit', 1);
 INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
-(5, 'item3', 'Lemon', 1);
+(5,'Lemon', 1);
 INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
-(5, 'item4', 'Neroli', 0.5);
+(5,'Neroli', 0.5);
 INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
-(6, 'item1', 'Orange', 1.5);
+(6,'Orange', 1.5);
 INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
-(6, 'item2', 'Lavendar', 1.5);
+(6,'Lavendar', 1.5);
 INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
-(6, 'item3', 'Marjoram', 1);
+(6,'Marjoram', 1);
 INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
-(6, 'item4', 'Chamomile', 1);
+(6,'Chamomile', 1);
 INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
-(7, 'item1', 'Orange', 2);
+(7,'Orange', 2);
 INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
-(7, 'item2', 'Lavendar', 1.5);
+(7,'Lavendar', 1.5);
 INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
-(7, 'item3', 'Bergamot', 1);
+(7,'Bergamot', 1);
 INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
-(7, 'item4', 'Geranium', 5);
---
--- Indexes for dumped tables
---
-
---
--- Indexes for table `recipes`
---
---  ALTER TABLE `recipes`
---  ADD PRIMARY KEY (`code`);
-/*
- ALTER TABLE `ingredients`
-  ADD PRIMARY KEY (`code`);
-*/
---
--- AUTO_INCREMENT for dumped tables
---
-
---
--- AUTO_INCREMENT for table `recipes`
---
--- ALTER TABLE `recipes`
---  MODIFY `code` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
-/*
-ALTER TABLE `ingredients`
-  MODIFY `code` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
-*/
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+(7,'Geranium', 5);
