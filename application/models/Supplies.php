@@ -282,10 +282,10 @@ class Supplies extends CI_Model{
 		if ($result->num_rows > 0) {
 			// output data of each row
 			while($row = $result->fetch_assoc()) {
-				echo "<br>RU: " . $row["receiving_unit"]. "<br>  ";
+				//echo "<br>RU: " . $row["receiving_unit"]. "<br>  ";
 				$pattern = '/\d+/';
 				preg_match($pattern, $row["receiving_unit"], $matches);
-				echo "<br>RU VAL post regex: " . $matches[0] ."<br>";
+				//echo "<br>RU VAL post regex: " . $matches[0] ."<br>";
 			}
 		} else {
 			echo "0 results";
@@ -293,7 +293,7 @@ class Supplies extends CI_Model{
 		
 		// Calculates the quantity in terms of stock
 		$quantity = $_GET['receiving_unit/'.$_GET['id']] * $matches[0];
-		echo "<br>Quant: " . $quantity;
+		//echo "<br>Receiving Quantity: " . $quantity;
 		
 		// Modifies the database value of quantity
 		$sql = "UPDATE supplies SET quantity = quantity + " . $quantity . " WHERE code <=>" . $_GET['id'] . ";";
@@ -305,17 +305,17 @@ class Supplies extends CI_Model{
 		if ($result->num_rows > 0) {
 			// output data of each row
 			while($row = $result->fetch_assoc()) {
-				echo "<br>New Quantity: " . $row["quantity"]. "<br>  ";
+				//echo "<br>New Quantity: " . $row["quantity"]. "<br>  ";
 				$pattern = '/\d+/';
 				preg_match($pattern, $row["quantity"], $matches);
-				echo "<br>" . $matches[0] ."<br>";
+				//echo "<br>" . $matches[0] ."<br>";
 			}
 		} else {
 			echo "0 results";
 		}
 		
 		if (mysqli_query($conn, $sql)) {
-			echo "Record updated successfully";
+			//echo "Record updated successfully";
 		} else {
 			echo "Error updating record: " . mysqli_error($conn);
 		}
