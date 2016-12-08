@@ -99,7 +99,7 @@ class Stock extends CI_Model{
 		
 		// Template for adding product
 		$quantity = $_GET['production_quantity/'.$_GET['id']];
-
+                   echo $quantity;
 		// Modifies the database value of quantity
 		//$sql = "UPDATE stock SET quantity = quantity;";     // + " . $quantity . ";";// . "WHERE code <=> " . $_GET['id'] . ";";
                 //
