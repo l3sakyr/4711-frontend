@@ -19,7 +19,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `recipes`
 --
-
+-- drop table recipes;
+-- drop table ingredients;
 -- --------------------------------------------------------
 
 --
@@ -29,14 +30,18 @@ SET time_zone = "+00:00";
 CREATE TABLE `recipes` (
   `code` int(11) NOT NULL,
   `name` text,
-  `description` text
+  `description` text,
+   PRIMARY KEY (`code`)
  ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 CREATE TABLE `ingredients` (
-  `code` int(11) NOT NULL,
+  `icode` int(11) NOT NULL, 
+  `code` int(11) NOT NULL, 
   `itemNum` text,
-  `ingredName` text,
-  `amount` DECIMAL(7, 2) DEFAULT NULL
+  `name` varchar(20),
+  `amount` DECIMAL(7, 2) DEFAULT NULL,
+  PRIMARY KEY (`icode`),
+  FOREIGN KEY (`code`) REFERENCES `recipes` (`code`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -59,68 +64,68 @@ INSERT INTO `recipes` (`code`, `name`, `description`) VALUES
 (6, 'Unwind', 'Melt away stress and ease tension with this uplifting blend');
 
 
-INSERT INTO `ingredients` (`code`, `itemNum`, `ingredName`, `amount`) VALUES
-(0, 'item1', 'Spearmint', 1);
-INSERT INTO `ingredients` (`code`, `itemNum`, `ingredName`, `amount`) VALUES
-(0, 'item2', 'Lavendar', 1);
-INSERT INTO `ingredients` (`code`, `itemNum`, `ingredName`, `amount`) VALUES
-(0, 'item3', 'Eucalyptus', 1);
-INSERT INTO `ingredients` (`code`, `itemNum`, `ingredName`, `amount`) VALUES
-(0, 'item4', 'Lemon', 1);
-INSERT INTO `ingredients` (`code`, `itemNum`, `ingredName`, `amount`) VALUES
-(0, 'item5', 'Rosewood', 0.5);
-INSERT INTO `ingredients` (`code`, `itemNum`, `ingredName`, `amount`) VALUES
-(0, 'item6', 'Cedarwood', 0.5);
-INSERT INTO `ingredients` (`code`, `itemNum`, `ingredName`, `amount`) VALUES
-(1, 'item1', 'Lavendar',2);
-INSERT INTO `ingredients` (`code`, `itemNum`, `ingredName`, `amount`) VALUES
-(1, 'item2', 'Ylang ylang', 1);
-INSERT INTO `ingredients` (`code`, `itemNum`, `ingredName`, `amount`) VALUES
-(1, 'item3', 'Neroli', 1);
-INSERT INTO `ingredients` (`code`, `itemNum`, `ingredName`, `amount`) VALUES
-(1, 'item4', 'Sandalwood', 1);
-INSERT INTO `ingredients` (`code`, `itemNum`, `ingredName`, `amount`) VALUES
-(2, 'item1', 'Peppermint', 1.5);
-INSERT INTO `ingredients` (`code`, `itemNum`, `ingredName`, `amount`) VALUES
-(2, 'item2', 'Rosemary', 1);
-INSERT INTO `ingredients` (`code`, `itemNum`, `ingredName`, `amount`) VALUES
-(2, 'item3', 'Lemon', 1);
-INSERT INTO `ingredients` (`code`, `itemNum`, `ingredName`, `amount`) VALUES
-(2, 'item4', 'Bergamot', 1);
-INSERT INTO `ingredients` (`code`, `itemNum`, `ingredName`, `amount`) VALUES
-(2, 'item5', 'Basil', 0.5);
-INSERT INTO `ingredients` (`code`, `itemNum`, `ingredName`, `amount`) VALUES
-(3, 'item1', 'Eucalyptus', 2);
-INSERT INTO `ingredients` (`code`, `itemNum`, `ingredName`, `amount`) VALUES
-(3, 'item2', 'Peppermint', 1.5);
-INSERT INTO `ingredients` (`code`, `itemNum`, `ingredName`, `amount`) VALUES
-(3, 'item3', 'Rosemary', 1);
-INSERT INTO `ingredients` (`code`, `itemNum`, `ingredName`, `amount`) VALUES
-(3, 'item4', 'Ginger', 5);
-INSERT INTO `ingredients` (`code`, `itemNum`, `ingredName`, `amount`) VALUES
-(4, 'item1', 'Orange', 2.5);
-INSERT INTO `ingredients` (`code`, `itemNum`, `ingredName`, `amount`) VALUES
-(4, 'item2', 'Grapefruit', 1);
-INSERT INTO `ingredients` (`code`, `itemNum`, `ingredName`, `amount`) VALUES
-(4, 'item3', 'Lemon', 1);
-INSERT INTO `ingredients` (`code`, `itemNum`, `ingredName`, `amount`) VALUES
-(4, 'item4', 'Neroli', 0.5);
-INSERT INTO `ingredients` (`code`, `itemNum`, `ingredName`, `amount`) VALUES
-(5, 'item1', 'Orange', 1.5);
-INSERT INTO `ingredients` (`code`, `itemNum`, `ingredName`, `amount`) VALUES
-(5, 'item2', 'Lavendar', 1.5);
-INSERT INTO `ingredients` (`code`, `itemNum`, `ingredName`, `amount`) VALUES
-(5, 'item3', 'Marjoram', 1);
-INSERT INTO `ingredients` (`code`, `itemNum`, `ingredName`, `amount`) VALUES
-(5, 'item4', 'Chamomile', 1);
-INSERT INTO `ingredients` (`code`, `itemNum`, `ingredName`, `amount`) VALUES
-(6, 'item1', 'Orange', 2);
-INSERT INTO `ingredients` (`code`, `itemNum`, `ingredName`, `amount`) VALUES
-(6, 'item2', 'Lavendar', 1.5);
-INSERT INTO `ingredients` (`code`, `itemNum`, `ingredName`, `amount`) VALUES
-(6, 'item3', 'Bergamot', 1);
-INSERT INTO `ingredients` (`code`, `itemNum`, `ingredName`, `amount`) VALUES
-(6, 'item4', 'Geranium', 5);
+INSERT INTO `ingredients` (`icode`, `code`, `itemNum`, `name`, `amount`) VALUES
+(0, 0, 'item1', 'Spearmint', 1);
+INSERT INTO `ingredients` (`icode`, `code`, `itemNum`, `name`, `amount`) VALUES
+(1, 0, 'item2', 'Lavendar', 1);
+INSERT INTO `ingredients` (`icode`, `code`, `itemNum`, `name`, `amount`) VALUES
+(2, 0, 'item3', 'Eucalyptus', 1);
+INSERT INTO `ingredients` (`icode`, `code`, `itemNum`, `name`, `amount`) VALUES
+(3, 0, 'item4', 'Lemon', 1);
+INSERT INTO `ingredients` (`icode`, `code`, `itemNum`, `name`, `amount`) VALUES
+(4, 0, 'item5', 'Rosewood', 0.5);
+INSERT INTO `ingredients` (`icode`, `code`, `itemNum`, `name`, `amount`) VALUES
+(5, 0, 'item6', 'Cedarwood', 0.5);
+INSERT INTO `ingredients` (`icode`, `code`, `itemNum`, `name`, `amount`) VALUES
+(6, 1, 'item1', 'Lavendar',2);
+INSERT INTO `ingredients` (`icode`, `code`, `itemNum`, `name`, `amount`) VALUES
+(7, 1, 'item2', 'Ylang ylang', 1);
+INSERT INTO `ingredients` (`icode`, `code`, `itemNum`, `name`, `amount`) VALUES
+(8, 1, 'item3', 'Neroli', 1);
+INSERT INTO `ingredients` (`icode`, `code`, `itemNum`, `name`, `amount`) VALUES
+(9, 1, 'item4', 'Sandalwood', 1);
+INSERT INTO `ingredients` (`icode`, `code`, `itemNum`, `name`, `amount`) VALUES
+(10, 2, 'item1', 'Peppermint', 1.5);
+INSERT INTO `ingredients` (`icode`, `code`, `itemNum`, `name`, `amount`) VALUES
+(11, 2, 'item2', 'Rosemary', 1);
+INSERT INTO `ingredients` (`icode`, `code`, `itemNum`, `name`, `amount`) VALUES
+(12, 2, 'item3', 'Lemon', 1);
+INSERT INTO `ingredients` (`icode`, `code`, `itemNum`, `name`, `amount`) VALUES
+(13, 2, 'item4', 'Bergamot', 1);
+INSERT INTO `ingredients` (`icode`, `code`, `itemNum`, `name`, `amount`) VALUES
+(14, 2, 'item5', 'Basil', 0.5);
+INSERT INTO `ingredients` (`icode`, `code`, `itemNum`, `name`, `amount`) VALUES
+(15, 3, 'item1', 'Eucalyptus', 2);
+INSERT INTO `ingredients` (`icode`, `code`, `itemNum`, `name`, `amount`) VALUES
+(16, 3, 'item2', 'Peppermint', 1.5);
+INSERT INTO `ingredients` (`icode`, `code`, `itemNum`, `name`, `amount`) VALUES
+(17, 3, 'item3', 'Rosemary', 1);
+INSERT INTO `ingredients` (`icode`, `code`, `itemNum`, `name`, `amount`) VALUES
+(18, 3, 'item4', 'Ginger', 5);
+INSERT INTO `ingredients` (`icode`, `code`, `itemNum`, `name`, `amount`) VALUES
+(19, 4, 'item1', 'Orange', 2.5);
+INSERT INTO `ingredients` (`icode`, `code`, `itemNum`, `name`, `amount`) VALUES
+(20, 4, 'item2', 'Grapefruit', 1);
+INSERT INTO `ingredients` (`icode`, `code`, `itemNum`, `name`, `amount`) VALUES
+(21, 4, 'item3', 'Lemon', 1);
+INSERT INTO `ingredients` (`icode`, `code`, `itemNum`, `name`, `amount`) VALUES
+(22, 4, 'item4', 'Neroli', 0.5);
+INSERT INTO `ingredients` (`icode`, `code`, `itemNum`, `name`, `amount`) VALUES
+(23, 5, 'item1', 'Orange', 1.5);
+INSERT INTO `ingredients` (`icode`, `code`, `itemNum`, `name`, `amount`) VALUES
+(24, 5, 'item2', 'Lavendar', 1.5);
+INSERT INTO `ingredients` (`icode`, `code`, `itemNum`, `name`, `amount`) VALUES
+(25, 5, 'item3', 'Marjoram', 1);
+INSERT INTO `ingredients` (`icode`, `code`, `itemNum`, `name`, `amount`) VALUES
+(26, 5, 'item4', 'Chamomile', 1);
+INSERT INTO `ingredients` (`icode`, `code`, `itemNum`, `name`, `amount`) VALUES
+(27, 6, 'item1', 'Orange', 2);
+INSERT INTO `ingredients` (`icode`, `code`, `itemNum`, `name`, `amount`) VALUES
+(28, 6, 'item2', 'Lavendar', 1.5);
+INSERT INTO `ingredients` (`icode`, `code`, `itemNum`, `name`, `amount`) VALUES
+(29, 6, 'item3', 'Bergamot', 1);
+INSERT INTO `ingredients` (`icode`, `code`, `itemNum`, `name`, `amount`) VALUES
+(30, 6, 'item4', 'Geranium', 5);
 
 
 --
@@ -130,8 +135,8 @@ INSERT INTO `ingredients` (`code`, `itemNum`, `ingredName`, `amount`) VALUES
 --
 -- Indexes for table `recipes`
 --
-ALTER TABLE `recipes`
-  ADD PRIMARY KEY (`code`);
+--  ALTER TABLE `recipes`
+--  ADD PRIMARY KEY (`code`);
 /*
  ALTER TABLE `ingredients`
   ADD PRIMARY KEY (`code`);
@@ -143,8 +148,8 @@ ALTER TABLE `recipes`
 --
 -- AUTO_INCREMENT for table `recipes`
 --
-ALTER TABLE `recipes`
-  MODIFY `code` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
+-- ALTER TABLE `recipes`
+--  MODIFY `code` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
 /*
 ALTER TABLE `ingredients`
   MODIFY `code` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
