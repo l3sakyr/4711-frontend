@@ -236,7 +236,7 @@ class Supplies extends CI_Model{
 		$servername = "localhost";
 		$username = "root";
 		$password = "";
-		$dbname = "supplies";
+		$dbname = "a2Database";
 
 		// Create connection
 		$conn = new mysqli($servername, $username, $password, $dbname);
@@ -265,7 +265,7 @@ class Supplies extends CI_Model{
 		$servername = "localhost";
 		$username = "root";
 		$password = "";
-		$dbname = "supplies";
+		$dbname = "a2Database";
 
 		// Create connection
 		$conn = new mysqli($servername, $username, $password, $dbname);
