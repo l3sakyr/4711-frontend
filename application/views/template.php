@@ -16,19 +16,18 @@ if (!defined('APPPATH'))
         <title>{pagetitle}</title>
         <meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <link href="/assets/css/bootstrap.min.css" rel="stylesheet" media="screen"/>
-        <link rel="stylesheet" type="text/css" href="/assets/css/style.css"/>
+        {caboose_styles}
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="/assets/css/default.css"/>
+       
     </head>
     <body>
         <div class="container">
-            <div class="navbar">
-                <div class="navbar-inner">
-                    <a class="brand" href="/"><img height="35" width="35" src="/assets/images/logo.png"/></a>
-                    {menubar} </div>
+                   
             </div>           
             <center>
                 <div id="content" style=" min-height:500px">
-                    <h1>{pagetitle}</h1>
+                    {navbar}
                     {content}
                 </div>
                 <div id="footer">
@@ -36,7 +35,7 @@ if (!defined('APPPATH'))
                 </div>
             </center>
         </div>
-        <script src="/assets/js/jquery-1.11.1.min.js"></script>
-        <script src="/assets/js/bootstrap.min.js"></script>
+        {caboose_scripts}
+        {caboose_trailings}
     </body>
 </html>
