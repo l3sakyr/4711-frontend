@@ -278,7 +278,6 @@ class Supplies extends CI_Model{
 		// Retrieves and temporarily stores the value of Receiving Unit.
 		$ru_sql = "SELECT receiving_amount FROM supplies WHERE code <=> " . $_GET['id'] . ";";
 		$result = $conn->query($ru_sql);
-				
 		if ($result->num_rows > 0) {
 			// output data of each row
 			while($row = $result->fetch_assoc()) {
