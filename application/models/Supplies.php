@@ -274,9 +274,9 @@ class Supplies extends CI_Model{
 			die("Connection failed: " . $conn->connect_error);
 		} 
 		
-		// quantity = input of order_quantity * select of regex(receiving_unit)
+		// quantity = input of order_quantity * select of regex(receiving_amount)
 		// Retrieves and temporarily stores the value of Receiving Unit.
-		$ru_sql = "SELECT receiving_unit FROM supplies WHERE code <=> " . $_GET['id'] . ";";
+		$ru_sql = "SELECT receiving_amount FROM supplies WHERE code <=> " . $_GET['id'] . ";";
 		$result = $conn->query($ru_sql);
 				
 		if ($result->num_rows > 0) {
@@ -284,7 +284,7 @@ class Supplies extends CI_Model{
 			while($row = $result->fetch_assoc()) {
 				//echo "<br>RU: " . $row["receiving_unit"]. "<br>  ";
 				$pattern = '/\d+/';
-				preg_match($pattern, $row["receiving_unit"], $matches);
+				preg_match($pattern, $row["receiving_amount"], $matches);
 				//echo "<br>RU VAL post regex: " . $matches[0] ."<br>";
 			}
 		} else {
@@ -292,7 +292,7 @@ class Supplies extends CI_Model{
 		}
 		
 		// Calculates the quantity in terms of stock
-		$quantity = $_GET['receiving_unit/'.$_GET['id']] * $matches[0];
+		$quantity = $_GET['receiving_amount/'.$_GET['id']] * $matches[0];
 		//echo "<br>Receiving Quantity: " . $quantity;
 		
 		// Modifies the database value of quantity

@@ -156,3 +156,55 @@ ERROR - 2016-12-09 20:32:54 --> 404 Page Not Found: Assets/css
 ERROR - 2016-12-09 20:32:56 --> 404 Page Not Found: Assets/css
 ERROR - 2016-12-09 20:32:57 --> 404 Page Not Found: Assets/css
 ERROR - 2016-12-09 20:32:58 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 20:47:36 --> Query error: Table 'a2database.ci_sessions' doesn't exist - Invalid query: SELECT `data`
+FROM `ci_sessions`
+WHERE `id` = '5a98c4a1b88fd6add133f81f5695819b251b9a85'
+ERROR - 2016-12-09 20:47:36 --> Query error: Table 'a2database.ci_sessions' doesn't exist - Invalid query: INSERT INTO `ci_sessions` (`id`, `ip_address`, `timestamp`, `data`) VALUES ('5a98c4a1b88fd6add133f81f5695819b251b9a85', '127.0.0.1', 1481312856, '')
+ERROR - 2016-12-09 20:48:05 --> Severity: Notice --> Trying to get property of non-object C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 282
+ERROR - 2016-12-09 20:48:05 --> Severity: Notice --> Undefined variable: matches C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 295
+ERROR - 2016-12-09 20:48:05 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 20:48:37 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 20:48:56 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 20:48:58 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 20:49:01 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 20:49:02 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 20:49:04 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 20:49:05 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 20:49:08 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 20:49:10 --> Severity: Notice --> Trying to get property of non-object C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 282
+ERROR - 2016-12-09 20:49:10 --> Severity: Notice --> Undefined variable: matches C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 295
+ERROR - 2016-12-09 20:49:10 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 20:49:41 --> Severity: Notice --> Trying to get property of non-object C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 282
+ERROR - 2016-12-09 20:49:41 --> Severity: Notice --> Undefined variable: matches C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 295
+ERROR - 2016-12-09 20:49:41 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 20:51:01 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 20:51:36 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 20:51:38 --> Severity: Notice --> Trying to get property of non-object C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 282
+ERROR - 2016-12-09 20:51:38 --> Severity: Notice --> Undefined variable: matches C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 295
+ERROR - 2016-12-09 20:51:38 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 20:54:15 --> Severity: Notice --> Undefined index: receiving_amount/0 C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 84
+ERROR - 2016-12-09 20:54:15 --> Severity: Notice --> Undefined index: receiving_amount/0 C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 86
+ERROR - 2016-12-09 20:54:15 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 287
+ERROR - 2016-12-09 20:54:15 --> Severity: Notice --> Undefined index: receiving_amount/0 C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 295
+ERROR - 2016-12-09 20:54:15 --> Severity: Notice --> Undefined offset: 0 C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 295
+ERROR - 2016-12-09 20:54:15 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 20:54:42 --> Severity: Notice --> Undefined index: receiving_amount/0 C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 84
+ERROR - 2016-12-09 20:54:42 --> Severity: Notice --> Undefined index: receiving_amount/0 C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 86
+ERROR - 2016-12-09 20:54:42 --> Severity: Notice --> Undefined index: receiving_amount/0 C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 295
+ERROR - 2016-12-09 20:54:42 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 20:55:47 --> Severity: Notice --> Undefined index: receiving_amount/0 C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 84
+ERROR - 2016-12-09 20:55:47 --> Severity: Notice --> Undefined index: receiving_amount/0 C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 86
+ERROR - 2016-12-09 20:55:47 --> Severity: Notice --> Undefined index: receiving_amount/0 C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 295
+ERROR - 2016-12-09 20:55:47 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 20:56:06 --> Severity: Notice --> Undefined index: receiving_amount/0 C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 84
+ERROR - 2016-12-09 20:56:06 --> Severity: Notice --> Undefined index: receiving_amount/0 C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 86
+ERROR - 2016-12-09 20:56:06 --> Severity: Notice --> Undefined index: receiving_amount/0 C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 295
+ERROR - 2016-12-09 20:56:06 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 20:57:10 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 20:57:11 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 20:57:13 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 20:57:15 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 20:57:16 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 20:57:17 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 20:57:18 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 20:57:22 --> 404 Page Not Found: Assets/css
