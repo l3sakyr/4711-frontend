@@ -449,31 +449,392 @@ ERROR - 2016-12-09 21:52:50 --> Severity: Notice --> Undefined variable: price C
 ERROR - 2016-12-09 21:52:50 --> 404 Page Not Found: Assets/css
 ERROR - 2016-12-09 21:53:48 --> 404 Page Not Found: Assets/css
 ERROR - 2016-12-09 21:53:50 --> 404 Page Not Found: Assets/css
-ERROR - 2016-12-09 21:59:25 --> 404 Page Not Found: Assets/css
-ERROR - 2016-12-09 21:59:26 --> 404 Page Not Found: Assets/css
-ERROR - 2016-12-09 21:59:34 --> 404 Page Not Found: Assets/css
-ERROR - 2016-12-09 22:03:31 --> Severity: Notice --> Undefined index: ingredients C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 39
-ERROR - 2016-12-09 22:03:31 --> Severity: Notice --> Undefined index: ingredients C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 39
-ERROR - 2016-12-09 22:03:31 --> Severity: Notice --> Undefined index: ingredients C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 39
-ERROR - 2016-12-09 22:03:31 --> Severity: Notice --> Undefined index: ingredients C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 39
-ERROR - 2016-12-09 22:03:31 --> Severity: Notice --> Undefined index: ingredients C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 39
-ERROR - 2016-12-09 22:03:31 --> Severity: Notice --> Undefined index: ingredients C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 39
-ERROR - 2016-12-09 22:03:31 --> Severity: Notice --> Undefined index: ingredients C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 39
-ERROR - 2016-12-09 22:03:31 --> 404 Page Not Found: Assets/css
-ERROR - 2016-12-09 22:04:09 --> 404 Page Not Found: Assets/css
-ERROR - 2016-12-09 22:04:11 --> Severity: Notice --> Undefined property: Production::$table C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 61
-ERROR - 2016-12-09 22:04:11 --> Severity: Error --> Call to a member function set_template() on null C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 61
-ERROR - 2016-12-09 22:04:15 --> Severity: Notice --> Undefined property: Production::$table C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 61
-ERROR - 2016-12-09 22:04:15 --> Severity: Error --> Call to a member function set_template() on null C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 61
-ERROR - 2016-12-09 22:04:42 --> Severity: Notice --> Undefined property: Production::$table C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 59
-ERROR - 2016-12-09 22:04:42 --> Severity: Error --> Call to a member function set_template() on null C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 59
-ERROR - 2016-12-09 22:05:14 --> 404 Page Not Found: Assets/css
-ERROR - 2016-12-09 22:05:15 --> Severity: Notice --> Undefined property: Production::$table C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 59
-ERROR - 2016-12-09 22:05:15 --> Severity: Error --> Call to a member function set_template() on null C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 59
-ERROR - 2016-12-09 22:05:47 --> 404 Page Not Found: Assets/css
-ERROR - 2016-12-09 22:05:48 --> 404 Page Not Found: Assets/css
-ERROR - 2016-12-09 22:07:05 --> 404 Page Not Found: Assets/css
-ERROR - 2016-12-09 22:07:07 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 199
-ERROR - 2016-12-09 22:07:07 --> Severity: Warning --> array_merge(): Argument #2 is not an array C:\xampp\htdocs\4711-frontend\application\controllers\Receiving.php 68
-ERROR - 2016-12-09 22:07:07 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\4711-frontend\system\libraries\Parser.php 144
-ERROR - 2016-12-09 22:07:07 --> Severity: Notice --> Undefined index: pagebody C:\xampp\htdocs\4711-frontend\application\core\MY_Controller.php 42
+ERROR - 2016-12-09 22:55:00 --> Severity: Warning --> array_merge(): Argument #2 is not an array C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 57
+ERROR - 2016-12-09 22:55:00 --> Severity: Warning --> Invalid argument supplied for foreach() C:\Apps\XAMPP\htdocs\4711-frontend\system\libraries\Parser.php 144
+ERROR - 2016-12-09 22:55:00 --> Severity: Notice --> Undefined index: pagebody C:\Apps\XAMPP\htdocs\4711-frontend\application\core\MY_Controller.php 42
+ERROR - 2016-12-09 22:55:04 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:55:05 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:55:07 --> Severity: Notice --> Undefined property: Production::$table C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Production.php 59
+ERROR - 2016-12-09 22:55:07 --> Severity: error --> Exception: Call to a member function set_template() on null C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Production.php 59
+ERROR - 2016-12-09 22:55:09 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:55:10 --> Severity: Warning --> array_merge(): Argument #2 is not an array C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 57
+ERROR - 2016-12-09 22:55:10 --> Severity: Warning --> Invalid argument supplied for foreach() C:\Apps\XAMPP\htdocs\4711-frontend\system\libraries\Parser.php 144
+ERROR - 2016-12-09 22:55:10 --> Severity: Notice --> Undefined index: pagebody C:\Apps\XAMPP\htdocs\4711-frontend\application\core\MY_Controller.php 42
+ERROR - 2016-12-09 22:57:45 --> Severity: error --> Exception: syntax error, unexpected '$this' (T_VARIABLE) C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 58
+ERROR - 2016-12-09 22:58:06 --> Severity: error --> Exception: syntax error, unexpected '$this' (T_VARIABLE) C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 58
+ERROR - 2016-12-09 22:58:08 --> Severity: error --> Exception: syntax error, unexpected '$this' (T_VARIABLE) C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 58
+ERROR - 2016-12-09 22:58:20 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:58:22 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:58:22 --> Severity: Warning --> array_merge(): Argument #2 is not an array C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 57
+ERROR - 2016-12-09 22:58:22 --> Severity: Warning --> Invalid argument supplied for foreach() C:\Apps\XAMPP\htdocs\4711-frontend\system\libraries\Parser.php 144
+ERROR - 2016-12-09 22:58:22 --> Severity: Notice --> Undefined index: pagebody C:\Apps\XAMPP\htdocs\4711-frontend\application\core\MY_Controller.php 42
+ERROR - 2016-12-09 22:59:45 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:59:46 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:01:39 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:01:40 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:01:42 --> Severity: Notice --> Object of class mysqli_result could not be converted to int C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 92
+ERROR - 2016-12-09 23:01:42 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:02:31 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:03:51 --> Severity: error --> Exception: syntax error, unexpected ';', expecting ',' or ')' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 81
+ERROR - 2016-12-09 23:04:12 --> Severity: 4096 --> Object of class mysqli_result could not be converted to string C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 81
+ERROR - 2016-12-09 23:04:12 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:05:19 --> Severity: 4096 --> Object of class mysqli_result could not be converted to string C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 81
+ERROR - 2016-12-09 23:05:19 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:06:32 --> Severity: Compile Error --> Can't use function return value in write context C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 79
+ERROR - 2016-12-09 23:07:02 --> Severity: 4096 --> Object of class mysqli_result could not be converted to string C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 79
+ERROR - 2016-12-09 23:07:02 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:07:39 --> Severity: 4096 --> Object of class mysqli_result could not be converted to string C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 79
+ERROR - 2016-12-09 23:07:39 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:11:28 --> Severity: 4096 --> Object of class mysqli_result could not be converted to string C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 79
+ERROR - 2016-12-09 23:11:28 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:13:44 --> Severity: 4096 --> Object of class mysqli_result could not be converted to string C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 79
+ERROR - 2016-12-09 23:13:44 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:14:23 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:14:34 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:14:48 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:15:55 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:16:05 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:16:08 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:16:17 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:16:23 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:16:58 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:17:00 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:17:05 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:17:29 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:17:36 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:17:49 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:18:00 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:18:02 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:18:03 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:18:05 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:18:06 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:18:07 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:18:08 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:18:09 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:18:10 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:18:14 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:18:14 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:18:15 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:18:16 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:18:59 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:19:02 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:19:30 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:21:13 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:21:15 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:21:17 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:22:25 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:22:28 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:22:31 --> Severity: Notice --> Undefined index: receiving_cost C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 231
+ERROR - 2016-12-09 23:22:31 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:23:02 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:23:05 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:23:07 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:23:09 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:23:12 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:23:14 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:23:32 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:23:35 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:25:32 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:25:33 --> Severity: Warning --> array_merge(): Argument #2 is not an array C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 57
+ERROR - 2016-12-09 23:25:33 --> Severity: Warning --> Invalid argument supplied for foreach() C:\Apps\XAMPP\htdocs\4711-frontend\system\libraries\Parser.php 144
+ERROR - 2016-12-09 23:25:33 --> Severity: Notice --> Undefined index: pagebody C:\Apps\XAMPP\htdocs\4711-frontend\application\core\MY_Controller.php 42
+ERROR - 2016-12-09 23:25:35 --> Severity: Warning --> array_merge(): Argument #2 is not an array C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 57
+ERROR - 2016-12-09 23:25:35 --> Severity: Warning --> Invalid argument supplied for foreach() C:\Apps\XAMPP\htdocs\4711-frontend\system\libraries\Parser.php 144
+ERROR - 2016-12-09 23:25:35 --> Severity: Notice --> Undefined index: pagebody C:\Apps\XAMPP\htdocs\4711-frontend\application\core\MY_Controller.php 42
+ERROR - 2016-12-09 23:25:40 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:25:41 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:25:43 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:25:45 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:25:53 --> Severity: Warning --> array_merge(): Argument #2 is not an array C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 57
+ERROR - 2016-12-09 23:25:53 --> Severity: Warning --> Invalid argument supplied for foreach() C:\Apps\XAMPP\htdocs\4711-frontend\system\libraries\Parser.php 144
+ERROR - 2016-12-09 23:25:53 --> Severity: Notice --> Undefined index: pagebody C:\Apps\XAMPP\htdocs\4711-frontend\application\core\MY_Controller.php 42
+ERROR - 2016-12-09 23:27:13 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:27:15 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:27:16 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:27:17 --> Severity: Warning --> Invalid argument supplied for foreach() C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 60
+ERROR - 2016-12-09 23:27:17 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:28:23 --> Severity: error --> Exception: syntax error, unexpected '";"' (T_CONSTANT_ENCAPSED_STRING) C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 196
+ERROR - 2016-12-09 23:28:51 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:31:01 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:31:52 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:34:25 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:34:27 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:34:29 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:34:30 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:35:18 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:35:19 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:35:21 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:38:30 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:38:32 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:38:33 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:38:35 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:38:36 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:38:38 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:38 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:38 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:38 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:38 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:38 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:38 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:38 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:38 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:38 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:38 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:38 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:38 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:38 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:38 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:38 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:38 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:38 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:38 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:38 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:38 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:38 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:38 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:38 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:38 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:38 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:38 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:38 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:38 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:38 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:38 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:38 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:38 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:38 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:38 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:38 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:38 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:38 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:38 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:38:40 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:40 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:40 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:40 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:40 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:40 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:40 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:40 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:40 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:40 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:40 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:40 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:40 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:40 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:40 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:40 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:40 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:40 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:40 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:40 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:40 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:40 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:40 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:40 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:40 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:40 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:40 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:40 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:40 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:40 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:40 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:40 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:40 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:40 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:40 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:40 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:40 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:40 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:40 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:38:42 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:42 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:42 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:42 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:42 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:42 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:42 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:42 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:42 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:42 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:42 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:42 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:42 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:42 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:42 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:42 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:42 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:42 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:42 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:42 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:42 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:42 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:43 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:43 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:43 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:43 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:43 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:43 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:43 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:43 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:43 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:43 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:43 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:43 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:43 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:43 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:43 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:43 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:45 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:45 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:45 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:45 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:45 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:45 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:45 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:45 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:45 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:45 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:45 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:45 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:45 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:45 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:45 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:45 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:45 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:45 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:45 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:45 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:45 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:45 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:45 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:45 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:45 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:45 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:45 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:45 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:45 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:45 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:45 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:45 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:45 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:45 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:45 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:45 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:45 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:45 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:46 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:46 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:46 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:46 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:46 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:46 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:46 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:46 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:46 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:46 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:46 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:46 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:46 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:46 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:46 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:46 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:46 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:46 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:46 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:46 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:46 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:46 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:46 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:46 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:46 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:46 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:46 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:46 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:46 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:46 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:46 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:46 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:46 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:46 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:46 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:46 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:46 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:38:46 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:38:48 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:38:50 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:38:52 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:38:53 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:38:56 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:38:57 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:38:58 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:38:59 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:39:34 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:39:35 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:39:35 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:39:35 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:39:35 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:39:35 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:39:35 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:39:35 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:39:35 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:39:35 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:39:35 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:39:35 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:39:35 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:39:35 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:39:35 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:39:35 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:39:35 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:39:35 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:39:35 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:39:35 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:39:35 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:39:35 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:39:35 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:39:35 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:39:35 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:39:35 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:39:35 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:39:35 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:39:35 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:39:35 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:39:35 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:39:35 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:39:35 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:39:35 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:39:35 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:39:35 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:39:35 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:39:35 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 57
+ERROR - 2016-12-09 23:39:35 --> Severity: Warning --> Division by zero C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Homepage.php 60
+ERROR - 2016-12-09 23:39:35 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:41:23 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:41:38 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:41:45 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:42:06 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:42:13 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:42:44 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:42:45 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:42:46 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:42:46 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:42:47 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:42:48 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:42:48 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:43:53 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:43:55 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:43:56 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:43:56 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:43:57 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:43:58 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:44:00 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:44:01 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:44:02 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:44:03 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:44:05 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:44:06 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:44:07 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:44:08 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:44:09 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:44:10 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 23:44:11 --> 404 Page Not Found: Assets/css

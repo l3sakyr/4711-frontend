@@ -7,7 +7,7 @@
  * quantities on hand. You will need to deal with partial units (eg an open jar).
  */
 class Supplies extends CI_Model{
-    
+    /*
     // Initialize the array of supplies
     var $data = array(
 		array(
@@ -164,7 +164,8 @@ class Supplies extends CI_Model{
                     'stocking_unit' => '5mL bottles', 
                     'quantity' => '6',)
         );
-
+	*/
+	
 	/**
          * Constructor
          */
@@ -193,7 +194,7 @@ class Supplies extends CI_Model{
 			die("Connection failed: " . $conn->connect_error);
 		} 
 
-		$sql = "SELECT * FROM supplies WHERE code = "+$id;
+		$sql = "SELECT * FROM supplies WHERE code <=> " . $id . ";";
 		$result = $conn->query($sql);
 		$conn->close();
 		//SQL//
@@ -207,32 +208,69 @@ class Supplies extends CI_Model{
          */
 	public function getName($id)
 	{
-		// iterate over the data until we find the one we want
-		foreach ($this->data as $record)
-			if ($record['code'] == $id)
-				return $record['name'];
-		return null;
-	}
+		//SQL
+		$servername = "localhost";
+		$username = "root";
+		$password = "";
+		$dbname = "a2Database";
 
-        /**
-         * Adjust the quantity of a supply item
-         * @param type $code
-         * @param type $amount
-         */
-        /*
-		 * for next Assignment
-		public function adjustQuantity($code, $amount){
-            get($code)->quantity += $amount;
-        }
-        */
-        
-        public function getSupplyWithName($name){
-            // iterate over the data until we find the one we want
-		foreach ($this->data as $record)
-			if ($record['name'] == $name)
-				return $record;
-		return null;
-        }
+		// Create connection
+		$conn = new mysqli($servername, $username, $password, $dbname);
+		// Check connection
+		if ($conn->connect_error) {
+			die("Connection failed: " . $conn->connect_error);
+		} 
+
+		$sql = "SELECT name FROM supplies WHERE code <=> " . $id . ";";
+
+		$result = $conn->query($sql);
+		
+		if ($result->num_rows > 0) {
+			// output data of each row
+			while($row = $result->fetch_assoc()) {
+				//echo "<br> name: " . $row["name"] ."<br>";
+				$name = $row["name"];
+			}
+		} else {
+			echo "0 results";
+		}
+		$conn->close();
+		//SQL//
+		return $name;
+	}
+	
+	// gets the receiving cost from the database
+	public function getRc() {
+		//SQL
+		$servername = "localhost";
+		$username = "root";
+		$password = "";
+		$dbname = "a2Database";
+
+		// Create connection
+		$conn = new mysqli($servername, $username, $password, $dbname);
+		// Check connection
+		if ($conn->connect_error) {
+			die("Connection failed: " . $conn->connect_error);
+		} 
+
+		$sql = "SELECT receiving_cost FROM supplies WHERE code <=> " . $_GET['id'] . ";";
+
+		$result = $conn->query($sql);
+		
+		if ($result->num_rows > 0) {
+			// output data of each row
+			while($row = $result->fetch_assoc()) {
+				//echo "<br> receiving_cost: " . $row["receiving_cost"] ."<br>";
+				$rc = $row["receiving_cost"];
+			}
+		} else {
+			echo "0 results";
+		}
+		$conn->close();
+		//SQL//
+		return $rc;
+	}
 	
 	// Retrieves and displays everything from the supplies table
 	public function all() {
@@ -256,37 +294,9 @@ class Supplies extends CI_Model{
 		return $result;
 	}
 	
-	public function getSupply($id)
-	{
-		//SQL
-		$servername = "localhost";
-		$username = "root";
-		$password = "";
-		$dbname = "a2Database";
-
-		// Create connection
-		$conn = new mysqli($servername, $username, $password, $dbname);
-		// Check connection
-		if ($conn->connect_error) {
-			die("Connection failed: " . $conn->connect_error);
-		} 
-
-		$sql = "SELECT * FROM supplies WHERE code <=> " . $id . ";";
-		$result = $conn->query($sql);
-		
-		if ($result->num_rows > 0) {
-			// output data of each row
-			while($row = $result->fetch_assoc()) {
-				//echo "<br>code: " . $row["code"]. "<br> name: " . $row["name"]. "<br> description: " . $row["description"] . "<br> receiving_cost: " . $row["receiving_cost"] . "<br> receiving_amount: " . $row["receiving_amount"] . "<br> measuring_units: " . $row["measuring_units"] . "<br> quantity: " . $row["quantity"] ."<br>";
-			}
-		} else {
-			echo "0 results";
-		}
-		$conn->close();
-		//SQL//
-		return $result;
-	}
-	
+	/*
+	 *	Updates the quantity in the database after calculating how much to add.
+	 */
 	public function receiving_update_db() {
 		//SQL
 		$servername = "localhost";

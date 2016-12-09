@@ -43,7 +43,6 @@ class Homepage extends Application
 	* Function for calculating the amount spent on inventory
 	*/
 	public function invCal() {
-	        $this->load->model('supplies');
             // gets a list of supplies
             $source = $this->supplies->all();
             $supplies = array ();
@@ -54,7 +53,7 @@ class Homepage extends Application
 			//Calculates
             foreach ($source as $record)
             {
-                $rUniut = intval(preg_replace('/[^0-9]+/', '', $record['receiving_unit']), 10);
+                $rUniut = intval(preg_replace('/[^0-9]+/', '', $record['receiving_amount']), 10);
                 $rCost = intval(preg_replace('/[^0-9]+/', '', $record['receiving_cost']), 10);
                 $inv = intval(preg_replace('/[^0-9]+/', '', $record['quantity']), 10);
                 $totalCost += (($inv / $rUniut) * $rCost);
@@ -67,7 +66,6 @@ class Homepage extends Application
 	* Function for calculating the received from sales
 	*/
 	public function saleCal() {
-	        $this->load->model('supplies');
             // gets a list of supplies
             $source = $this->stock->all();
             $supplies = array ();
@@ -88,7 +86,6 @@ class Homepage extends Application
 	}
         
         public function countRecipy(){
-             $this->load->model('recipes');
             // gets a list of supplies
             $source = $this->recipes->all();
             $recipyCount=0;
@@ -100,7 +97,6 @@ class Homepage extends Application
         }
         
         public function countProduct(){
-            $this->load->model('stock');
             // gets a list of supplies
             $source = $this->stock->all();
             $productCount=0;

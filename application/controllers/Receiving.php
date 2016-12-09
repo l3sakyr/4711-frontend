@@ -54,8 +54,9 @@ class Receiving extends Application
     {
         $this->data['pagebody'] = 'justoneR';		
         $source = $this->supplies->get($id);
-		/*
-		$supplies = array ();
+        //$this->data = array_merge($this->data, $source);
+		
+            $supplies = array ();
             foreach ($source as $record)
             {
                     $supplies[] = array ('code' => $record['code'],
@@ -64,26 +65,36 @@ class Receiving extends Application
 					'receiving_cost' => $record['receiving_cost'], 'measuring_units' => $record['measuring_units'],
 					'quantity' => $record['quantity']);
             }
-			*/
-        $this->data = array_merge($this->data, $source);
+            $this->data['supplies'] = $supplies;
+		
         $this->render();
+		
+		/*
+			$source = $this->supplies->all();
+            $supplies = array ();
+            foreach ($source as $record)
+            {
+                    $supplies[] = array ('code' => $record['code'],
+                                        'name' => $record['name'],
+					'description' => $record['description'], 'receiving_amount' => $record['receiving_amount'],
+					'receiving_cost' => $record['receiving_cost'], 'measuring_units' => $record['measuring_units'],
+					'quantity' => $record['quantity']);
+            }
+            $this->data['supplies'] = $supplies;
+		*/
+		
+		/*
+		$filedata = fread($myfile,filesize("log.txt"));
+		$logger[] = array ('transaction_msg' => $filedata);
+		$this->data['transaction'] = $logger;
+		*/
     }
 	
 	
 	// gets the cost of the supply
 	public function getCost() {
-		$this->load->model('supplies');
-        // gets a list of supplies
-        $source = $this->supplies->all();
-        $supplies = array ();
-			
-		// compares the supply code to the list
-        foreach ($source as $record)
-        {
-			if($_GET['id'] == $record['code']) {
-				$price = floatval(preg_replace('/[^0-9.+]/', '', $record['receiving_cost']));
-			}
-        }
+		$receiving_cost = (string)$this->supplies->getRc();
+		$price = floatval(preg_replace('/[^0-9.+]/', '', $receiving_cost));
 
 		return $price;
 	}
@@ -113,8 +124,8 @@ class Receiving extends Application
 		
 		$myfile = fopen("log.txt", "r") or die("Unable to open file!");
 		$filedata = fread($myfile,filesize("log.txt"));
-		$logger[] = array ('1' => $filedata);
-		$this->data['owo'] = $logger;
+		$logger[] = array ('transaction_msg' => $filedata);
+		$this->data['transaction'] = $logger;
 		fclose($myfile);
 
 		$this->supplies->receiving_update_db();
