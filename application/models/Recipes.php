@@ -218,14 +218,34 @@ class Recipes extends CI_Model{
         return null;
     }
 
+    public function all() {
+		//SQL
+		$servername = "localhost";
+		$username = "root";
+		$password = "";
+		$dbname = "a2Database";
+
+		// Create connection
+		$conn = new mysqli($servername, $username, $password, $dbname);
+		// Check connection
+		if ($conn->connect_error) {
+			die("Connection failed: " . $conn->connect_error);
+		}
+
+		$sql = "SELECT * FROM recipes";
+		$result = $conn->query($sql);
+		$conn->close();
+		//SQL//
+		return $result;
+	}
     
-    /**
-    * Retrieve all of the recipes
-    * @return $this->data
-    */
-    public function all()
-    {
-        return $this->data;
+    function rules() {
+        $config = [
+            ['field'=>'code', 'label'=>'Menu code', 'rules'=> 'required|integer'],
+            ['field'=>'name', 'label'=>'Item name', 'rules'=> 'required'],
+            ['field'=>'description', 'label'=>'Item description', 'rules'=> 'required|max_length[256]']
+        ];
+        return $config;
     }
    
 }

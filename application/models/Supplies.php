@@ -180,11 +180,24 @@ class Supplies extends CI_Model{
          */
 	public function get($id)
 	{
-		// iterate over the data until we find the one we want
-		foreach ($this->data as $record)
-			if ($record['code'] == $id)
-				return $record;
-		return null;
+		//SQL
+		$servername = "localhost";
+		$username = "root";
+		$password = "";
+		$dbname = "a2Database";
+
+		// Create connection
+		$conn = new mysqli($servername, $username, $password, $dbname);
+		// Check connection
+		if ($conn->connect_error) {
+			die("Connection failed: " . $conn->connect_error);
+		} 
+
+		$sql = "SELECT * FROM supplies WHERE code = "+$id;
+		$result = $conn->query($sql);
+		$conn->close();
+		//SQL//
+		return $result;
 	}
 	
 	    /**
@@ -220,18 +233,9 @@ class Supplies extends CI_Model{
 				return $record;
 		return null;
         }
-        
-	/**
-         * Returns the array
-         * @return type array
-         */
-	public function all()
-	{
-		return $this->data;
-	}
 	
 	// Retrieves and displays everything from the supplies table
-	public function viewSupplies() {
+	public function all() {
 		//SQL
 		$servername = "localhost";
 		$username = "root";
@@ -247,15 +251,6 @@ class Supplies extends CI_Model{
 
 		$sql = "SELECT * FROM supplies";
 		$result = $conn->query($sql);
-		
-		if ($result->num_rows > 0) {
-			// output data of each row
-			while($row = $result->fetch_assoc()) {
-				//echo "<br>code: " . $row["code"]. "<br> name: " . $row["name"]. "<br> description: " . $row["description"] . "<br> receiving_cost: " . $row["receiving_cost"] . "<br> receiving_amount: " . $row["receiving_amount"] . "<br> measuring_units: " . $row["measuring_units"] . "<br> quantity: " . $row["quantity"] ."<br>";
-			}
-		} else {
-			echo "0 results";
-		}
 		$conn->close();
 		//SQL//
 		return $result;
@@ -353,4 +348,16 @@ class Supplies extends CI_Model{
 		$conn->close();
 		//SQL//
 	}
+        
+        function rules() {
+            $config = [
+                ['field'=>'code', 'label'=>'Menu code', 'rules'=> 'required|integer'],
+                ['field'=>'name', 'label'=>'Item name', 'rules'=> 'required'],
+                ['field'=>'description', 'label'=>'Item description', 'rules'=> 'required|max_length[256]'],
+                ['field'=>'measuring_units', 'label'=>'Measuring units', 'rules'=> 'required|max_length[256]'],
+                ['field'=>'receiving_cost', 'label'=>'Receiving cost', 'rules'=> 'required|real'],
+                ['field'=>'quantity', 'label'=>'Quantity', 'rules'=> 'required|real']
+            ];
+            return $config;
+        }
 }

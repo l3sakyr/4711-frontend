@@ -89,7 +89,7 @@ CREATE TABLE `Supplies` (
   `measuring_units` TEXT NOT NULL,
   `receiving_cost` REAL NOT NULL,
   `receiving_amount` INT(2) NOT NULL,
-  `quantity` INT(10) NOT NULL,
+  `quantity` REAL NOT NULL,
   PRIMARY KEY (`code`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
@@ -192,10 +192,10 @@ INSERT INTO `Recipes` (`code`, `name`, `description`) VALUES
 
 DROP TABLE IF EXISTS `Stock`;
 CREATE TABLE `Stock` (
-  `code` INT(2) NULL AUTO_INCREMENT,
+  `code` INT(2) NOT NULL,
   `name` TEXT NOT NULL,
   `description` TEXT NOT NULL,
-  `quantity` INT(10) DEFAULT NULL,
+  `quantity` INT(10) NOT NULL,
   `price` REAL NOT NULL,
   PRIMARY KEY (`code`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
@@ -204,26 +204,26 @@ CREATE TABLE `Stock` (
 -- Dumping data for table `stock`
 --
 
-INSERT INTO `Stock` (`name`, `description`, `price`) VALUES
-('Refresh', 'Sharpen concentration, increase stamina, and revitalize your senses', 14.95);
+INSERT INTO `Stock` (`code`, `name`, `description`, `quantity`,`price`) VALUES
+(0,'Refresh', 'Sharpen concentration, increase stamina, and revitalize your senses',0, 14.95);
 
-INSERT INTO `Stock` (`name`, `description`, `price`) VALUES
-('Cloud Nine', 'Lift your spirits', 16.45);
+INSERT INTO `Stock` (`code`, `name`, `description`, `quantity`,`price`) VALUES
+(1,'Cloud Nine', 'Lift your spirits',0, 16.45);
 
-INSERT INTO `Stock` (`name`, `description`, `price`) VALUES
-('Energy', 'Invigorate and refresh your mind and body', 18.45);
+INSERT INTO `Stock` (`code`, `name`, `description`, `quantity`,`price`) VALUES
+(2,'Energy', 'Invigorate and refresh your mind and body',0, 18.45);
 
-INSERT INTO `Stock` (`name`, `description`, `price`) VALUES
-('Exhale', 'An exhilarating essential oil blend that renews and strengthens', 12.95);
+INSERT INTO `Stock` (`code`, `name`, `description`, `quantity`,`price`) VALUES
+(3,'Exhale', 'An exhilarating essential oil blend that renews and strengthens',0, 12.95);
 
-INSERT INTO `Stock` (`name`, `description`, `price`) VALUES
-('Citrus Dream', 'For promoting a sense of calmness and positivity', 16.95);
+INSERT INTO `Stock` (`code`, `name`, `description`, `quantity`,`price`) VALUES
+(4,'Citrus Dream', 'For promoting a sense of calmness and positivity',0, 16.95);
 
-INSERT INTO `Stock` (`name`, `description`, `price`) VALUES
-('Tranquility', 'For a deeper, more restful sleep', 12.45);
+INSERT INTO `Stock` (`code`, `name`, `description`, `quantity`,`price`) VALUES
+(5,'Tranquility', 'For a deeper, more restful sleep',0, 12.45);
 
-INSERT INTO `Stock` (`name`, `description`, `price`) VALUES
-('Unwind', 'Melt away stress and ease tension with this uplifting blend',19.45);
+INSERT INTO `Stock` (`code`, `name`, `description`, `quantity`,`price`) VALUES
+(6,'Unwind', 'Melt away stress and ease tension with this uplifting blend',0,19.45);
 
 
 --

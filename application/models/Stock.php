@@ -73,14 +73,26 @@ class Stock extends CI_Model{
 				return $record;
 		return null;
 	}
+        
+        public function all() {
+		//SQL
+		$servername = "localhost";
+		$username = "root";
+		$password = "";
+		$dbname = "a2Database";
 
-	/**
-         * Retrieve all of the stock
-         * @return $this->data
-         */
-	public function all()
-	{
-		return $this->data;
+		// Create connection
+		$conn = new mysqli($servername, $username, $password, $dbname);
+		// Check connection
+		if ($conn->connect_error) {
+			die("Connection failed: " . $conn->connect_error);
+		} 
+
+		$sql = "SELECT * FROM stock";
+		$result = $conn->query($sql);
+		$conn->close();
+		//SQL//
+		return $result;
 	}
         
         public function produce_update_db() {
@@ -115,4 +127,4 @@ class Stock extends CI_Model{
 		$conn->close();
 		//SQL//
 	}
-}
+    }

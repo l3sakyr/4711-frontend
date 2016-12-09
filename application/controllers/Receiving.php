@@ -31,7 +31,7 @@ class Receiving extends Application
             $this->data['pagebody'] = 'receiving';
 
             // gets a list of supplies
-            $source = $this->supplies->viewSupplies();
+            $source = $this->supplies->all();
             $supplies = array ();
             foreach ($source as $record)
             {
