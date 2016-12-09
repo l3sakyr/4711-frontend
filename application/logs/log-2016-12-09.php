@@ -189,3 +189,37 @@ ERROR - 2016-12-09 20:44:08 --> 404 Page Not Found: Assets/css
 ERROR - 2016-12-09 20:44:09 --> 404 Page Not Found: Assets/css
 ERROR - 2016-12-09 20:44:10 --> 404 Page Not Found: Assets/css
 ERROR - 2016-12-09 20:44:10 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 20:46:40 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 20:46:40 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 20:46:41 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 20:46:42 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 20:46:43 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 20:46:43 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 20:46:44 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 20:46:45 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 20:46:46 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 20:52:46 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 20:53:29 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 20:58:04 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 20:59:33 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 21:00:02 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 21:00:04 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 21:02:05 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 21:02:08 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 21:02:10 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 282
+ERROR - 2016-12-09 21:02:10 --> Severity: Notice --> Undefined variable: matches C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 295
+ERROR - 2016-12-09 21:02:10 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 21:02:17 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 282
+ERROR - 2016-12-09 21:02:17 --> Severity: Notice --> Undefined variable: matches C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 295
+ERROR - 2016-12-09 21:02:17 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 21:03:54 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 21:03:57 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 21:03:59 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 21:04:03 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 21:04:04 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 21:07:02 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 21:07:38 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 21:07:41 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 21:07:45 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 21:07:49 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 21:07:52 --> 404 Page Not Found: Assets/css
