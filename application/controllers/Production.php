@@ -18,6 +18,13 @@ class Production extends Application
         
 	public function index()
 	{
+            $userrole = $this->session->userdata('userrole');
+            if ($userrole != 'admin') {
+                $message = 'You are not authorized to access this page. Go away';
+                $this->data['content'] = $message;
+                $this->render();
+                return;
+            }
             $this->load->model('recipes');
             $this->data['pagebody'] = 'production';
             
@@ -68,6 +75,37 @@ class Production extends Application
             $this->data = array_merge($this->data, $result, $recipe);
             $this->render();
         }
+        
+        public function makeProduct(){
+            $this->data['pagebody'] = 'produce';
+            /*
+            $quantity = $_GET['production_quantity/'.$_GET['id']];
+            $name = $this->recipes->getName($_GET['id']);
+            $totalProduction = $this->getProduce() * $_GET['production_quantity/'.$_GET['id']];
+		
+		$log = $quantity . " " . $name . " is produced with " . $totalProduction . ".";
+		
+		//NEW
+		$log .= "<br/> Extra: " . $_GET['id'];
+		
+		//END NEW
+		
+		$transaction = "";
+		
+		$file = fopen("log.txt","w");
+		fwrite($file,$log."<br/>");
+		fclose($file);
+		
+		$myfile = fopen("log.txt", "r") or die("Unable to open file!");
+		echo fread($myfile,filesize("log.txt"));
+		fclose($myfile);
+
+                */
+		$this->stock->produce_update_db();
+		$this->render();
+	}
+	
+        
         
 /**
         public function get($code){

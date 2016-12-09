@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 3 Lavendar(s) was received at the cost of $90.<br/> Extra: 0<br/>
+=======
+ Lemon(s) was received at the cost of $0.<br/> Extra: 2<br/>
+>>>>>>> 8ae5be37150a1de9772d1ac648fc63146341f4c3

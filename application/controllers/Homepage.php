@@ -1,5 +1,4 @@
 <?php
-
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 /**
@@ -15,6 +14,7 @@ class Homepage extends Application
 	function __construct()
 	{
 		parent::__construct();
+                $this->data['pagetitle'] = 'Aromatherapy Store';
 	}
 
 	/**
@@ -22,6 +22,13 @@ class Homepage extends Application
 	 */
 	public function index()
 	{
+            $userrole = $this->session->userdata('userrole');
+            if ($userrole != 'admin') {
+                $message = 'Welcome to our store!';
+                $this->data['content'] = $message;
+                $this->render();
+                return;
+            }
             // this is the view we want shown
             $this->data['pagebody'] = 'homepage';
 			// this is the data we want loaded onto the view
