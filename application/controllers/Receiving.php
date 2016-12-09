@@ -31,14 +31,14 @@ class Receiving extends Application
             $this->data['pagebody'] = 'receiving';
 
             // gets a list of supplies
-            $source = $this->supplies->all();
+            $source = $this->supplies->viewSupplies();
             $supplies = array ();
             foreach ($source as $record)
             {
                     $supplies[] = array ('code' => $record['code'],
                                         'name' => $record['name'],
-					'description' => $record['description'], 'receiving_unit' => $record['receiving_unit'],
-					'receiving_cost' => $record['receiving_cost'], 'stocking_unit' => $record['stocking_unit'],
+					'description' => $record['description'], 'receiving_amount' => $record['receiving_amount'],
+					'receiving_cost' => $record['receiving_cost'], 'measuring_units' => $record['measuring_units'],
 					'quantity' => $record['quantity']);
             }
             $this->data['supplies'] = $supplies;
@@ -54,6 +54,17 @@ class Receiving extends Application
     {
         $this->data['pagebody'] = 'justoneR';		
         $source = $this->supplies->get($id);
+		/*
+		$supplies = array ();
+            foreach ($source as $record)
+            {
+                    $supplies[] = array ('code' => $record['code'],
+                                        'name' => $record['name'],
+					'description' => $record['description'], 'receiving_amount' => $record['receiving_amount'],
+					'receiving_cost' => $record['receiving_cost'], 'measuring_units' => $record['measuring_units'],
+					'quantity' => $record['quantity']);
+            }
+			*/
         $this->data = array_merge($this->data, $source);
         $this->render();
     }

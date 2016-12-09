@@ -223,3 +223,229 @@ ERROR - 2016-12-09 21:07:41 --> 404 Page Not Found: Assets/css
 ERROR - 2016-12-09 21:07:45 --> 404 Page Not Found: Assets/css
 ERROR - 2016-12-09 21:07:49 --> 404 Page Not Found: Assets/css
 ERROR - 2016-12-09 21:07:52 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 21:36:58 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 21:37:01 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:37:13 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:37:13 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 254
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:38:07 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:38:07 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 21:39:45 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:39:45 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:39:45 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:39:45 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:39:45 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:39:45 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:39:45 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:39:45 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:39:45 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:39:45 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:39:45 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:39:45 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:39:45 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:39:45 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:39:45 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:39:45 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:39:45 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:39:45 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:39:45 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:39:45 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:39:45 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:39:45 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:39:45 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:39:45 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:39:45 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:39:45 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:39:45 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:39:45 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:39:45 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:39:45 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:39:45 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:39:45 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:39:45 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:39:45 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:39:45 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:39:45 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:39:45 --> Severity: Notice --> Undefined index: receiving_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 40
+ERROR - 2016-12-09 21:39:45 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:39:45 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 21:40:44 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:40:44 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:40:44 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:40:44 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:40:44 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:40:44 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:40:44 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:40:44 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:40:44 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:40:44 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:40:44 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:40:44 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:40:44 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:40:44 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:40:44 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:40:44 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:40:44 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:40:44 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:40:44 --> Severity: Notice --> Undefined index: stocking_unit C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 41
+ERROR - 2016-12-09 21:40:44 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 21:40:57 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 21:41:02 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 21:41:16 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 21:41:33 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 21:41:36 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 21:44:12 --> Severity: Warning --> array_merge(): Argument #2 is not an array C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 57
+ERROR - 2016-12-09 21:44:12 --> Severity: Warning --> Invalid argument supplied for foreach() C:\Apps\XAMPP\htdocs\4711-frontend\system\libraries\Parser.php 144
+ERROR - 2016-12-09 21:44:13 --> Severity: Notice --> Undefined index: pagebody C:\Apps\XAMPP\htdocs\4711-frontend\application\core\MY_Controller.php 42
+ERROR - 2016-12-09 21:45:36 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 21:46:20 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 21:46:22 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 21:46:23 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 21:46:25 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 21:46:43 --> Severity: Notice --> Undefined variable: supplies C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 68
+ERROR - 2016-12-09 21:46:43 --> Severity: Warning --> array_merge(): Argument #2 is not an array C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 68
+ERROR - 2016-12-09 21:46:43 --> Severity: Warning --> Invalid argument supplied for foreach() C:\Apps\XAMPP\htdocs\4711-frontend\system\libraries\Parser.php 144
+ERROR - 2016-12-09 21:46:43 --> Severity: Notice --> Undefined index: pagebody C:\Apps\XAMPP\htdocs\4711-frontend\application\core\MY_Controller.php 42
+ERROR - 2016-12-09 21:46:56 --> Severity: Warning --> array_merge(): Argument #2 is not an array C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 68
+ERROR - 2016-12-09 21:46:56 --> Severity: Warning --> Invalid argument supplied for foreach() C:\Apps\XAMPP\htdocs\4711-frontend\system\libraries\Parser.php 144
+ERROR - 2016-12-09 21:46:56 --> Severity: Notice --> Undefined index: pagebody C:\Apps\XAMPP\htdocs\4711-frontend\application\core\MY_Controller.php 42
+ERROR - 2016-12-09 21:47:11 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 21:48:03 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 21:48:40 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 21:52:47 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 21:52:50 --> Severity: Notice --> Undefined variable: source C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 78
+ERROR - 2016-12-09 21:52:50 --> Severity: Warning --> Invalid argument supplied for foreach() C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 78
+ERROR - 2016-12-09 21:52:50 --> Severity: Notice --> Undefined variable: price C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 85
+ERROR - 2016-12-09 21:52:50 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 21:53:48 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 21:53:50 --> 404 Page Not Found: Assets/css
