@@ -19,6 +19,7 @@
             </tr>
             {/stock}
         </table>
-        <!--<input type="submit" name="submit">-->
+        <br>
+        <a class="btn btn-default" role="button" href="/">Add</a>
     </form>
 </div>
