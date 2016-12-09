@@ -449,3 +449,31 @@ ERROR - 2016-12-09 21:52:50 --> Severity: Notice --> Undefined variable: price C
 ERROR - 2016-12-09 21:52:50 --> 404 Page Not Found: Assets/css
 ERROR - 2016-12-09 21:53:48 --> 404 Page Not Found: Assets/css
 ERROR - 2016-12-09 21:53:50 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 21:59:25 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 21:59:26 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 21:59:34 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:03:31 --> Severity: Notice --> Undefined index: ingredients C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 39
+ERROR - 2016-12-09 22:03:31 --> Severity: Notice --> Undefined index: ingredients C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 39
+ERROR - 2016-12-09 22:03:31 --> Severity: Notice --> Undefined index: ingredients C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 39
+ERROR - 2016-12-09 22:03:31 --> Severity: Notice --> Undefined index: ingredients C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 39
+ERROR - 2016-12-09 22:03:31 --> Severity: Notice --> Undefined index: ingredients C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 39
+ERROR - 2016-12-09 22:03:31 --> Severity: Notice --> Undefined index: ingredients C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 39
+ERROR - 2016-12-09 22:03:31 --> Severity: Notice --> Undefined index: ingredients C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 39
+ERROR - 2016-12-09 22:03:31 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:04:09 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:04:11 --> Severity: Notice --> Undefined property: Production::$table C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 61
+ERROR - 2016-12-09 22:04:11 --> Severity: Error --> Call to a member function set_template() on null C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 61
+ERROR - 2016-12-09 22:04:15 --> Severity: Notice --> Undefined property: Production::$table C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 61
+ERROR - 2016-12-09 22:04:15 --> Severity: Error --> Call to a member function set_template() on null C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 61
+ERROR - 2016-12-09 22:04:42 --> Severity: Notice --> Undefined property: Production::$table C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 59
+ERROR - 2016-12-09 22:04:42 --> Severity: Error --> Call to a member function set_template() on null C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 59
+ERROR - 2016-12-09 22:05:14 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:05:15 --> Severity: Notice --> Undefined property: Production::$table C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 59
+ERROR - 2016-12-09 22:05:15 --> Severity: Error --> Call to a member function set_template() on null C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 59
+ERROR - 2016-12-09 22:05:47 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:05:48 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:07:05 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:07:07 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 199
+ERROR - 2016-12-09 22:07:07 --> Severity: Warning --> array_merge(): Argument #2 is not an array C:\xampp\htdocs\4711-frontend\application\controllers\Receiving.php 68
+ERROR - 2016-12-09 22:07:07 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\4711-frontend\system\libraries\Parser.php 144
+ERROR - 2016-12-09 22:07:07 --> Severity: Notice --> Undefined index: pagebody C:\xampp\htdocs\4711-frontend\application\core\MY_Controller.php 42
