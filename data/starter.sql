@@ -204,25 +204,25 @@ CREATE TABLE `Stock` (
 -- Dumping data for table `stock`
 --
 
-INSERT INTO `Stock` (`name`, `description`, `quantity`,`price`) VALUES
+INSERT INTO `Stock` (`code`, `name`, `description`, `quantity`,`price`) VALUES
 (0,'Refresh', 'Sharpen concentration, increase stamina, and revitalize your senses',0, 14.95);
 
-INSERT INTO `Stock` (`name`, `description`, `quantity`,`price`) VALUES
+INSERT INTO `Stock` (`code`, `name`, `description`, `quantity`,`price`) VALUES
 (1,'Cloud Nine', 'Lift your spirits',0, 16.45);
 
-INSERT INTO `Stock` (`name`, `description`, `quantity`,`price`) VALUES
+INSERT INTO `Stock` (`code`, `name`, `description`, `quantity`,`price`) VALUES
 (2,'Energy', 'Invigorate and refresh your mind and body',0, 18.45);
 
-INSERT INTO `Stock` (`name`, `description`, `quantity`,`price`) VALUES
+INSERT INTO `Stock` (`code`, `name`, `description`, `quantity`,`price`) VALUES
 (3,'Exhale', 'An exhilarating essential oil blend that renews and strengthens',0, 12.95);
 
-INSERT INTO `Stock` (`name`, `description`, `quantity`,`price`) VALUES
+INSERT INTO `Stock` (`code`, `name`, `description`, `quantity`,`price`) VALUES
 (4,'Citrus Dream', 'For promoting a sense of calmness and positivity',0, 16.95);
 
-INSERT INTO `Stock` (`name`, `description`, `quantity`,`price`) VALUES
+INSERT INTO `Stock` (`code`, `name`, `description`, `quantity`,`price`) VALUES
 (5,'Tranquility', 'For a deeper, more restful sleep',0, 12.45);
 
-INSERT INTO `Stock` (`name`, `description`, `quantity`,`price`) VALUES
+INSERT INTO `Stock` (`code`, `name`, `description`, `quantity`,`price`) VALUES
 (6,'Unwind', 'Melt away stress and ease tension with this uplifting blend',0,19.45);
 
 
