@@ -3,6 +3,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 // the menu basics (text navbar)
 $config['menudata'] = array(
+        array('name' => 'Homepage', 'link' => '/'),
         array('name' => 'Administration', 'link' => '/administration'),
         array('name' => 'Production', 'link' => '/production'),
         array('name' => 'Receiving', 'link' => '/receiving'),

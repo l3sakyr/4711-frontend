@@ -35,11 +35,8 @@ class Production extends Application
             foreach ($source as $record)
             {
                 $recipes[] = array ('code' => $record['code'],
-                                    'name' => $record['name'],
-                                    'ingredients' => $record['ingredients']
+                                    'name' => $record['name']
                                    );
-                // ~Not sure about this part!!!!
-                //$recipIngre[] = array ('ingredients' => $record['ingredients']);
             }
             
             $this->data['recipes'] = $recipes;
