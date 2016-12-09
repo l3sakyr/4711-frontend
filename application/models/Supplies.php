@@ -322,4 +322,16 @@ class Supplies extends CI_Model{
 		$conn->close();
 		//SQL//
 	}
+        
+        function rules() {
+            $config = [
+                ['field'=>'code', 'label'=>'Menu code', 'rules'=> 'required|integer'],
+                ['field'=>'name', 'label'=>'Item name', 'rules'=> 'required'],
+                ['field'=>'description', 'label'=>'Item description', 'rules'=> 'required|max_length[256]'],
+                ['field'=>'measuring_units', 'label'=>'Measuring units', 'rules'=> 'required|max_length[256]'],
+                ['field'=>'receiving_cost', 'label'=>'Receiving cost', 'rules'=> 'required|real'],
+                ['field'=>'quantity', 'label'=>'Quantity', 'rules'=> 'required|real']
+            ];
+            return $config;
+        }
 }

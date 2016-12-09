@@ -115,4 +115,4 @@ class Stock extends CI_Model{
 		$conn->close();
 		//SQL//
 	}
-}
+    }
