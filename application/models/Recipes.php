@@ -227,5 +227,14 @@ class Recipes extends CI_Model{
     {
         return $this->data;
     }
+    
+    function rules() {
+        $config = [
+            ['field'=>'code', 'label'=>'Menu code', 'rules'=> 'required|integer'],
+            ['field'=>'name', 'label'=>'Item name', 'rules'=> 'required'],
+            ['field'=>'description', 'label'=>'Item description', 'rules'=> 'required|max_length[256]']
+        ];
+        return $config;
+    }
    
 }
