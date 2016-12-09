@@ -449,3 +449,162 @@ ERROR - 2016-12-09 21:52:50 --> Severity: Notice --> Undefined variable: price C
 ERROR - 2016-12-09 21:52:50 --> 404 Page Not Found: Assets/css
 ERROR - 2016-12-09 21:53:48 --> 404 Page Not Found: Assets/css
 ERROR - 2016-12-09 21:53:50 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 21:57:01 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:03:25 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:04:08 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:04:10 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:04:11 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:04:17 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:04:38 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:05:56 --> Severity: Warning --> Illegal string offset 'code' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 60
+ERROR - 2016-12-09 22:05:56 --> Severity: Warning --> Illegal string offset 'name' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 61
+ERROR - 2016-12-09 22:05:56 --> Severity: Warning --> Illegal string offset 'description' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 62
+ERROR - 2016-12-09 22:05:56 --> Severity: Warning --> Illegal string offset 'receiving_amount' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 62
+ERROR - 2016-12-09 22:05:56 --> Severity: Warning --> Illegal string offset 'receiving_cost' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 63
+ERROR - 2016-12-09 22:05:56 --> Severity: Warning --> Illegal string offset 'measuring_units' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 63
+ERROR - 2016-12-09 22:05:56 --> Severity: Warning --> Illegal string offset 'quantity' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 64
+ERROR - 2016-12-09 22:05:56 --> Severity: Warning --> Illegal string offset 'code' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 60
+ERROR - 2016-12-09 22:05:56 --> Severity: Warning --> Illegal string offset 'name' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 61
+ERROR - 2016-12-09 22:05:56 --> Severity: Warning --> Illegal string offset 'description' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 62
+ERROR - 2016-12-09 22:05:56 --> Severity: Warning --> Illegal string offset 'receiving_amount' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 62
+ERROR - 2016-12-09 22:05:56 --> Severity: Warning --> Illegal string offset 'receiving_cost' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 63
+ERROR - 2016-12-09 22:05:56 --> Severity: Warning --> Illegal string offset 'measuring_units' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 63
+ERROR - 2016-12-09 22:05:56 --> Severity: Warning --> Illegal string offset 'quantity' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 64
+ERROR - 2016-12-09 22:05:57 --> Severity: Warning --> Illegal string offset 'code' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 60
+ERROR - 2016-12-09 22:05:57 --> Severity: Warning --> Illegal string offset 'name' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 61
+ERROR - 2016-12-09 22:05:57 --> Severity: Warning --> Illegal string offset 'description' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 62
+ERROR - 2016-12-09 22:05:57 --> Severity: Warning --> Illegal string offset 'receiving_amount' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 62
+ERROR - 2016-12-09 22:05:57 --> Severity: Warning --> Illegal string offset 'receiving_cost' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 63
+ERROR - 2016-12-09 22:05:57 --> Severity: Warning --> Illegal string offset 'measuring_units' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 63
+ERROR - 2016-12-09 22:05:57 --> Severity: Warning --> Illegal string offset 'quantity' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 64
+ERROR - 2016-12-09 22:05:57 --> Severity: Warning --> Illegal string offset 'code' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 60
+ERROR - 2016-12-09 22:05:57 --> Severity: Warning --> Illegal string offset 'name' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 61
+ERROR - 2016-12-09 22:05:57 --> Severity: Warning --> Illegal string offset 'description' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 62
+ERROR - 2016-12-09 22:05:57 --> Severity: Warning --> Illegal string offset 'receiving_amount' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 62
+ERROR - 2016-12-09 22:05:57 --> Severity: Warning --> Illegal string offset 'receiving_cost' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 63
+ERROR - 2016-12-09 22:05:57 --> Severity: Warning --> Illegal string offset 'measuring_units' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 63
+ERROR - 2016-12-09 22:05:57 --> Severity: Warning --> Illegal string offset 'quantity' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 64
+ERROR - 2016-12-09 22:05:57 --> Severity: Warning --> Illegal string offset 'code' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 60
+ERROR - 2016-12-09 22:05:57 --> Severity: Warning --> Illegal string offset 'name' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 61
+ERROR - 2016-12-09 22:05:57 --> Severity: Warning --> Illegal string offset 'description' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 62
+ERROR - 2016-12-09 22:05:57 --> Severity: Warning --> Illegal string offset 'receiving_amount' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 62
+ERROR - 2016-12-09 22:05:57 --> Severity: Warning --> Illegal string offset 'receiving_cost' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 63
+ERROR - 2016-12-09 22:05:57 --> Severity: Warning --> Illegal string offset 'measuring_units' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 63
+ERROR - 2016-12-09 22:05:57 --> Severity: Warning --> Illegal string offset 'quantity' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 64
+ERROR - 2016-12-09 22:05:57 --> Severity: Warning --> Illegal string offset 'code' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 60
+ERROR - 2016-12-09 22:05:57 --> Severity: Warning --> Illegal string offset 'name' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 61
+ERROR - 2016-12-09 22:05:57 --> Severity: Warning --> Illegal string offset 'description' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 62
+ERROR - 2016-12-09 22:05:57 --> Severity: Warning --> Illegal string offset 'receiving_amount' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 62
+ERROR - 2016-12-09 22:05:57 --> Severity: Warning --> Illegal string offset 'receiving_cost' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 63
+ERROR - 2016-12-09 22:05:57 --> Severity: Warning --> Illegal string offset 'measuring_units' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 63
+ERROR - 2016-12-09 22:05:57 --> Severity: Warning --> Illegal string offset 'quantity' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 64
+ERROR - 2016-12-09 22:05:57 --> Severity: Warning --> Illegal string offset 'code' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 60
+ERROR - 2016-12-09 22:05:57 --> Severity: Warning --> Illegal string offset 'name' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 61
+ERROR - 2016-12-09 22:05:57 --> Severity: Warning --> Illegal string offset 'description' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 62
+ERROR - 2016-12-09 22:05:57 --> Severity: Warning --> Illegal string offset 'receiving_amount' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 62
+ERROR - 2016-12-09 22:05:57 --> Severity: Warning --> Illegal string offset 'receiving_cost' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 63
+ERROR - 2016-12-09 22:05:57 --> Severity: Warning --> Illegal string offset 'measuring_units' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 63
+ERROR - 2016-12-09 22:05:57 --> Severity: Warning --> Illegal string offset 'quantity' C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 64
+ERROR - 2016-12-09 22:05:57 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:06:33 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:06:45 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:06:47 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:07:43 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:08:12 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:09:37 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:10:00 --> Severity: Warning --> array_merge(): Argument #2 is not an array C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Receiving.php 69
+ERROR - 2016-12-09 22:10:00 --> Severity: Warning --> Invalid argument supplied for foreach() C:\Apps\XAMPP\htdocs\4711-frontend\system\libraries\Parser.php 144
+ERROR - 2016-12-09 22:10:00 --> Severity: Notice --> Undefined index: pagebody C:\Apps\XAMPP\htdocs\4711-frontend\application\core\MY_Controller.php 42
+ERROR - 2016-12-09 22:10:14 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:10:29 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:14:31 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:14:32 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:14:34 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:14:35 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:14:38 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:14:39 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:14:41 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:14:42 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:14:43 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:14:44 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:14:45 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:14:49 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:14:51 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:14:52 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:14:52 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:14:53 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:14:53 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:15:05 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:15:15 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:15:21 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:15:23 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:15:27 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:18:46 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:18:47 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:19:36 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:19:36 --> Severity: Notice --> Undefined property: Production::$table C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Production.php 62
+ERROR - 2016-12-09 22:19:37 --> Severity: error --> Exception: Call to a member function set_template() on null C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Production.php 62
+ERROR - 2016-12-09 22:19:53 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:19:53 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:19:54 --> Severity: Notice --> Undefined property: Production::$table C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Production.php 62
+ERROR - 2016-12-09 22:19:54 --> Severity: error --> Exception: Call to a member function set_template() on null C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Production.php 62
+ERROR - 2016-12-09 22:20:04 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:20:05 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:20:08 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:20:10 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:20:10 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:20:12 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:20:12 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:20:15 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:20:17 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:20:24 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:20:26 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:20:27 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:20:29 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:21:42 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:21:42 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:21:46 --> Severity: Notice --> Undefined property: Production::$table C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Production.php 62
+ERROR - 2016-12-09 22:21:46 --> Severity: error --> Exception: Call to a member function set_template() on null C:\Apps\XAMPP\htdocs\4711-frontend\application\controllers\Production.php 62
+ERROR - 2016-12-09 22:21:50 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:21:51 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:21:58 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:25:18 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:25:32 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:26:21 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:26:35 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:26:36 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:26:37 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:26:37 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:26:38 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:26:39 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:26:40 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:26:40 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:26:41 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:26:43 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:26:43 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:26:44 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:26:44 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:26:45 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:26:46 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:26:47 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:26:53 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:26:57 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:27:17 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:27:22 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:27:26 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:30:37 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:30:40 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:30:43 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:30:46 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:31:11 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:31:17 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:31:26 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:31:34 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:31:38 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:31:45 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:31:51 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:32:27 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:33:36 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:33:38 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:33:40 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-09 22:45:56 --> 404 Page Not Found: Assets/css

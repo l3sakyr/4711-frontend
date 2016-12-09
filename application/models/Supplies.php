@@ -282,7 +282,7 @@ class Supplies extends CI_Model{
 		if ($result->num_rows > 0) {
 			// output data of each row
 			while($row = $result->fetch_assoc()) {
-				//echo "<br>code: " . $row["code"]. "<br> name: " . $row["name"]. "<br> description: " . $row["description"] . "<br> receiving_cost: " . $row["receiving_cost"] . "<br> receiving_amount: " . $row["receiving_amount"] . "<br> measuring_units: " . $row["measuring_units"] . "<br> quantity: " . $row["quantity"] ."<br>";
+				echo "<br>code: " . $row["code"]. "<br> name: " . $row["name"]. "<br> description: " . $row["description"] . "<br> receiving_cost: " . $row["receiving_cost"] . "<br> receiving_amount: " . $row["receiving_amount"] . "<br> measuring_units: " . $row["measuring_units"] . "<br> quantity: " . $row["quantity"] ."<br>";
 			}
 		} else {
 			echo "0 results";

@@ -54,17 +54,6 @@ class Receiving extends Application
     {
         $this->data['pagebody'] = 'justoneR';		
         $source = $this->supplies->get($id);
-		/*
-		$supplies = array ();
-            foreach ($source as $record)
-            {
-                    $supplies[] = array ('code' => $record['code'],
-                                        'name' => $record['name'],
-					'description' => $record['description'], 'receiving_amount' => $record['receiving_amount'],
-					'receiving_cost' => $record['receiving_cost'], 'measuring_units' => $record['measuring_units'],
-					'quantity' => $record['quantity']);
-            }
-			*/
         $this->data = array_merge($this->data, $source);
         $this->render();
     }
@@ -113,8 +102,8 @@ class Receiving extends Application
 		
 		$myfile = fopen("log.txt", "r") or die("Unable to open file!");
 		$filedata = fread($myfile,filesize("log.txt"));
-		$logger[] = array ('1' => $filedata);
-		$this->data['owo'] = $logger;
+		$logger[] = array ('transaction_msg' => $filedata);
+		$this->data['transaction'] = $logger;
 		fclose($myfile);
 
 		$this->supplies->receiving_update_db();

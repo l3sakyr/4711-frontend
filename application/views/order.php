@@ -1,8 +1,8 @@
 <div class="row">
     <h4>Order Transaction</h4><br>
-	{owo}
-		<p>{1}</p>
-	{/owo}
+	{transaction}
+		<p>{transaction_msg}</p>
+	{/transaction}
 	<!--
     {supplies}
     <div class="span3x">
