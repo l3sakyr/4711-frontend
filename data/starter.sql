@@ -89,7 +89,7 @@ CREATE TABLE `Supplies` (
   `measuring_units` TEXT NOT NULL,
   `receiving_cost` REAL NOT NULL,
   `receiving_amount` INT(2) NOT NULL,
-  `quantity` INT(10) DEFAULT NULL,
+  `quantity` INT(10) NOT NULL,
   PRIMARY KEY (`code`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
@@ -97,62 +97,62 @@ CREATE TABLE `Supplies` (
 -- Dumping data for table `supplies`
 --
 
-INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
-(0, 'Lavendar', 'Lavendar oil', 'mL', 29.99, 25);
+INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`, `quantity`) VALUES
+(0, 'Lavendar', 'Lavendar oil', 'mL', 29.99, 25, 0);
 
-INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
-(1, 'Eucalyptus', 'Eucalyptus oil', 'mL', 39.99, 50);
+INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`, `quantity`) VALUES
+(1, 'Eucalyptus', 'Eucalyptus oil', 'mL', 39.99, 50, 0);
 
-INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
-(2,'Lemon', 'Lemon oil', 'mL', 19.99, 50);
+INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`, `quantity`) VALUES
+(2,'Lemon', 'Lemon oil', 'mL', 19.99, 50, 0);
 
-INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
-(3,'Orange', 'Orange oil', 'mL', 14.99, 25);
+INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`, `quantity`) VALUES
+(3,'Orange', 'Orange oil', 'mL', 14.99, 25, 0);
 
-INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
-(4,'Grapefruit', 'Grapefruit oil', 'mL', 29.99, 50);
+INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`, `quantity`) VALUES
+(4,'Grapefruit', 'Grapefruit oil', 'mL', 29.99, 50, 0);
 
-INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
-(5,'Ylang ylang', 'Ylang ylang oil', 'mL', 24.99, 25);
+INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`, `quantity`) VALUES
+(5,'Ylang ylang', 'Ylang ylang oil', 'mL', 24.99, 25, 0);
 
-INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
-(6,'Geranium', 'Geranium oil', 'mL', 29.99, 25);
+INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`, `quantity`) VALUES
+(6,'Geranium', 'Geranium oil', 'mL', 29.99, 25, 0);
 
-INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
-(7,'Rosemary', 'Rosemary oil', 'mL', 39.99, 50);
+INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`, `quantity`) VALUES
+(7,'Rosemary', 'Rosemary oil', 'mL', 39.99, 50, 0);
 
-INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
-(8,'Peppermint', 'Peppermint oil', 'mL', 29.99, 50);
+INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`, `quantity`) VALUES
+(8,'Peppermint', 'Peppermint oil', 'mL', 29.99, 50, 0);
 
-INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
-(9,'Sandalwood', 'Sandalwood oil', 'mL', 29.99, 50);
+INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`, `quantity`) VALUES
+(9,'Sandalwood', 'Sandalwood oil', 'mL', 29.99, 50, 0);
 
-INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
-(10,'Neroli', 'Neroli oil', 'mL', 9.99, 25);
+INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`, `quantity`) VALUES
+(10,'Neroli', 'Neroli oil', 'mL', 9.99, 25, 0);
 
-INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
-(11,'Spearmint', 'Spearmint oil', 'mL', 19.99, 50);
+INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`, `quantity`) VALUES
+(11,'Spearmint', 'Spearmint oil', 'mL', 19.99, 50, 0);
 
-INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
-(12,'Bergamot', 'Bergamot oil', 'mL', 29.99, 50);
+INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`, `quantity`) VALUES
+(12,'Bergamot', 'Bergamot oil', 'mL', 29.99, 50, 0);
 
-INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
-(13,'Cedarwood', 'Cedarwood oil', 'mL', 39.99, 50);
+INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`, `quantity`) VALUES
+(13,'Cedarwood', 'Cedarwood oil', 'mL', 39.99, 50, 0);
 
-INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
-(14,'Chamomile', 'Chamomile oil', 'mL', 29.99, 25);
+INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`, `quantity`) VALUES
+(14,'Chamomile', 'Chamomile oil', 'mL', 29.99, 25, 0);
 
-INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
-(15,'Rosewood', 'Rosewood oil', 'mL', 19.99, 25);
+INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`, `quantity`) VALUES
+(15,'Rosewood', 'Rosewood oil', 'mL', 19.99, 25, 0);
 
-INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
-(16,'Ginger', 'Ginger oil', 'mL', 34.99, 50);
+INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`, `quantity`) VALUES
+(16,'Ginger', 'Ginger oil', 'mL', 34.99, 50, 0);
 
-INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
-(17,'Marjoram', 'Marjoram oil', 'mL', 34.99, 50);
+INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`, `quantity`) VALUES
+(17,'Marjoram', 'Marjoram oil', 'mL', 34.99, 50, 0);
 
-INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
-(18,'Basil', 'Basil oil', 'mL', 29.99, 50);
+INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`, `quantity`) VALUES
+(18,'Basil', 'Basil oil', 'mL', 29.99, 50, 0);
 
 
 

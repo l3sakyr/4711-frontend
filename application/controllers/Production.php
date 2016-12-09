@@ -19,7 +19,7 @@ class Production extends Application
 	public function index()
 	{
             $userrole = $this->session->userdata('userrole');
-            if ($userrole != 'admin') {
+            if ($userrole == 'guest') {
                 $message = 'You are not authorized to access this page. Go away';
                 $this->data['content'] = $message;
                 $this->render();
