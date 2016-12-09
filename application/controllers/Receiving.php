@@ -81,9 +81,9 @@ class Receiving extends Application
 	// reads and shows the file output 
 	public function receipt() {
 		$this->data['pagebody'] = 'order';
-		$quantity = $_GET['receiving_unit/'.$_GET['id']];
+		$quantity = $_GET['receiving_amount/'.$_GET['id']];
 		$name = $this->supplies->getName($_GET['id']);
-		$totalCost = $this->getCost() * $_GET['receiving_unit/'.$_GET['id']];
+		$totalCost = $this->getCost() * $_GET['receiving_amount/'.$_GET['id']];
 		
 
 		
