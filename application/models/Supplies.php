@@ -247,17 +247,49 @@ class Supplies extends CI_Model{
 
 		$sql = "SELECT * FROM supplies";
 		$result = $conn->query($sql);
-
+		
 		if ($result->num_rows > 0) {
 			// output data of each row
 			while($row = $result->fetch_assoc()) {
-				echo "<br>code: " . $row["code"]. "<br> name: " . $row["name"]. "<br> description: " . $row["description"] . "<br> receiving_cost: " . $row["receiving_cost"] . "<br> receiving_unit: " . $row["receiving_unit"] . "<br> stocking_unit: " . $row["stocking_unit"] . "<br> quantity: " . $row["quantity"] ."<br>";
+				//echo "<br>code: " . $row["code"]. "<br> name: " . $row["name"]. "<br> description: " . $row["description"] . "<br> receiving_cost: " . $row["receiving_cost"] . "<br> receiving_amount: " . $row["receiving_amount"] . "<br> measuring_units: " . $row["measuring_units"] . "<br> quantity: " . $row["quantity"] ."<br>";
 			}
 		} else {
 			echo "0 results";
 		}
 		$conn->close();
 		//SQL//
+		return $result;
+	}
+	
+	public function getSupply($id)
+	{
+		//SQL
+		$servername = "localhost";
+		$username = "root";
+		$password = "";
+		$dbname = "a2Database";
+
+		// Create connection
+		$conn = new mysqli($servername, $username, $password, $dbname);
+		// Check connection
+		if ($conn->connect_error) {
+			die("Connection failed: " . $conn->connect_error);
+		} 
+
+		$sql = "SELECT * FROM supplies WHERE code <=> " . $id . ";";
+		$result = $conn->query($sql);
+		
+		if ($result->num_rows > 0) {
+			// output data of each row
+			while($row = $result->fetch_assoc()) {
+				//echo "<br>code: " . $row["code"]. "<br> name: " . $row["name"]. "<br> description: " . $row["description"] . "<br> receiving_cost: " . $row["receiving_cost"] . "<br> receiving_amount: " . $row["receiving_amount"] . "<br> measuring_units: " . $row["measuring_units"] . "<br> quantity: " . $row["quantity"] ."<br>";
+			}
+		} else {
+			echo "0 results";
+		}
+		$conn->close();
+		//SQL//
+		return $result;
 	}
 	
 	public function receiving_update_db() {
@@ -278,7 +310,6 @@ class Supplies extends CI_Model{
 		// Retrieves and temporarily stores the value of Receiving Unit.
 		$ru_sql = "SELECT receiving_amount FROM supplies WHERE code <=> " . $_GET['id'] . ";";
 		$result = $conn->query($ru_sql);
-				
 		if ($result->num_rows > 0) {
 			// output data of each row
 			while($row = $result->fetch_assoc()) {
