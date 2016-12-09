@@ -75,6 +75,7 @@ ALTER TABLE `Orderitems`
 ALTER TABLE `Orders`
   ADD PRIMARY KEY (`num`);
 
+DROP TABLE IF EXISTS `Recipe_Supply`;
 -- --------------------------------------------------------
 
 --
@@ -82,7 +83,7 @@ ALTER TABLE `Orders`
 --
 DROP TABLE IF EXISTS `Supplies`;
 CREATE TABLE `Supplies` (
-  `code` INT(2) NULL AUTO_INCREMENT,
+  `code` INT(2) NOT NULL,
   `name` TEXT NOT NULL,
   `description` TEXT NOT NULL,
   `measuring_units` TEXT NOT NULL,
@@ -96,81 +97,69 @@ CREATE TABLE `Supplies` (
 -- Dumping data for table `supplies`
 --
 
-INSERT INTO `Supplies` (`name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
-('Lavendar', 'Lavendar oil', 'mL', 29.99, 25);
+INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
+(0, 'Lavendar', 'Lavendar oil', 'mL', 29.99, 25);
 
-INSERT INTO `Supplies` (`name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
-('Eucalyptus', 'Eucalyptus oil', 'mL', 39.99, 50);
+INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
+(1, 'Eucalyptus', 'Eucalyptus oil', 'mL', 39.99, 50);
 
-INSERT INTO `Supplies` (`name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
-('Lemon', 'Lemon oil', 'mL', 19.99, 50);
+INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
+(2,'Lemon', 'Lemon oil', 'mL', 19.99, 50);
 
-INSERT INTO `Supplies` (`name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
-('Orange', 'Orange oil', 'mL', 14.99, 25);
+INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
+(3,'Orange', 'Orange oil', 'mL', 14.99, 25);
 
-INSERT INTO `Supplies` (`name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
-('Grapefruit', 'Grapefruit oil', 'mL', 29.99, 50);
+INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
+(4,'Grapefruit', 'Grapefruit oil', 'mL', 29.99, 50);
 
-INSERT INTO `Supplies` (`name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
-('Ylang ylang', 'Ylang ylang oil', 'mL', 24.99, 25);
+INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
+(5,'Ylang ylang', 'Ylang ylang oil', 'mL', 24.99, 25);
 
-INSERT INTO `Supplies` (`name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
-('Geranium', 'Geranium oil', 'mL', 29.99, 25);
+INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
+(6,'Geranium', 'Geranium oil', 'mL', 29.99, 25);
 
-INSERT INTO `Supplies` (`name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
-('Rosemary', 'Rosemary oil', 'mL', 39.99, 50);
+INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
+(7,'Rosemary', 'Rosemary oil', 'mL', 39.99, 50);
 
-INSERT INTO `Supplies` (`name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
-('Peppermint', 'Peppermint oil', 'mL', 29.99, 50);
+INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
+(8,'Peppermint', 'Peppermint oil', 'mL', 29.99, 50);
 
-INSERT INTO `Supplies` (`name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
-('Sandalwood', 'Sandalwood oil', 'mL', 29.99, 50);
+INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
+(9,'Sandalwood', 'Sandalwood oil', 'mL', 29.99, 50);
 
-INSERT INTO `Supplies` (`name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
-('Neroli', 'Neroli oil', 'mL', 9.99, 25);
+INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
+(10,'Neroli', 'Neroli oil', 'mL', 9.99, 25);
 
-INSERT INTO `Supplies` (`name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
-('Spearmint', 'Spearmint oil', 'mL', 19.99, 50);
+INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
+(11,'Spearmint', 'Spearmint oil', 'mL', 19.99, 50);
 
-INSERT INTO `Supplies` (`name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
-('Bergamot', 'Bergamot oil', 'mL', 29.99, 50);
+INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
+(12,'Bergamot', 'Bergamot oil', 'mL', 29.99, 50);
 
-INSERT INTO `Supplies` (`name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
-('Cedarwood', 'Cedarwood oil', 'mL', 39.99, 50);
+INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
+(13,'Cedarwood', 'Cedarwood oil', 'mL', 39.99, 50);
 
-INSERT INTO `Supplies` (`name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
-('Chamomile', 'Chamomile oil', 'mL', 29.99, 25);
+INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
+(14,'Chamomile', 'Chamomile oil', 'mL', 29.99, 25);
 
-INSERT INTO `Supplies` (`name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
-('Rosewood', 'Rosewood oil', 'mL', 19.99, 25);
+INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
+(15,'Rosewood', 'Rosewood oil', 'mL', 19.99, 25);
 
-INSERT INTO `Supplies` (`name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
-('Ginger', 'Ginger oil', 'mL', 34.99, 50);
+INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
+(16,'Ginger', 'Ginger oil', 'mL', 34.99, 50);
 
-INSERT INTO `Supplies` (`name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
-('Marjoram', 'Marjoram oil', 'mL', 34.99, 50);
+INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
+(17,'Marjoram', 'Marjoram oil', 'mL', 34.99, 50);
 
-INSERT INTO `Supplies` (`name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
-('Basil', 'Basil oil', 'mL', 29.99, 50);
+INSERT INTO `Supplies` (`code`, `name`, `description`, `measuring_units`, `receiving_cost`, `receiving_amount`) VALUES
+(18,'Basil', 'Basil oil', 'mL', 29.99, 50);
 
 
---
--- AUTO_INCREMENT for table `supplies`
---
---ALTER TABLE `Supplies`
---  MODIFY `code` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
---/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
---/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
---/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
---
---
---
--- --------------------------------------------------------
 
 
 DROP TABLE IF EXISTS `Recipes`;
 CREATE TABLE `Recipes` (
-  `code` int(11) NULL AUTO_INCREMENT,
+  `code` int(11) NOT NULL,
   `name` text NOT NULL,
   `description` text NOT NULL,
    PRIMARY KEY (`code`)
@@ -180,20 +169,20 @@ CREATE TABLE `Recipes` (
 -- Dumping data for table `recipes`
 --
 
-INSERT INTO `Recipes` (`name`, `description`) VALUES
-('Refresh', 'Sharpen concentration, increase stamina, and revitalize your senses');
-INSERT INTO `Recipes` (`name`, `description`) VALUES
-('Cloud Nine', 'Lift your spirits');
-INSERT INTO `Recipes` (`name`, `description`) VALUES
-('Energy', 'Invigorate and refresh your mind and body');
-INSERT INTO `Recipes` (`name`, `description`) VALUES
-('Exhale', 'An exhilarating essential oil blend that renews and strengthens');
-INSERT INTO `Recipes` (`name`, `description`) VALUES
-('Citrus Dream', 'For promoting a sense of calmness and positivity');
-INSERT INTO `Recipes` (`name`, `description`) VALUES
-('Tranquility', 'For a deeper, more restful sleep');
-INSERT INTO `Recipes` (`name`, `description`) VALUES
-('Unwind', 'Melt away stress and ease tension with this uplifting blend');
+INSERT INTO `Recipes` (`code`, `name`, `description`) VALUES
+(0,'Refresh', 'Sharpen concentration, increase stamina, and revitalize your senses');
+INSERT INTO `Recipes` (`code`, `name`, `description`) VALUES
+(1,'Cloud Nine', 'Lift your spirits');
+INSERT INTO `Recipes` (`code`, `name`, `description`) VALUES
+(2,'Energy', 'Invigorate and refresh your mind and body');
+INSERT INTO `Recipes` (`code`, `name`, `description`) VALUES
+(3,'Exhale', 'An exhilarating essential oil blend that renews and strengthens');
+INSERT INTO `Recipes` (`code`, `name`, `description`) VALUES
+(4,'Citrus Dream', 'For promoting a sense of calmness and positivity');
+INSERT INTO `Recipes` (`code`, `name`, `description`) VALUES
+(5,'Tranquility', 'For a deeper, more restful sleep');
+INSERT INTO `Recipes` (`code`, `name`, `description`) VALUES
+(6,'Unwind', 'Melt away stress and ease tension with this uplifting blend');
 
 -- --------------------------------------------------------
 
@@ -236,16 +225,6 @@ INSERT INTO `Stock` (`name`, `description`, `price`) VALUES
 INSERT INTO `Stock` (`name`, `description`, `price`) VALUES
 ('Unwind', 'Melt away stress and ease tension with this uplifting blend',19.45);
 
---
--- AUTO_INCREMENT for table `stock`
---
---ALTER TABLE `Stock`
---  MODIFY `code` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
---/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
---/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
---/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
---
---
 
 --
 -- Table structure for table `Recipe_Supply`
@@ -372,17 +351,3 @@ INSERT INTO `Recipe_Supply` (`supplyCode`, `recipeCode`, `amount`) VALUES
 -- Geranium .5mL
 INSERT INTO `Recipe_Supply` (`supplyCode`, `recipeCode`, `amount`) VALUES
 (6, 6, .5);
-
--- 
-
---
--- AUTO_INCREMENT for table `recipes`
---
---ALTER TABLE `Recipe_Supply`
---  MODIFY `code` INT(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
---/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
---/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
---/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
---
---
---

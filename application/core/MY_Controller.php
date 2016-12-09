@@ -20,6 +20,7 @@ class Application extends CI_Controller
 	function __construct()
 	{
 		parent::__construct();
+                $this->load->library('session');
 
 		//  Set basic view parameters
 		$this->data = array ();
@@ -32,9 +33,26 @@ class Application extends CI_Controller
 	 */
 	function render($template = 'template')
 	{
-        $this->data['menubar'] = $this->parser->parse('_menubar', $this->config->item('menu_choices'),true);
-		$this->data['content'] = $this->parser->parse($this->data['pagebody'], $this->data, true);
-		$this->parser->parse('template', $this->data);
+            $this->data['navbar'] = $this->parser->parse('navbar', $this->config->item('menu_choices'),true);
+            if (!isset($this->data['content']))
+            {
+                $this->data['content'] = $this->parser->parse($this->data['pagebody'], $this->data, true);
+                
+            }
+            
+            // get the user role
+            $this->data['userrole'] = $this->session->userdata('userrole');
+            if ($this->data['userrole'] == NULL)
+            {
+                $this->session->set_userdata('userrole', 'guest');
+            }
+            
+            // integrate any needed CSS framework & components
+            $this->data['caboose_styles'] = $this->caboose->styles();
+            $this->data['caboose_scripts'] = $this->caboose->scripts();
+            $this->data['caboose_trailings'] = $this->caboose->trailings();
+            
+            $this->parser->parse($template, $this->data);
 	}
 
 }

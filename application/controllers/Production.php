@@ -18,6 +18,13 @@ class Production extends Application
         
 	public function index()
 	{
+            $userrole = $this->session->userdata('userrole');
+            if ($userrole != 'admin') {
+                $message = 'You are not authorized to access this page. Go away';
+                $this->data['content'] = $message;
+                $this->render();
+                return;
+            }
             $this->load->model('recipes');
             $this->data['pagebody'] = 'production';
             
