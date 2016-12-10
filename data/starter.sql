@@ -351,3 +351,20 @@ INSERT INTO `Recipe_Supply` (`supplyCode`, `recipeCode`, `amount`) VALUES
 -- Geranium .5mL
 INSERT INTO `Recipe_Supply` (`supplyCode`, `recipeCode`, `amount`) VALUES
 (6, 6, .5);
+
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `transaction`
+--
+
+DROP TABLE IF EXISTS `transaction`;
+CREATE TABLE `transaction` (
+  `code` int(2) NOT NULL AUTO_INCREMENT,
+  `receiving_transaction` text,
+  `production_transaction` text,
+  `sales_transaction` text,
+  PRIMARY KEY (`code`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+

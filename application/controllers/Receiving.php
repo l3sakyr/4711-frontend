@@ -118,15 +118,22 @@ class Receiving extends Application
 		
 		$transaction = "";
 		
+		/*
 		$file = fopen("log.txt","w");
 		fwrite($file,$log."<br/>");
 		fclose($file);
+		*/
 		
+		$this->supplies->transaction($log);
+		
+		/*
 		$myfile = fopen("log.txt", "r") or die("Unable to open file!");
 		$filedata = fread($myfile,filesize("log.txt"));
-		$logger[] = array ('transaction_msg' => $filedata);
+		*/
+		$logger[] = array ('transaction_msg' => $log);
 		$this->data['transaction'] = $logger;
-		fclose($myfile);
+		//fclose($myfile);
+		
 
 		$this->supplies->receiving_update_db();
 		$this->render();
