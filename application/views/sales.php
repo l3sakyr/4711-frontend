@@ -12,14 +12,14 @@
             {stock}
             <tr align="center">
                 <td><a href="/sales/item/{code}">{name}<a></td>
-                <td>{price}</td>
-                <td>{description}</td>
-                <td><input type="checkbox" name="cart" value="{code}"></td>
-                <td><input type="text" name="quantity" value="1" style="width:20px"></td>
-            </tr>
-            {/stock}
-        </table>
-        <br>
-        <a class="btn btn-default" role="button" href="/">Add</a>
-    </form>
-</div>
+                            <td>{price}</td>
+                            <td>{description}</td>
+                            <td><input type="checkbox" name="cart" value="{code}"></td>
+                            <td><input type="text" name="quantity" value="1" style="width:20px"></td>
+                            </tr>
+                            {/stock}
+                            </table>
+                            <br>
+                            <a class="btn btn-default" role="button" href="/">Add</a>
+                            </form>
+                            </div>

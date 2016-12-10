@@ -1,5 +1,5 @@
 <div class="row">
-	{supplies}
+    {supplies}
     <table border="1" cellpadding="5px">
         <tr>
             <td><p>Supply</p></td>
@@ -26,5 +26,5 @@
             <td><p>{quantity}</p></td>
         </tr>
     </table>
-	{/supplies}
+    {/supplies}
 </div>

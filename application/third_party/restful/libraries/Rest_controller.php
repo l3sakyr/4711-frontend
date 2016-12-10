@@ -217,7 +217,7 @@ abstract class Rest_controller extends CI_Controller {
 
         $this->rest = new StdClass();
         // Load DB if its enabled
-        if (config_item('rest_database_group') AND (config_item('rest_enable_keys') OR config_item('rest_enable_logging'))) {
+        if (config_item('rest_database_group') AND ( config_item('rest_enable_keys') OR config_item('rest_enable_logging'))) {
             $this->rest->db = $this->load->database(config_item('rest_database_group'), TRUE);
         }
 
@@ -249,7 +249,7 @@ abstract class Rest_controller extends CI_Controller {
      */
     public function _remap($object_called, $arguments) {
         // Should we answer if not over SSL?
-        if (config_item('force_https') AND !$this->_detect_ssl()) {
+        if (config_item('force_https') AND ! $this->_detect_ssl()) {
             $this->response(array('status' => false, 'error' => 'Unsupported protocol'), 403);
         }
 
@@ -281,9 +281,9 @@ abstract class Rest_controller extends CI_Controller {
         }
 
         // Doing key related stuff? Can only do it if they have a key right?
-        if (config_item('rest_enable_keys') AND !empty($this->rest->key)) {
+        if (config_item('rest_enable_keys') AND ! empty($this->rest->key)) {
             // Check the limit
-            if (config_item('rest_enable_limits') AND !$this->_check_limit($controller_method)) {
+            if (config_item('rest_enable_limits') AND ! $this->_check_limit($controller_method)) {
                 $this->response(array('status' => false, 'error' => 'This API key has reached the hourly limit for this method.'), 401);
             }
 
@@ -440,7 +440,7 @@ abstract class Rest_controller extends CI_Controller {
         }
 
         // Check if a file extension is used
-        elseif ($this->_get_args AND !is_array(end($this->_get_args)) AND preg_match($pattern, end($this->_get_args), $matches)) {
+        elseif ($this->_get_args AND ! is_array(end($this->_get_args)) AND preg_match($pattern, end($this->_get_args), $matches)) {
             // The key of the last argument
             $last_key = end(array_keys($this->_get_args));
 
@@ -605,7 +605,7 @@ abstract class Rest_controller extends CI_Controller {
                     'ip_address' => $this->input->ip_address(),
                     'time' => function_exists('now') ? now() : time(),
                     'authorized' => $authorized
-                ));
+        ));
     }
 
     /**
@@ -618,7 +618,7 @@ abstract class Rest_controller extends CI_Controller {
      */
     protected function _check_limit($controller_method) {
         // They are special, or it might not even have a limit
-        if (!empty($this->rest->ignore_limits) OR !isset($this->methods[$controller_method]['limit'])) {
+        if (!empty($this->rest->ignore_limits) OR ! isset($this->methods[$controller_method]['limit'])) {
             // On your way sonny-jim.
             return TRUE;
         }
@@ -931,7 +931,7 @@ abstract class Rest_controller extends CI_Controller {
         preg_match_all('@(username|nonce|uri|nc|cnonce|qop|response)=[\'"]?([^\'",]+)@', $digest_string, $matches);
         $digest = array_combine($matches[1], $matches[2]);
 
-        if (!array_key_exists('username', $digest) OR !$this->_check_login($digest['username'])) {
+        if (!array_key_exists('username', $digest) OR ! $this->_check_login($digest['username'])) {
             $this->_force_login($uniqid);
         }
 
@@ -990,7 +990,7 @@ abstract class Rest_controller extends CI_Controller {
      */
     protected function _force_loopable($data) {
         // Force it to be something useful
-        if (!is_array($data) AND !is_object($data)) {
+        if (!is_array($data) AND ! is_object($data)) {
             $data = (array) $data;
         }
 
