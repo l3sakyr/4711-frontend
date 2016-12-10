@@ -3,11 +3,4 @@
     {transaction}
     <p>{transaction_msg}</p>
     {/transaction}
-    <!--
-{supplies}
-<div class="span3x">
-    <p><p></br>
-</div>
-{/supplies}
-    -->
 </div>

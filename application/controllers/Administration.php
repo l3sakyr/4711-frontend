@@ -46,10 +46,13 @@ class Administration extends Application {
         $source = $this->supplies->all();
         $supplies = array();
         foreach ($source as $record) {
-            $supplies[] = array('code' => $record['code'], 'name' => $record['name'],
-                'description' => $record['description'], 'receiving_unit' => $record['receiving_unit'],
-                'receiving_cost' => $record['receiving_cost'], 'stocking_unit' => $record['stocking_unit'],
-                'quantity' => $record['quantity']);
+            $supplies[] = array('code'           => $record['code'], 
+                                'name'           => $record['name'],
+                                'description'    => $record['description'], 
+                                'receiving_unit' => $record['receiving_unit'],
+                                'receiving_cost' => $record['receiving_cost'], 
+                                'stocking_unit'  => $record['stocking_unit'],
+                                'quantity'       => $record['quantity']);
         }
         $this->data['supplies'] = $supplies;
 
@@ -74,8 +77,10 @@ class Administration extends Application {
         $source = $this->recipes->all();
         $supplies = array();
         foreach ($source as $record) {
-            $recipes[] = array('code' => $record['code'], 'name' => $record['name'],
-                'description' => $record['description'], 'ingredients' => $record['ingredients']);
+            $recipes[] = array('code'        => $record['code'],
+                               'name'        => $record['name'],
+                               'description' => $record['description'],
+                               'ingredients' => $record['ingredients']);
         }
         $this->data['recipes'] = $recipes;
 
@@ -91,7 +96,8 @@ class Administration extends Application {
 
         foreach ($source['ingredients'] as $ingredient) {
             $stock = $this->supplies->getSupplyWithName($ingredient['ingredName']);
-        } $ingredients[] = array('ingredName' => $ingredient['ingredName'], 'amount' => $ingredient['amount']);
+        } $ingredients[] = array('ingredName' => $ingredient['ingredName'], 
+                                 'amount'     => $ingredient['amount']);
 
         $this->data['ingredientList'] = $ingredients;
         $this->data['itemName'] = $source['name'];
@@ -108,8 +114,11 @@ class Administration extends Application {
         $source = $this->stock->all();
         $supplies = array();
         foreach ($source as $record) {
-            $stock[] = array('code' => $record['code'], 'name' => $record['name'],
-                'description' => $record['description'], 'price' => $record['price'], 'quantity' => $record['quantity']);
+            $stock[] = array('code'        => $record['code'],
+                             'name'        => $record['name'],
+                             'description' => $record['description'], 
+                             'price'       => $record['price'], 
+                             'quantity'    => $record['quantity']);
         }
         $this->data['stock'] = $stock;
 

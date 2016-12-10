@@ -8,8 +8,8 @@
         {stock}
         <tr align="center">
             <td><a href="/administration/editstock/{code}">{name}<a></td>
-                        <td>{description}</td>
-                        </tr>
-                        {/stock}
-                        </table>
-                        </div>
+            <td>{description}</td>
+        </tr>
+       {/stock}
+    </table>
+</div>

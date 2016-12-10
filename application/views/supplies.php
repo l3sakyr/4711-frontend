@@ -8,9 +8,9 @@
         {supplies}
         <tr align="center">
             <td><a href="/administration/editsupply/{code}">{name}<a></td>
-                        <td>{description}</td>
-                        </tr>
-                        {/supplies}
-                        </table>
-                        </br>
-                        </div>
+                <td>{description}</td>
+        </tr>
+        {/supplies}
+    </table>
+    </br>
+</div>
