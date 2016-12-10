@@ -9,50 +9,50 @@
 class Stock extends CI_Model {
 
     //Initialize the array of stock
-    var $data = array(
-        array(
-            'code' => '0',
-            'name' => 'Refresh',
-            'description' => 'Sharpen concentration, increase stamina, and revitalize your senses',
-            'quantity' => '4',
-            'price' => '$14.95'),
-        array(
-            'code' => '1',
-            'name' => 'Cloud Nine',
-            'description' => 'Lift your spirits',
-            'quantity' => '7',
-            'price' => '$16.45'),
-        array(
-            'code' => '2',
-            'name' => 'Energy',
-            'description' => 'Invigorate and refresh your mind and body',
-            'quantity' => '5',
-            'price' => '$18.45'),
-        array(
-            'code' => '3',
-            'name' => 'Exhale',
-            'description' => 'An exhilarating essential oil blend that renews and strengthens',
-            'quantity' => '4',
-            'price' => '$12.95'),
-        array(
-            'code' => '4',
-            'name' => 'Citrus Dream',
-            'description' => 'For promoting a sense of calmness and positivity',
-            'quantity' => '9',
-            'price' => '$16.95'),
-        array(
-            'code' => '5',
-            'name' => 'Tranquility',
-            'description' => 'For a deeper, more restful sleep',
-            'quantity' => '5',
-            'price' => '$12.45'),
-        array(
-            'code' => '6',
-            'name' => 'Unwind',
-            'description' => 'Melt away stress and ease tension with this uplifting blend',
-            'quantity' => '7',
-            'price' => '$19.45')
-    );
+//    var $data = array(
+//        array(
+//            'code' => '0',
+//            'name' => 'Refresh',
+//            'description' => 'Sharpen concentration, increase stamina, and revitalize your senses',
+//            'quantity' => '4',
+//            'price' => '$14.95'),
+//        array(
+//            'code' => '1',
+//            'name' => 'Cloud Nine',
+//            'description' => 'Lift your spirits',
+//            'quantity' => '7',
+//            'price' => '$16.45'),
+//        array(
+//            'code' => '2',
+//            'name' => 'Energy',
+//            'description' => 'Invigorate and refresh your mind and body',
+//            'quantity' => '5',
+//            'price' => '$18.45'),
+//        array(
+//            'code' => '3',
+//            'name' => 'Exhale',
+//            'description' => 'An exhilarating essential oil blend that renews and strengthens',
+//            'quantity' => '4',
+//            'price' => '$12.95'),
+//        array(
+//            'code' => '4',
+//            'name' => 'Citrus Dream',
+//            'description' => 'For promoting a sense of calmness and positivity',
+//            'quantity' => '9',
+//            'price' => '$16.95'),
+//        array(
+//            'code' => '5',
+//            'name' => 'Tranquility',
+//            'description' => 'For a deeper, more restful sleep',
+//            'quantity' => '5',
+//            'price' => '$12.45'),
+//        array(
+//            'code' => '6',
+//            'name' => 'Unwind',
+//            'description' => 'Melt away stress and ease tension with this uplifting blend',
+//            'quantity' => '7',
+//            'price' => '$19.45')
+//    );
 
     /**
      * Constructor

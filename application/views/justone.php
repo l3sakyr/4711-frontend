@@ -1,4 +1,5 @@
 <div class="row">
+    {stock}
     <table border="1" cellpadding="5px">
         <tr>
             <td><p>Product</p></td>
@@ -17,4 +18,5 @@
             <td><p>{price}</p></td>
         </tr>
     </table>
+    {/stock}
 </div>
