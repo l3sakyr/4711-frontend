@@ -39,12 +39,21 @@ class Sales extends Application {
 
         $this->render();
     }
-
+    
     public function gimme($id) {
         $this->data['pagebody'] = 'justone';
         $source = $this->stock->get($id);
-        $this->data = array_merge($this->data, $source);
+
+        $stock = array();
+        foreach ($source as $record) {
+            $stock[] = array('code' => $record['code'],
+                'name' => $record['name'],
+                'description' => $record['description'],
+                'price' => $record['price'],
+                'quantity' => $record['quantity']);
+        }
+        $this->data['stock'] = $stock;
+
         $this->render();
     }
-
 }

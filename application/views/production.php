@@ -11,10 +11,10 @@
 
             <tr align="center">
                 <td><a href="/production/ingredients/{code}">{name}<a></td>
-                    <td><input type="text" name="production_quantity/{code}" style="width:20px"></td>
-                    <td><input type="submit" name="id" value="{code}"></td>
-            </tr>
-            {/recipes}
-        </table>
-    </form>
-</div>
+                            <td><input type="text" name="production_quantity/{code}" style="width:20px"></td>
+                            <td><input type="submit" name="id" value="{code}"></td>
+                            </tr>
+                            {/recipes}
+                            </table>
+                            </form>
+                            </div>

@@ -289,3 +289,55 @@ ERROR - 2016-12-10 04:48:10 --> 404 Page Not Found: Assets/css
 ERROR - 2016-12-10 04:54:02 --> 404 Page Not Found: Assets/css
 ERROR - 2016-12-10 04:54:04 --> 404 Page Not Found: Assets/css
 ERROR - 2016-12-10 04:56:43 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 18:15:20 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 18:15:26 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 18:15:34 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 18:15:38 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 18:15:40 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 18:15:43 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 18:16:30 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 18:16:48 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 18:16:51 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 18:16:55 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 18:17:05 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 18:18:26 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 18:18:50 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 18:18:55 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 18:19:29 --> Severity: Warning --> array_merge(): Argument #2 is not an array C:\xampp\htdocs\4711-frontend\application\controllers\Sales.php 46
+ERROR - 2016-12-10 18:19:29 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\4711-frontend\system\libraries\Parser.php 140
+ERROR - 2016-12-10 18:19:29 --> Severity: Notice --> Undefined index: pagebody C:\xampp\htdocs\4711-frontend\application\core\MY_Controller.php 38
+ERROR - 2016-12-10 18:23:50 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 18:23:53 --> Severity: Warning --> array_merge(): Argument #2 is not an array C:\xampp\htdocs\4711-frontend\application\controllers\Sales.php 46
+ERROR - 2016-12-10 18:23:53 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\4711-frontend\system\libraries\Parser.php 140
+ERROR - 2016-12-10 18:23:54 --> Severity: Notice --> Undefined index: pagebody C:\xampp\htdocs\4711-frontend\application\core\MY_Controller.php 38
+ERROR - 2016-12-10 18:24:33 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 18:24:58 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 18:25:02 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 18:28:02 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 18:29:21 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 18:29:23 --> Severity: Warning --> array_merge(): Argument #2 is not an array C:\xampp\htdocs\4711-frontend\application\controllers\Sales.php 46
+ERROR - 2016-12-10 18:29:23 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\4711-frontend\system\libraries\Parser.php 140
+ERROR - 2016-12-10 18:29:23 --> Severity: Notice --> Undefined index: pagebody C:\xampp\htdocs\4711-frontend\application\core\MY_Controller.php 38
+ERROR - 2016-12-10 18:34:18 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 18:34:20 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 18:34:29 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 18:37:02 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 18:37:05 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 18:37:07 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 18:37:08 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 18:38:18 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 18:40:06 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 18:40:08 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 62
+ERROR - 2016-12-10 18:40:08 --> Severity: Warning --> array_merge(): Argument #3 is not an array C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 69
+ERROR - 2016-12-10 18:40:08 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\4711-frontend\system\libraries\Parser.php 140
+ERROR - 2016-12-10 18:40:08 --> Severity: Notice --> Undefined index: pagebody C:\xampp\htdocs\4711-frontend\application\core\MY_Controller.php 38
+ERROR - 2016-12-10 18:40:08 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\4711-frontend\system\core\Exceptions.php:246) C:\xampp\htdocs\4711-frontend\system\core\Common.php 518
+ERROR - 2016-12-10 18:43:06 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 62
+ERROR - 2016-12-10 18:43:06 --> Severity: Warning --> array_merge(): Argument #3 is not an array C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 69
+ERROR - 2016-12-10 18:43:06 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\4711-frontend\system\libraries\Parser.php 140
+ERROR - 2016-12-10 18:43:06 --> Severity: Notice --> Undefined index: pagebody C:\xampp\htdocs\4711-frontend\application\core\MY_Controller.php 38
+ERROR - 2016-12-10 18:43:06 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\4711-frontend\system\core\Exceptions.php:246) C:\xampp\htdocs\4711-frontend\system\core\Common.php 518
+ERROR - 2016-12-10 18:47:13 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 18:47:17 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 18:47:19 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 18:47:22 --> 404 Page Not Found: Assets/css

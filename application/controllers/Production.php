@@ -31,9 +31,9 @@ class Production extends Application {
         $recipes = array();
         //$recipIngre = array ();
         foreach ($source as $record) {
-            $recipes[] = array( 'code'        => $record['code'],
-                                'name'        => $record['name'],
-                                'description' => $record['description']
+            $recipes[] = array('code' => $record['code'],
+                'name' => $record['name'],
+                'description' => $record['description']
             );
         }
 
