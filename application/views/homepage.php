@@ -3,5 +3,5 @@
     <p>Spent purchasing inventory: ${totalCost}</p>
     <p>Received from sales: ${totalInc}</p>
     <p>Number of Products: {productCount}</p>
-    <p>Number of Ingredients: {recipyCount}</p>
+    <p>Number of Ingredients: {recipeCount}</p>
 </div>

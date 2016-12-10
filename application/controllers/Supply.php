@@ -7,38 +7,35 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  *
  * @author Thach
  */
-class Supply extends Application
-{
-        /**
-         * Default Constructor
-         */
-	function __construct()
-	{
-		parent::__construct();
-	}
+class Supply extends Application {
 
-	/**
-	 * loads information of each supply
-	 */
-	public function index()
-	{
-            $this->load->model('supplies');
-            $this->data['pagebody'] = 'supply';
+    /**
+     * Default Constructor
+     */
+    function __construct() {
+        parent::__construct();
+    }
 
-            // gets a single supply
-			// hardcode 0 for testing
-            $source = $this->supplies->get('0');
-            $supplies = array ();
-            foreach ($source as $record)
-            {
-                    $supplies[] = array ('code' => $record['code'], 'name' => $record['name'],
-					'description' => $record['description'], 'receiving_unit' => $record['receiving_unit'],
-					'receiving_cost' => $record['receiving_cost'], 'stocking_unit' => $record['stocking_unit'],
-					'quantity' => $record['quantity']);
-            }
-            $this->data['supplies'] = $supplies;
+    /**
+     * loads information of each supply
+     */
+    public function index() {
+        $this->load->model('supplies');
+        $this->data['pagebody'] = 'supply';
 
-            $this->render();
-            
-	}
+        // gets a single supply
+        // hardcode 0 for testing
+        $source = $this->supplies->get('0');
+        $supplies = array();
+        foreach ($source as $record) {
+            $supplies[] = array('code' => $record['code'], 'name' => $record['name'],
+                'description' => $record['description'], 'receiving_unit' => $record['receiving_unit'],
+                'receiving_cost' => $record['receiving_cost'], 'stocking_unit' => $record['stocking_unit'],
+                'quantity' => $record['quantity']);
+        }
+        $this->data['supplies'] = $supplies;
+
+        $this->render();
+    }
+
 }

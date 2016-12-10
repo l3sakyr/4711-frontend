@@ -89,3 +89,203 @@ ERROR - 2016-12-10 01:22:58 --> 404 Page Not Found: Assets/css
 ERROR - 2016-12-10 01:23:00 --> 404 Page Not Found: Assets/css
 ERROR - 2016-12-10 01:23:01 --> 404 Page Not Found: Assets/css
 ERROR - 2016-12-10 01:23:06 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 02:18:22 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 02:18:26 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 02:18:29 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 03:14:04 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 03:14:07 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 03:14:10 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 03:38:38 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 03:38:39 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 03:38:41 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 03:38:50 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 03:38:52 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 03:38:54 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 03:38:55 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 03:38:58 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 03:39:01 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 03:39:03 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 03:39:09 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 03:39:15 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 03:39:17 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 03:39:41 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 03:39:45 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 03:39:48 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 03:44:01 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 03:44:33 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 03:45:07 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 03:47:15 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 03:48:54 --> Severity: Notice --> Undefined variable: recipeCount C:\xampp\htdocs\4711-frontend\application\controllers\Homepage.php 96
+ERROR - 2016-12-10 03:48:54 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 03:49:04 --> Severity: Notice --> Undefined variable: recipyCount C:\xampp\htdocs\4711-frontend\application\controllers\Homepage.php 94
+ERROR - 2016-12-10 03:49:04 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 03:49:15 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 03:49:30 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 03:50:01 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 03:50:44 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 03:50:53 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 03:50:56 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 03:51:04 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 03:51:08 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 03:54:48 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 03:54:50 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:54:50 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:54:50 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:54:50 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:54:50 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:54:50 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:54:50 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:54:50 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:54:50 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:54:50 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:54:51 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:54:51 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:54:51 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:54:51 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:54:51 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:54:51 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:54:51 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:54:51 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:54:51 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:54:51 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:54:51 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:54:51 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:54:51 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:54:51 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:54:51 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:54:51 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:54:51 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:54:51 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:54:51 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:54:51 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:54:51 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:54:51 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:54:51 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:54:51 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:54:51 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:54:51 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:54:51 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:54:51 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:54:51 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 03:54:55 --> Severity: Warning --> array_merge(): Argument #2 is not an array C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 68
+ERROR - 2016-12-10 03:54:55 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\4711-frontend\system\libraries\Parser.php 144
+ERROR - 2016-12-10 03:54:55 --> Severity: Notice --> Undefined index: pagebody C:\xampp\htdocs\4711-frontend\application\core\MY_Controller.php 42
+ERROR - 2016-12-10 03:54:59 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:54:59 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:54:59 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:54:59 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:54:59 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:54:59 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:54:59 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:54:59 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:54:59 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:54:59 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:54:59 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:54:59 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:54:59 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:54:59 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:54:59 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:54:59 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:54:59 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:54:59 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:54:59 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:54:59 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:54:59 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:55:00 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:55:00 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:55:00 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:55:00 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:55:00 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:55:00 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:55:00 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:55:00 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:55:00 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:55:00 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:55:00 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:55:00 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:55:00 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:55:00 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:55:00 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:55:00 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:55:00 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:56:24 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 03:56:26 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 03:56:31 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 03:56:33 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:56:33 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:56:33 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:56:33 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:56:33 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:56:33 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:56:33 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:56:33 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:56:33 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:56:33 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:56:33 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:56:33 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:56:33 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:56:33 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:56:33 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:56:33 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:56:33 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:56:33 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:56:33 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:56:33 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:56:33 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:56:33 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:56:33 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:56:33 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:56:33 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:56:33 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:56:33 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:56:33 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:56:33 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:56:33 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:56:33 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:56:33 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:56:33 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:56:33 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:56:33 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:56:33 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:56:33 --> Severity: Notice --> Undefined index: receiving_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 53
+ERROR - 2016-12-10 03:56:33 --> Severity: Notice --> Undefined index: stocking_unit C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 54
+ERROR - 2016-12-10 03:56:33 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 04:18:31 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 04:18:35 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 04:19:42 --> Severity: Notice --> Undefined property: Production::$table C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 61
+ERROR - 2016-12-10 04:19:42 --> Severity: Error --> Call to a member function set_template() on null C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 61
+ERROR - 2016-12-10 04:20:36 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 04:24:22 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 04:24:25 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 04:24:26 --> Severity: Warning --> array_merge(): Argument #3 is not an array C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 74
+ERROR - 2016-12-10 04:24:26 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\4711-frontend\system\libraries\Parser.php 144
+ERROR - 2016-12-10 04:24:26 --> Severity: Notice --> Undefined index: pagebody C:\xampp\htdocs\4711-frontend\application\core\MY_Controller.php 42
+ERROR - 2016-12-10 04:24:42 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 04:24:44 --> Severity: Warning --> array_merge(): Argument #3 is not an array C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 74
+ERROR - 2016-12-10 04:24:44 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\4711-frontend\system\libraries\Parser.php 144
+ERROR - 2016-12-10 04:24:44 --> Severity: Notice --> Undefined index: pagebody C:\xampp\htdocs\4711-frontend\application\core\MY_Controller.php 42
+ERROR - 2016-12-10 04:25:12 --> Severity: Warning --> array_merge(): Argument #3 is not an array C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 74
+ERROR - 2016-12-10 04:25:12 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\4711-frontend\system\libraries\Parser.php 144
+ERROR - 2016-12-10 04:25:12 --> Severity: Notice --> Undefined index: pagebody C:\xampp\htdocs\4711-frontend\application\core\MY_Controller.php 42
+ERROR - 2016-12-10 04:43:17 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 04:43:20 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 04:43:23 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 67
+ERROR - 2016-12-10 04:43:23 --> Severity: Warning --> array_merge(): Argument #3 is not an array C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 74
+ERROR - 2016-12-10 04:43:23 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\4711-frontend\system\libraries\Parser.php 144
+ERROR - 2016-12-10 04:43:23 --> Severity: Notice --> Undefined index: pagebody C:\xampp\htdocs\4711-frontend\application\core\MY_Controller.php 42
+ERROR - 2016-12-10 04:47:43 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 67
+ERROR - 2016-12-10 04:47:43 --> Severity: Warning --> array_merge(): Argument #3 is not an array C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 74
+ERROR - 2016-12-10 04:47:43 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\4711-frontend\system\libraries\Parser.php 144
+ERROR - 2016-12-10 04:47:43 --> Severity: Notice --> Undefined index: pagebody C:\xampp\htdocs\4711-frontend\application\core\MY_Controller.php 42
+ERROR - 2016-12-10 04:47:47 --> 404 Page Not Found: Production/ingredients
+ERROR - 2016-12-10 04:47:52 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 04:47:53 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 67
+ERROR - 2016-12-10 04:47:53 --> Severity: Warning --> array_merge(): Argument #3 is not an array C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 74
+ERROR - 2016-12-10 04:47:53 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\4711-frontend\system\libraries\Parser.php 144
+ERROR - 2016-12-10 04:47:53 --> Severity: Notice --> Undefined index: pagebody C:\xampp\htdocs\4711-frontend\application\core\MY_Controller.php 42
+ERROR - 2016-12-10 04:48:01 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 04:48:04 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 04:48:10 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 04:54:02 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 04:54:04 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-10 04:56:43 --> 404 Page Not Found: Assets/css

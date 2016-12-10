@@ -8,8 +8,8 @@
         {recipes}
         <tr align="center">
             <td><a href="/administration/editrecipe/{code}">{name}<a></td>
-            <td>{description}</td>
-        </tr>
-        {/recipes}
-    </table>
-</div>
+                        <td>{description}</td>
+                        </tr>
+                        {/recipes}
+                        </table>
+                        </div>
