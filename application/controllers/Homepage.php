@@ -53,8 +53,8 @@ class Homepage extends Application {
         //Calculates
         foreach ($source as $record) {
             $rUniut = intval(preg_replace('/[^0-9]+/', '', $record['receiving_amount']), 10);
-            $rCost = intval(preg_replace('/[^0-9]+/', '', $record['receiving_cost']), 10);
-            $inv = intval(preg_replace('/[^0-9]+/', '', $record['quantity']), 10);
+            $rCost  = intval(preg_replace('/[^0-9]+/', '', $record['receiving_cost']),   10);
+            $inv    = intval(preg_replace('/[^0-9]+/', '', $record['quantity']),         10);
             $totalCost += (($inv / $rUniut) * $rCost) / 100;
         }
         //Makes a data field
@@ -74,7 +74,7 @@ class Homepage extends Application {
 
         //Calculates
         foreach ($source as $record) {
-            $stock = intval(preg_replace('/[^0-9]+/', '', $record['quantity']), 10);
+            $stock = intval  (preg_replace('/[^0-9]+/',  '', $record['quantity']), 10);
             $price = floatval(preg_replace('/[^0-9.+]/', '', $record['price']));
             $totalInc += ($stock * $price);
         }
