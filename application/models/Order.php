@@ -65,13 +65,17 @@ class Order extends CI_Model {
     public function validate(){
         foreach($this->items as $key => $value){
             $quantity = $this->stock->getQuantity($key);
-            if($quantity > $value){
-                
+            if($quantity - $value <= 0){
+                return false;
             }
         }
+        return true;
     }
 
     public function save() {
+        if(!$this->validate()){
+            return;
+        }
         // figure out the order to use
         while ($this->number == 0) {
             // pick random 3 digit #
