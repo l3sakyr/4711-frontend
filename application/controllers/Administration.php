@@ -63,7 +63,18 @@ class Administration extends Application {
 
         // get the supply
         $source = $this->supplies->get($code);
-        $this->data = array_merge($this->data, $source);
+        
+        foreach ($source as $record) {
+            $supplies[] = array(
+                'code'             => $record['code'],
+                'name'             => $record['name'],
+                'description'      => $record['description'], 
+                'receiving_amount' => $record['receiving_amount'],
+                'receiving_cost'   => $record['receiving_cost'],
+                'measuring_units'  => $record['measuring_units'],
+                'quantity'         => $record['quantity']);
+        }
+        $this->data['supplies'] = $supplies;
         $this->render();
     }
 
@@ -93,15 +104,18 @@ class Administration extends Application {
         // get the recipe
         $source = $this->recipes->get($code);
 
-        foreach ($source['ingredients'] as $ingredient) {
-            $stock = $this->supplies->getSupplyWithName($ingredient['ingredName']);
-        } $ingredients[] = array('ingredName' => $ingredient['ingredName'],
-            'amount' => $ingredient['amount']);
-
-        $this->data['ingredientList'] = $ingredients;
-        $this->data['itemName'] = $source['name'];
-
-        $this->data = array_merge($this->data, $source);
+        foreach ($source as $record) {
+            $recipes[] = array(
+                'code'             => $record['code'],
+                'name'             => $record['name'],
+                'description'      => $record['description']
+                //, 
+                //'ingredients'      => $record['ingredients'],
+                //'quantity'         => $record['quantity']
+                );
+        }
+        
+        $this->data['recipes'] = $recipes;
         $this->render();
     }
 
@@ -133,7 +147,18 @@ class Administration extends Application {
 
         // gets a list of supplies
         $source = $this->stock->get($code);
-        $this->data = array_merge($this->data, $source);
+        
+        foreach ($source as $record) {
+            $stock[] = array(
+                'code'             => $record['code'],
+                'name'             => $record['name'],
+                'description'      => $record['description'],
+                'quantity'         => $record['quantity'],
+                'price'            => $record['price']
+                );
+        }
+        
+        $this->data['stock'] = $stock;
         $this->render();
     }
 
