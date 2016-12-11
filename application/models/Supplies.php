@@ -164,6 +164,7 @@ class Supplies extends CI_Model {
         return $result;
     }
 
+	// records the transaction into the transaction table
     public function transaction($log) {
         //SQL
         $servername = "localhost";
