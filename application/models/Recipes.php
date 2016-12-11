@@ -8,7 +8,6 @@
  */
 
 class Recipes extends CI_Model {
-
     //Initialize the array of recipes
 //    var $data = array(
 //        array(

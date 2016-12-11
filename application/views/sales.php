@@ -7,19 +7,18 @@
                 <th>Price</th>
                 <th>Description</th>
                 <th>Add to cart</th>
-                <th>Quantity</th>
             </tr>
             {stock}
             <tr align="center">
                 <td><a href="/sales/item/{code}">{name}<a></td>
-                <td>{price}</td>
-                <td>{description}</td>
-                <td><input type="checkbox" name="cart" value="{code}"></td>
-                <td><input type="text" name="quantity" value="1" style="width:20px"></td>
-            </tr>
-            {/stock}
-        </table>
-        <br>
-        <a class="btn btn-default" role="button" href="/">Add</a>
-    </form>
-</div>
+                            <td>{price}</td>
+                            <td>{description}</td>
+                            <td><a class="btn btn-default" role="button" value="{code}" href="/sales/add/{code}">Add</a></td>
+                            </tr>
+                            {/stock}
+                            </table>
+                            <br>
+                            <a class="btn btn-default" href="/sales/checkout">Checkout</a>
+                            <a class="btn btn-default" href="/sales/cancel">Cancel</a>
+                            </form>
+                            </div>

@@ -24,7 +24,12 @@ class Sales extends Application {
         $this->load->model('stock');
         $this->data['pagebody'] = 'sales';
 
-        // build the list of authors, to pass on to our view
+        if ($this->session->has_userdata('order')) {
+            
+        } else {
+            $this->neworder();
+        }
+        
         $source = $this->stock->all();
         $stock = array();
         foreach ($source as $record) {
@@ -39,7 +44,29 @@ class Sales extends Application {
 
         $this->render();
     }
-    
+
+    public function summarize() {
+        // identify all of the order files
+        $this->load->helper('directory');
+        $candidates = directory_map('../data/');
+        $parms = array();
+        foreach ($candidates as $filename) {
+            if (substr($filename, 0, 5) == 'order') {
+                // restore that order object
+                $order = new Order('../data/' . $filename);
+                // setup view parameters
+                $parms[] = array(
+                    'number' => $order->number,
+                    'datetime' => $order->datetime,
+                    'total' => $order->total()
+                );
+            }
+        }
+        $this->data['orders'] = $parms;
+        $this->data['pagebody'] = 'summary';
+        $this->render('template');  // use the default template
+    }
+
     public function gimme($id) {
         $this->data['pagebody'] = 'justone';
         $source = $this->stock->get($id);
@@ -56,4 +83,39 @@ class Sales extends Application {
 
         $this->render();
     }
+    
+    public function neworder() {
+        // create a new order if needed
+        if (!$this->session->has_userdata('order')) {
+            $order = new Order();
+            $this->session->set_userdata('order', (array) $order);
+            echo('order num' . $order->number);
+        }
+    }
+
+    // method to be called when button is clicked to add item
+    public function add($what) {
+        $order = new Order($this->session->userdata('order'));
+        $order->additem($what);
+        $this->session->set_userdata('order', (array) $order);
+        redirect('/sales');
+    }
+    
+    public function cancel() {
+        // Drop any order in progress
+        if ($this->session->has_userdata('order')) {
+            $this->session->unset_userdata('order');
+        }
+
+        $this->index();
+    }
+
+    public function checkout() {
+        $order = new Order($this->session->userdata('order'));
+
+        $order->save();
+        $this->session->unset_userdata('order');
+        redirect('/sales');
+    }
+
 }
