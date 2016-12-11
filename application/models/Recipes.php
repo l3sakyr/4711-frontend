@@ -261,6 +261,25 @@ class Recipes extends CI_Model {
         //SQL//
         return $result;
     }
+    
+    public function update($array){
+        $servername = "localhost";
+        $username = "root";
+        $password = "";
+        $dbname = "a2Database";
+
+        // Create connection
+        $conn = new mysqli($servername, $username, $password, $dbname);
+        // Check connection
+        if ($conn->connect_error) {
+            die("Connection failed: " . $conn->connect_error);
+        }
+        
+        // Template for adding product
+        $sql = "UPDATE Recipes SET name = ". $array['name'] ." , description = ". $array['description'] . " WHERE code <=> " . $array['code'] . ";";
+        $result = $conn->query($sql);
+        $conn->close();
+    }
 
     function rules() {
         $config = [

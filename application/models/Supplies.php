@@ -249,6 +249,25 @@ class Supplies extends CI_Model {
         $conn->close();
         //SQL//
     }
+    
+    public function update($array){
+        $servername = "localhost";
+        $username = "root";
+        $password = "";
+        $dbname = "a2Database";
+
+        // Create connection
+        $conn = new mysqli($servername, $username, $password, $dbname);
+        // Check connection
+        if ($conn->connect_error) {
+            die("Connection failed: " . $conn->connect_error);
+        }
+        
+        // Template for adding product
+        $sql = "UPDATE Supplies SET quantity = " . $array['quantity'] . ", name = ". $array['name'] ." , description = ". $array['description'] .", receiving_cost = ". $array['receiving_cost'] .", measuring_units = ". $array['measuring_units'] .", receiving_amount = ". $array['receiving_amount'] ." WHERE code <=> " . $array['code'] . ";";
+        $result = $conn->query($sql);
+        $conn->close();
+    }
 
     function rules() {
         $config = [
