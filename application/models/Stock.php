@@ -244,5 +244,24 @@ class Stock extends CI_Model {
         $conn->close();
         //SQL//
     }
+    
+    public function update($array){
+        $servername = "localhost";
+        $username = "root";
+        $password = "";
+        $dbname = "a2Database";
+
+        // Create connection
+        $conn = new mysqli($servername, $username, $password, $dbname);
+        // Check connection
+        if ($conn->connect_error) {
+            die("Connection failed: " . $conn->connect_error);
+        }
+        
+        // Template for adding product
+        $sql = "UPDATE Stock SET quantity = " . $array['quantity'] . ", name = ". $array['name'] ." , description = ". $array['description'] .", price = ". $array['price'] ." WHERE code <=> " . $array['code'] . ";";
+        $result = $conn->query($sql);
+        $conn->close();
+    }
 
 }

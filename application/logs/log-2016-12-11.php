@@ -490,3 +490,210 @@ ERROR - 2016-12-11 06:06:45 --> 404 Page Not Found: Assets/css
 ERROR - 2016-12-11 06:07:27 --> 404 Page Not Found: Assets/css
 ERROR - 2016-12-11 06:07:30 --> 404 Page Not Found: Assets/css
 ERROR - 2016-12-11 06:07:31 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 06:39:14 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 06:39:16 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 06:39:17 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 06:39:19 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 06:41:29 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 193
+ERROR - 2016-12-11 06:41:29 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 06:41:36 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 06:41:43 --> 404 Page Not Found: Administration/administration
+ERROR - 2016-12-11 06:41:46 --> 404 Page Not Found: Administration/administration
+ERROR - 2016-12-11 06:41:56 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 06:41:59 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 06:42:14 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 06:42:16 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 06:42:31 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 06:42:33 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 06:49:21 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 06:51:45 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 06:51:50 --> Severity: Notice --> Undefined index: quantity C:\xampp\htdocs\4711-frontend\application\models\Stock.php 262
+ERROR - 2016-12-11 06:51:50 --> Severity: Notice --> Undefined index: name C:\xampp\htdocs\4711-frontend\application\models\Stock.php 262
+ERROR - 2016-12-11 06:51:50 --> Severity: Notice --> Undefined index: description C:\xampp\htdocs\4711-frontend\application\models\Stock.php 262
+ERROR - 2016-12-11 06:51:50 --> Severity: Notice --> Undefined index: price C:\xampp\htdocs\4711-frontend\application\models\Stock.php 262
+ERROR - 2016-12-11 06:51:50 --> Severity: Notice --> Undefined index: code C:\xampp\htdocs\4711-frontend\application\models\Stock.php 262
+ERROR - 2016-12-11 06:51:50 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\4711-frontend\system\core\Exceptions.php:246) C:\xampp\htdocs\4711-frontend\system\helpers\url_helper.php 514
+ERROR - 2016-12-11 06:52:21 --> Severity: Notice --> Undefined index: quantity C:\xampp\htdocs\4711-frontend\application\models\Stock.php 262
+ERROR - 2016-12-11 06:52:21 --> Severity: Notice --> Undefined index: name C:\xampp\htdocs\4711-frontend\application\models\Stock.php 262
+ERROR - 2016-12-11 06:52:21 --> Severity: Notice --> Undefined index: description C:\xampp\htdocs\4711-frontend\application\models\Stock.php 262
+ERROR - 2016-12-11 06:52:21 --> Severity: Notice --> Undefined index: price C:\xampp\htdocs\4711-frontend\application\models\Stock.php 262
+ERROR - 2016-12-11 06:52:21 --> Severity: Notice --> Undefined index: code C:\xampp\htdocs\4711-frontend\application\models\Stock.php 262
+ERROR - 2016-12-11 06:52:21 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\4711-frontend\system\core\Exceptions.php:246) C:\xampp\htdocs\4711-frontend\system\helpers\url_helper.php 514
+ERROR - 2016-12-11 07:00:55 --> Severity: Notice --> Undefined index: quantity C:\xampp\htdocs\4711-frontend\application\models\Stock.php 262
+ERROR - 2016-12-11 07:00:55 --> Severity: Notice --> Undefined index: name C:\xampp\htdocs\4711-frontend\application\models\Stock.php 262
+ERROR - 2016-12-11 07:00:55 --> Severity: Notice --> Undefined index: description C:\xampp\htdocs\4711-frontend\application\models\Stock.php 262
+ERROR - 2016-12-11 07:00:55 --> Severity: Notice --> Undefined index: price C:\xampp\htdocs\4711-frontend\application\models\Stock.php 262
+ERROR - 2016-12-11 07:00:55 --> Severity: Notice --> Undefined index: code C:\xampp\htdocs\4711-frontend\application\models\Stock.php 262
+ERROR - 2016-12-11 07:00:55 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\4711-frontend\system\core\Exceptions.php:246) C:\xampp\htdocs\4711-frontend\system\helpers\url_helper.php 514
+ERROR - 2016-12-11 07:03:39 --> Severity: Notice --> Undefined index: quantity C:\xampp\htdocs\4711-frontend\application\models\Stock.php 262
+ERROR - 2016-12-11 07:03:39 --> Severity: Notice --> Undefined index: name C:\xampp\htdocs\4711-frontend\application\models\Stock.php 262
+ERROR - 2016-12-11 07:03:39 --> Severity: Notice --> Undefined index: description C:\xampp\htdocs\4711-frontend\application\models\Stock.php 262
+ERROR - 2016-12-11 07:03:39 --> Severity: Notice --> Undefined index: price C:\xampp\htdocs\4711-frontend\application\models\Stock.php 262
+ERROR - 2016-12-11 07:03:39 --> Severity: Notice --> Undefined index: code C:\xampp\htdocs\4711-frontend\application\models\Stock.php 262
+ERROR - 2016-12-11 07:03:39 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\4711-frontend\system\core\Exceptions.php:246) C:\xampp\htdocs\4711-frontend\system\helpers\url_helper.php 514
+ERROR - 2016-12-11 07:03:44 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:03:47 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:03:49 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:03:51 --> Severity: Notice --> Undefined index: quantity C:\xampp\htdocs\4711-frontend\application\models\Stock.php 262
+ERROR - 2016-12-11 07:03:51 --> Severity: Notice --> Undefined index: name C:\xampp\htdocs\4711-frontend\application\models\Stock.php 262
+ERROR - 2016-12-11 07:03:51 --> Severity: Notice --> Undefined index: description C:\xampp\htdocs\4711-frontend\application\models\Stock.php 262
+ERROR - 2016-12-11 07:03:51 --> Severity: Notice --> Undefined index: price C:\xampp\htdocs\4711-frontend\application\models\Stock.php 262
+ERROR - 2016-12-11 07:03:51 --> Severity: Notice --> Undefined index: code C:\xampp\htdocs\4711-frontend\application\models\Stock.php 262
+ERROR - 2016-12-11 07:03:51 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\4711-frontend\system\core\Exceptions.php:246) C:\xampp\htdocs\4711-frontend\system\helpers\url_helper.php 514
+ERROR - 2016-12-11 07:09:04 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:09:07 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:09:09 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:09:10 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:09:11 --> Severity: Notice --> Undefined index: code C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 212
+ERROR - 2016-12-11 07:09:11 --> Severity: Notice --> Undefined index: quantity C:\xampp\htdocs\4711-frontend\application\models\Stock.php 262
+ERROR - 2016-12-11 07:09:11 --> Severity: Notice --> Undefined index: name C:\xampp\htdocs\4711-frontend\application\models\Stock.php 262
+ERROR - 2016-12-11 07:09:11 --> Severity: Notice --> Undefined index: description C:\xampp\htdocs\4711-frontend\application\models\Stock.php 262
+ERROR - 2016-12-11 07:09:11 --> Severity: Notice --> Undefined index: price C:\xampp\htdocs\4711-frontend\application\models\Stock.php 262
+ERROR - 2016-12-11 07:09:11 --> Severity: Notice --> Undefined index: code C:\xampp\htdocs\4711-frontend\application\models\Stock.php 262
+ERROR - 2016-12-11 07:09:11 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\4711-frontend\system\core\Exceptions.php:246) C:\xampp\htdocs\4711-frontend\system\helpers\url_helper.php 514
+ERROR - 2016-12-11 07:11:05 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:11:07 --> 404 Page Not Found: Administration/administration
+ERROR - 2016-12-11 07:11:12 --> 404 Page Not Found: Administration/administration
+ERROR - 2016-12-11 07:11:21 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:11:24 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:11:26 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:11:27 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:11:28 --> Severity: Notice --> Undefined index: quantity C:\xampp\htdocs\4711-frontend\application\models\Stock.php 262
+ERROR - 2016-12-11 07:11:28 --> Severity: Notice --> Undefined index: name C:\xampp\htdocs\4711-frontend\application\models\Stock.php 262
+ERROR - 2016-12-11 07:11:28 --> Severity: Notice --> Undefined index: description C:\xampp\htdocs\4711-frontend\application\models\Stock.php 262
+ERROR - 2016-12-11 07:11:28 --> Severity: Notice --> Undefined index: price C:\xampp\htdocs\4711-frontend\application\models\Stock.php 262
+ERROR - 2016-12-11 07:11:28 --> Severity: Notice --> Undefined index: code C:\xampp\htdocs\4711-frontend\application\models\Stock.php 262
+ERROR - 2016-12-11 07:11:29 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\4711-frontend\system\core\Exceptions.php:246) C:\xampp\htdocs\4711-frontend\system\helpers\url_helper.php 514
+ERROR - 2016-12-11 07:15:25 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:15:27 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:15:28 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:15:29 --> Severity: Notice --> Undefined index: quantity C:\xampp\htdocs\4711-frontend\application\models\Stock.php 261
+ERROR - 2016-12-11 07:15:29 --> Severity: Notice --> Undefined index: price C:\xampp\htdocs\4711-frontend\application\models\Stock.php 262
+ERROR - 2016-12-11 07:15:29 --> Severity: Notice --> Undefined index: name C:\xampp\htdocs\4711-frontend\application\models\Stock.php 263
+ERROR - 2016-12-11 07:15:29 --> Severity: Notice --> Undefined index: description C:\xampp\htdocs\4711-frontend\application\models\Stock.php 264
+ERROR - 2016-12-11 07:15:29 --> Severity: Notice --> Undefined index: code C:\xampp\htdocs\4711-frontend\application\models\Stock.php 265
+ERROR - 2016-12-11 07:15:29 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\4711-frontend\system\core\Exceptions.php:246) C:\xampp\htdocs\4711-frontend\system\helpers\url_helper.php 514
+ERROR - 2016-12-11 07:18:29 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:18:30 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:18:50 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:19:09 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 125
+ERROR - 2016-12-11 07:19:09 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 144
+ERROR - 2016-12-11 07:19:09 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:19:27 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:19:30 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:19:32 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:19:35 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:19:37 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:19:50 --> Severity: Notice --> Undefined index: quantity C:\xampp\htdocs\4711-frontend\application\models\Stock.php 261
+ERROR - 2016-12-11 07:19:50 --> Severity: Notice --> Undefined index: price C:\xampp\htdocs\4711-frontend\application\models\Stock.php 262
+ERROR - 2016-12-11 07:19:50 --> Severity: Notice --> Undefined index: name C:\xampp\htdocs\4711-frontend\application\models\Stock.php 263
+ERROR - 2016-12-11 07:19:50 --> Severity: Notice --> Undefined index: description C:\xampp\htdocs\4711-frontend\application\models\Stock.php 264
+ERROR - 2016-12-11 07:19:50 --> Severity: Notice --> Undefined index: code C:\xampp\htdocs\4711-frontend\application\models\Stock.php 265
+ERROR - 2016-12-11 07:19:50 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\4711-frontend\system\core\Exceptions.php:246) C:\xampp\htdocs\4711-frontend\system\helpers\url_helper.php 514
+ERROR - 2016-12-11 07:21:50 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:21:52 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:21:53 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:22:02 --> Severity: Notice --> Undefined index: quantity C:\xampp\htdocs\4711-frontend\application\models\Stock.php 261
+ERROR - 2016-12-11 07:22:02 --> Severity: Notice --> Undefined index: price C:\xampp\htdocs\4711-frontend\application\models\Stock.php 262
+ERROR - 2016-12-11 07:22:02 --> Severity: Notice --> Undefined index: name C:\xampp\htdocs\4711-frontend\application\models\Stock.php 263
+ERROR - 2016-12-11 07:22:02 --> Severity: Notice --> Undefined index: description C:\xampp\htdocs\4711-frontend\application\models\Stock.php 264
+ERROR - 2016-12-11 07:22:02 --> Severity: Notice --> Undefined index: code C:\xampp\htdocs\4711-frontend\application\models\Stock.php 265
+ERROR - 2016-12-11 07:22:02 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\4711-frontend\system\core\Exceptions.php:246) C:\xampp\htdocs\4711-frontend\system\helpers\url_helper.php 514
+ERROR - 2016-12-11 07:24:54 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:24:56 --> Severity: Notice --> Undefined index: quantity C:\xampp\htdocs\4711-frontend\application\models\Stock.php 261
+ERROR - 2016-12-11 07:24:56 --> Severity: Notice --> Undefined index: price C:\xampp\htdocs\4711-frontend\application\models\Stock.php 262
+ERROR - 2016-12-11 07:24:56 --> Severity: Notice --> Undefined index: name C:\xampp\htdocs\4711-frontend\application\models\Stock.php 263
+ERROR - 2016-12-11 07:24:56 --> Severity: Notice --> Undefined index: description C:\xampp\htdocs\4711-frontend\application\models\Stock.php 264
+ERROR - 2016-12-11 07:24:56 --> Severity: Notice --> Undefined index: code C:\xampp\htdocs\4711-frontend\application\models\Stock.php 265
+ERROR - 2016-12-11 07:24:56 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\4711-frontend\system\core\Exceptions.php:246) C:\xampp\htdocs\4711-frontend\system\helpers\url_helper.php 514
+ERROR - 2016-12-11 07:26:48 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:26:49 --> Severity: Notice --> Undefined variable: quantity C:\xampp\htdocs\4711-frontend\application\models\Stock.php 279
+ERROR - 2016-12-11 07:26:49 --> Severity: Notice --> Undefined variable: name C:\xampp\htdocs\4711-frontend\application\models\Stock.php 279
+ERROR - 2016-12-11 07:26:49 --> Severity: Notice --> Undefined variable: description C:\xampp\htdocs\4711-frontend\application\models\Stock.php 279
+ERROR - 2016-12-11 07:26:49 --> Severity: Notice --> Undefined variable: price C:\xampp\htdocs\4711-frontend\application\models\Stock.php 279
+ERROR - 2016-12-11 07:26:49 --> Severity: Notice --> Undefined variable: code C:\xampp\htdocs\4711-frontend\application\models\Stock.php 279
+ERROR - 2016-12-11 07:26:49 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\4711-frontend\system\core\Exceptions.php:246) C:\xampp\htdocs\4711-frontend\system\helpers\url_helper.php 514
+ERROR - 2016-12-11 07:29:35 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:29:36 --> Severity: Notice --> Undefined index: quantity C:\xampp\htdocs\4711-frontend\application\models\Stock.php 261
+ERROR - 2016-12-11 07:29:36 --> Severity: Notice --> Undefined index: price C:\xampp\htdocs\4711-frontend\application\models\Stock.php 262
+ERROR - 2016-12-11 07:29:36 --> Severity: Notice --> Undefined index: name C:\xampp\htdocs\4711-frontend\application\models\Stock.php 263
+ERROR - 2016-12-11 07:29:36 --> Severity: Notice --> Undefined index: description C:\xampp\htdocs\4711-frontend\application\models\Stock.php 264
+ERROR - 2016-12-11 07:29:36 --> Severity: Notice --> Undefined index: code C:\xampp\htdocs\4711-frontend\application\models\Stock.php 265
+ERROR - 2016-12-11 07:29:36 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\4711-frontend\system\core\Exceptions.php:246) C:\xampp\htdocs\4711-frontend\system\helpers\url_helper.php 514
+ERROR - 2016-12-11 07:30:08 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:30:09 --> Severity: Notice --> Undefined index: quantity C:\xampp\htdocs\4711-frontend\application\models\Stock.php 261
+ERROR - 2016-12-11 07:30:09 --> Severity: Notice --> Undefined index: price C:\xampp\htdocs\4711-frontend\application\models\Stock.php 262
+ERROR - 2016-12-11 07:30:09 --> Severity: Notice --> Undefined index: name C:\xampp\htdocs\4711-frontend\application\models\Stock.php 263
+ERROR - 2016-12-11 07:30:09 --> Severity: Notice --> Undefined index: description C:\xampp\htdocs\4711-frontend\application\models\Stock.php 264
+ERROR - 2016-12-11 07:30:09 --> Severity: Notice --> Undefined index: code C:\xampp\htdocs\4711-frontend\application\models\Stock.php 265
+ERROR - 2016-12-11 07:30:09 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\4711-frontend\system\core\Exceptions.php:246) C:\xampp\htdocs\4711-frontend\system\helpers\url_helper.php 514
+ERROR - 2016-12-11 07:38:04 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:38:05 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:38:06 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 125
+ERROR - 2016-12-11 07:38:06 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 144
+ERROR - 2016-12-11 07:38:06 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:38:16 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 125
+ERROR - 2016-12-11 07:38:16 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 144
+ERROR - 2016-12-11 07:38:16 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:38:23 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:38:24 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:38:25 --> Severity: Notice --> Undefined index: quantity C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 267
+ERROR - 2016-12-11 07:38:25 --> Severity: Notice --> Undefined index: name C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 267
+ERROR - 2016-12-11 07:38:25 --> Severity: Notice --> Undefined index: description C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 267
+ERROR - 2016-12-11 07:38:25 --> Severity: Notice --> Undefined index: receiving_cost C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 267
+ERROR - 2016-12-11 07:38:25 --> Severity: Notice --> Undefined index: measuring_units C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 267
+ERROR - 2016-12-11 07:38:25 --> Severity: Notice --> Undefined index: receiving_amount C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 267
+ERROR - 2016-12-11 07:38:25 --> Severity: Notice --> Undefined index: code C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 267
+ERROR - 2016-12-11 07:38:25 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\4711-frontend\system\core\Exceptions.php:246) C:\xampp\htdocs\4711-frontend\system\helpers\url_helper.php 514
+ERROR - 2016-12-11 07:38:56 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:38:58 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:39:00 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:39:01 --> Severity: Error --> Call to undefined method Recipes::update() C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 246
+ERROR - 2016-12-11 07:40:24 --> Severity: Notice --> Undefined index: name C:\xampp\htdocs\4711-frontend\application\models\Recipes.php 279
+ERROR - 2016-12-11 07:40:24 --> Severity: Notice --> Undefined index: description C:\xampp\htdocs\4711-frontend\application\models\Recipes.php 279
+ERROR - 2016-12-11 07:40:24 --> Severity: Notice --> Undefined index: code C:\xampp\htdocs\4711-frontend\application\models\Recipes.php 279
+ERROR - 2016-12-11 07:40:24 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:40:26 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:40:27 --> Severity: Notice --> Undefined index: name C:\xampp\htdocs\4711-frontend\application\models\Recipes.php 279
+ERROR - 2016-12-11 07:40:27 --> Severity: Notice --> Undefined index: description C:\xampp\htdocs\4711-frontend\application\models\Recipes.php 279
+ERROR - 2016-12-11 07:40:27 --> Severity: Notice --> Undefined index: code C:\xampp\htdocs\4711-frontend\application\models\Recipes.php 279
+ERROR - 2016-12-11 07:40:27 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:40:35 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:40:36 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:40:38 --> Severity: Notice --> Undefined index: quantity C:\xampp\htdocs\4711-frontend\application\models\Stock.php 262
+ERROR - 2016-12-11 07:40:38 --> Severity: Notice --> Undefined index: name C:\xampp\htdocs\4711-frontend\application\models\Stock.php 262
+ERROR - 2016-12-11 07:40:38 --> Severity: Notice --> Undefined index: description C:\xampp\htdocs\4711-frontend\application\models\Stock.php 262
+ERROR - 2016-12-11 07:40:38 --> Severity: Notice --> Undefined index: price C:\xampp\htdocs\4711-frontend\application\models\Stock.php 262
+ERROR - 2016-12-11 07:40:38 --> Severity: Notice --> Undefined index: code C:\xampp\htdocs\4711-frontend\application\models\Stock.php 262
+ERROR - 2016-12-11 07:40:38 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\4711-frontend\system\core\Exceptions.php:246) C:\xampp\htdocs\4711-frontend\system\helpers\url_helper.php 514
+ERROR - 2016-12-11 07:40:47 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:40:48 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:40:51 --> Severity: Notice --> Undefined index: name C:\xampp\htdocs\4711-frontend\application\models\Recipes.php 279
+ERROR - 2016-12-11 07:40:51 --> Severity: Notice --> Undefined index: description C:\xampp\htdocs\4711-frontend\application\models\Recipes.php 279
+ERROR - 2016-12-11 07:40:51 --> Severity: Notice --> Undefined index: code C:\xampp\htdocs\4711-frontend\application\models\Recipes.php 279
+ERROR - 2016-12-11 07:40:51 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:40:53 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:40:59 --> Severity: Notice --> Undefined index: name C:\xampp\htdocs\4711-frontend\application\models\Recipes.php 279
+ERROR - 2016-12-11 07:40:59 --> Severity: Notice --> Undefined index: description C:\xampp\htdocs\4711-frontend\application\models\Recipes.php 279
+ERROR - 2016-12-11 07:40:59 --> Severity: Notice --> Undefined index: code C:\xampp\htdocs\4711-frontend\application\models\Recipes.php 279
+ERROR - 2016-12-11 07:40:59 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:41:45 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:41:48 --> Severity: Notice --> Undefined index: name C:\xampp\htdocs\4711-frontend\application\models\Recipes.php 279
+ERROR - 2016-12-11 07:41:48 --> Severity: Notice --> Undefined index: description C:\xampp\htdocs\4711-frontend\application\models\Recipes.php 279
+ERROR - 2016-12-11 07:41:48 --> Severity: Notice --> Undefined index: code C:\xampp\htdocs\4711-frontend\application\models\Recipes.php 279
+ERROR - 2016-12-11 07:41:48 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:41:50 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:43:01 --> Severity: Notice --> Undefined index: name C:\xampp\htdocs\4711-frontend\application\models\Recipes.php 279
+ERROR - 2016-12-11 07:43:01 --> Severity: Notice --> Undefined index: description C:\xampp\htdocs\4711-frontend\application\models\Recipes.php 279
+ERROR - 2016-12-11 07:43:01 --> Severity: Notice --> Undefined index: code C:\xampp\htdocs\4711-frontend\application\models\Recipes.php 279
+ERROR - 2016-12-11 07:43:01 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:43:12 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:43:13 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 07:43:14 --> Severity: Notice --> Undefined index: quantity C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 267
+ERROR - 2016-12-11 07:43:14 --> Severity: Notice --> Undefined index: name C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 267
+ERROR - 2016-12-11 07:43:14 --> Severity: Notice --> Undefined index: description C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 267
+ERROR - 2016-12-11 07:43:14 --> Severity: Notice --> Undefined index: receiving_cost C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 267
+ERROR - 2016-12-11 07:43:14 --> Severity: Notice --> Undefined index: measuring_units C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 267
+ERROR - 2016-12-11 07:43:14 --> Severity: Notice --> Undefined index: receiving_amount C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 267
+ERROR - 2016-12-11 07:43:14 --> Severity: Notice --> Undefined index: code C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 267
+ERROR - 2016-12-11 07:43:14 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\4711-frontend\system\core\Exceptions.php:246) C:\xampp\htdocs\4711-frontend\system\helpers\url_helper.php 514

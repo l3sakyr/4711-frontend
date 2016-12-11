@@ -204,5 +204,47 @@ class Administration extends Application {
         $this->data['stock'] = $stock;
         $this->render();
     }
+    
+    public function updatestock(){
+        //method called when submit button is pressed
+        $array = array();
+        $array[] = array(
+            'code' => $this->input->post('code'),
+            'name' => $this->input->post('name'),
+            'description' => $this->input->post('description'),
+            'quantity' => $this->input->post('quantity'),
+            'price' => $this->input->post('price')
+        );
+        $this->stock->update($array);
+        redirect('/administration/stock');
+    }
+    
+    public function updatesupply(){
+        //method called when submit button is pressed
+        $array = array();
+        $array[] = array(
+            'code' => $this->input->post('code'),
+            'name' => $this->input->post('name'),
+            'description' => $this->input->post('description'),
+            'quantity' => $this->input->post('quantity'),
+            'receiving_cost' => $this->input->post('receiving_cost'),
+            'receiving_amount' => $this->input->post('receiving_amount'),
+            'measuring_units' => $this->input->post('measuring_units')
+        );
+        $this->supplies->update($array);
+        redirect('/administration/supplies');
+    }
+    
+    public function updaterecipe(){
+        //method called when submit button is pressed
+        $array = array();
+        $array[] = array(
+            'code' => $this->input->post('code'),
+            'name' => $this->input->post('name'),
+            'description' => $this->input->post('description')
+        );
+        $this->recipes->update($array);
+        redirect('/administration/recipes');
+    }
 
 }
