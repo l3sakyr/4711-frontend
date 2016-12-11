@@ -60,13 +60,12 @@ class Order extends CI_Model {
         }
         return $total;
     }
-    
-    
-    public function validate(){
-        foreach($this->items as $key => $value){
+
+    public function validate() {
+        foreach ($this->items as $key => $value) {
             // get the quantity available
             $quantity = $this->stock->getQuantity($key);
-            if($quantity - $value < 0){
+            if ($quantity - $value < 0) {
                 return false;
             }
         }
@@ -75,7 +74,7 @@ class Order extends CI_Model {
 
     public function save() {
         $validate = $this->validate();
-        if(!$validate){
+        if (!$validate) {
             //print_r("validate failed");
             return;
         }
@@ -101,12 +100,12 @@ class Order extends CI_Model {
             $lineitem = $xml->addChild('item');
             $lineitem->addChild('code', $key);
             $lineitem->addChild('quantity', $value);
-            for($i = 0; $i < $value; $i++){
+            for ($i = 0; $i < $value; $i++) {
                 $this->stock->takeOne($key);
             }
             $i++;
         }
-        if($i==0){
+        if ($i == 0) {
             return;
         }
 

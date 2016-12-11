@@ -170,7 +170,7 @@ class Stock extends CI_Model {
         foreach ($source as $record) {
             $quantity = $record['quantity'];
         }
-        
+
         $conn->close();
         //SQL//
         return $quantity;
@@ -228,7 +228,7 @@ class Stock extends CI_Model {
         //SQL//
         return $result;
     }
-    
+
     //public function numentries(){
     //    $source = $this->all();
     //    $numentries = $source->num_rows;
@@ -279,8 +279,8 @@ class Stock extends CI_Model {
         $conn->close();
         //SQL//
     }
-    
-    public function update($array){
+
+    public function update($array) {
         $servername = "localhost";
         $username = "root";
         $password = "";
@@ -292,9 +292,9 @@ class Stock extends CI_Model {
         if ($conn->connect_error) {
             die("Connection failed: " . $conn->connect_error);
         }
-        
+
         // Template for adding product
-        $sql = "UPDATE Stock SET quantity = " . $array['quantity'] . ", name = ". $array['name'] ." , description = ". $array['description'] .", price = ". $array['price'] ." WHERE code <=> " . $array['code'] . ";";
+        $sql = "UPDATE Stock SET quantity = " . $array['quantity'] . ", name = " . $array['name'] . " , description = " . $array['description'] . ", price = " . $array['price'] . " WHERE code <=> " . $array['code'] . ";";
         $result = $conn->query($sql);
         $conn->close();
     }

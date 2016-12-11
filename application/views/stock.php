@@ -7,7 +7,7 @@
         </tr>
         {stock}
         <tr align="center">
-            <td><a href="/administration/editstock/{code}">{name}<a></td>
+            <td><a href="/Administration/editstock/{code}">{name}<a></td>
                         <td>{description}</td>
                         </tr>
                         {/stock}

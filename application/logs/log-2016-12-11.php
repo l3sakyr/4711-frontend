@@ -1365,3 +1365,77 @@ ERROR - 2016-12-11 21:10:58 --> 404 Page Not Found: Assets/css
 ERROR - 2016-12-11 21:10:59 --> 404 Page Not Found: Assets/css
 ERROR - 2016-12-11 21:11:03 --> 404 Page Not Found: Assets/css
 ERROR - 2016-12-11 21:11:05 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:15:25 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:15:26 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:19:18 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:19:19 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:19:22 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:19:23 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:20:34 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:20:35 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:20:36 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:20:37 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:20:38 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:20:39 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:20:39 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:20:40 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:20:41 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:20:41 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:20:43 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:20:43 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:20:44 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:20:47 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:20:48 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:20:49 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:20:51 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:20:52 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:20:53 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:20:54 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:20:55 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:20:56 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:20:58 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:20:59 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:20:59 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:21:26 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:21:28 --> Severity: Notice --> Undefined property: Administration::$Supplies C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 49
+ERROR - 2016-12-11 21:21:28 --> Severity: Error --> Call to a member function all() on null C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 49
+ERROR - 2016-12-11 21:21:38 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:21:40 --> Severity: Error --> Cannot use object of type stdClass as array C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 74
+ERROR - 2016-12-11 21:22:06 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:22:11 --> Severity: Notice --> Undefined index: quantity C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 268
+ERROR - 2016-12-11 21:22:11 --> Severity: Notice --> Undefined index: name C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 268
+ERROR - 2016-12-11 21:22:11 --> Severity: Notice --> Undefined index: description C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 268
+ERROR - 2016-12-11 21:22:11 --> Severity: Notice --> Undefined index: receiving_cost C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 268
+ERROR - 2016-12-11 21:22:11 --> Severity: Notice --> Undefined index: measuring_units C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 268
+ERROR - 2016-12-11 21:22:11 --> Severity: Notice --> Undefined index: receiving_amount C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 268
+ERROR - 2016-12-11 21:22:11 --> Severity: Notice --> Undefined index: code C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 268
+ERROR - 2016-12-11 21:22:11 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\4711-frontend\system\core\Exceptions.php:246) C:\xampp\htdocs\4711-frontend\system\helpers\url_helper.php 514
+ERROR - 2016-12-11 21:22:30 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:22:45 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:23:01 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:23:06 --> Severity: Notice --> Undefined index: receiving_amount/12 C:\xampp\htdocs\4711-frontend\application\controllers\Receiving.php 76
+ERROR - 2016-12-11 21:23:06 --> Severity: Notice --> Undefined index: receiving_amount/12 C:\xampp\htdocs\4711-frontend\application\controllers\Receiving.php 78
+ERROR - 2016-12-11 21:23:06 --> Severity: Notice --> Undefined index: receiving_amount/12 C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 226
+ERROR - 2016-12-11 21:23:06 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:25:04 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:25:07 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:25:11 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:25:21 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:25:23 --> 404 Page Not Found: Receiving/supply
+ERROR - 2016-12-11 21:26:09 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:26:12 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:26:26 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:26:29 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:26:33 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:26:36 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:26:37 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:26:39 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:26:40 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:26:41 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:26:44 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:26:45 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:26:47 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:26:50 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:26:53 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:26:55 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:27:01 --> 404 Page Not Found: Assets/css

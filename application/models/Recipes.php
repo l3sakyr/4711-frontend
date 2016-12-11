@@ -282,13 +282,13 @@ class Recipes extends CI_Model {
 
         $sql = "SELECT * FROM recipes";
         $result = $conn->query($sql);
-        
+
         $conn->close();
         //SQL//
         return $result;
     }
-    
-    public function update($array){
+
+    public function update($array) {
         $servername = "localhost";
         $username = "root";
         $password = "";
@@ -300,9 +300,9 @@ class Recipes extends CI_Model {
         if ($conn->connect_error) {
             die("Connection failed: " . $conn->connect_error);
         }
-        
+
         // Template for adding product
-        $sql = "UPDATE Recipes SET name = ". $array['name'] ." , description = ". $array['description'] . " WHERE code <=> " . $array['code'] . ";";
+        $sql = "UPDATE Recipes SET name = " . $array['name'] . " , description = " . $array['description'] . " WHERE code <=> " . $array['code'] . ";";
         $result = $conn->query($sql);
         $conn->close();
     }
@@ -316,8 +316,8 @@ class Recipes extends CI_Model {
         return $config;
     }
 
-	// records the transaction into the transaction table
-	public function transaction($log) {
+    // records the transaction into the transaction table
+    public function transaction($log) {
         //SQL
         $servername = "localhost";
         $username = "root";
@@ -341,7 +341,7 @@ class Recipes extends CI_Model {
         $conn->close();
         //SQL//
     }
-	
+
     public function update_recipe_quantity() {
         //SQL
         $servername = "localhost";
@@ -357,7 +357,7 @@ class Recipes extends CI_Model {
         }
 
         // Template for adding product
-        $quantity = $_GET['production_quantity/'.$_GET['id']];
+        $quantity = $_GET['production_quantity/' . $_GET['id']];
         $sql = "UPDATE recipes_supply SET quantity = quantity + " . $quantity . " WHERE code <=>" . $_GET['id'] . ";";
         $result = $conn->query($sql);
         $conn->close();

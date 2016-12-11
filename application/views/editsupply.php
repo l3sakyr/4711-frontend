@@ -11,8 +11,8 @@
                 <input type="text" name="receiving_cost" placeholder="{receiving_cost}"><br>
                 <input type="text" name="receiving_amount" placeholder="{receiving_amount}"><br>
                 <br>
-                <a class="btn btn-default" href="/administration/updatesupply">Submit</a><br>
-                
+                <a class="btn btn-default" href="/Administration/updatesupply">Submit</a><br>
+
             </table>
         </form>
         {/supplies}

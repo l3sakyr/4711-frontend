@@ -68,7 +68,7 @@ class Homepage extends Application {
 
         //Total
         $totalInc = 0;
-        
+
         $this->load->helper('directory');
         $candidates = directory_map('../data/');
         $parms = array();
@@ -85,6 +85,9 @@ class Homepage extends Application {
         $this->data['totalInc'] = $totalInc;
     }
 
+    /**
+     * Function to count how many recipes
+     */
     public function countRecipe() {
         // gets a list of supplies
         $source = $this->recipes->all();
@@ -95,6 +98,9 @@ class Homepage extends Application {
         $this->data['recipeCount'] = $recipeCount;
     }
 
+    /**
+     * Function to count the different types of supplies
+     */
     public function countSupplies() {
         // gets a list of supplies
         $source = $this->supplies->all();
