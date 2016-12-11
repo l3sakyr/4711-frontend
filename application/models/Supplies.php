@@ -263,7 +263,7 @@ class Supplies extends CI_Model {
             die("Connection failed: " . $conn->connect_error);
         }
         
-        // Template for adding product
+        // Updates the supplies fields
         $sql = "UPDATE Supplies SET quantity = " . $array['quantity'] . ", name = ". $array['name'] ." , description = ". $array['description'] .", receiving_cost = ". $array['receiving_cost'] .", measuring_units = ". $array['measuring_units'] .", receiving_amount = ". $array['receiving_amount'] ." WHERE code <=> " . $array['code'] . ";";
         $result = $conn->query($sql);
         $conn->close();
