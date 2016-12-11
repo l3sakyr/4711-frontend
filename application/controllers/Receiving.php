@@ -64,7 +64,7 @@ class Receiving extends Application {
     // gets the cost of the supply
     public function getCost() {
         $receiving_cost = (string) $this->supplies->getRc();
-        $price = floatval(preg_replace('/[^0-9.+]/', '', $receiving_cost));
+        $price = floatval(preg_replace('/[^0-9.]+/', '', $receiving_cost));
 
         return $price;
     }
