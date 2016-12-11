@@ -77,6 +77,11 @@ class Supplies extends CI_Model {
         return $name;
     }
 
+    /**
+     * Get measuring units of supply
+     * @param type $id
+     * @return type
+     */
     public function getMeasuringUnits($id) {
         //SQL
         $servername = "localhost";
@@ -142,7 +147,10 @@ class Supplies extends CI_Model {
         return $rc;
     }
 
-    // Retrieves and displays everything from the supplies table
+    /**
+     * Get all
+     * @return type
+     */
     public function all() {
         //SQL
         $servername = "localhost";
@@ -164,7 +172,10 @@ class Supplies extends CI_Model {
         return $result;
     }
 
-    // records the transaction into the transaction table
+    /**
+     * Records transaction
+     * @param type $log
+     */
     public function transaction($log) {
         //SQL
         $servername = "localhost";
@@ -193,7 +204,6 @@ class Supplies extends CI_Model {
     /*
      * 	Updates the quantity in the database after calculating how much to add.
      */
-
     public function receiving_update_db() {
         //SQL
         $servername = "localhost";
@@ -251,6 +261,10 @@ class Supplies extends CI_Model {
         //SQL//
     }
 
+    /**
+     * Update supply
+     * @param type $array
+     */
     public function update($array) {
         $servername = "localhost";
         $username = "root";
@@ -265,21 +279,9 @@ class Supplies extends CI_Model {
         }
 
         // Updates the supplies fields
-        $sql = "UPDATE Supplies SET quantity = " . $array['quantity'] . ", name = " . $array['name'] . " , description = " . $array['description'] . ", receiving_cost = " . $array['receiving_cost'] . ", measuring_units = " . $array['measuring_units'] . ", receiving_amount = " . $array['receiving_amount'] . " WHERE code <=> " . $array['code'] . ";";
-        $result = $conn->query($sql);
+        $sql = "UPDATE Supplies SET quantity = " . $array['quantity'] . " , name = " . $array['name'] . " , description = " . $array['description'] . ", receiving_cost = " . $array['receiving_cost'] . ", measuring_units = " . $array['measuring_units'] . ", receiving_amount = " . $array['receiving_amount'] . " WHERE code <=> " . $array['code'] . ";";
+        $conn->query($sql);
         $conn->close();
-    }
-
-    function rules() {
-        $config = [
-            ['field' => 'code', 'label' => 'Menu code', 'rules' => 'required|integer'],
-            ['field' => 'name', 'label' => 'Item name', 'rules' => 'required'],
-            ['field' => 'description', 'label' => 'Item description', 'rules' => 'required|max_length[256]'],
-            ['field' => 'measuring_units', 'label' => 'Measuring units', 'rules' => 'required|max_length[256]'],
-            ['field' => 'receiving_cost', 'label' => 'Receiving cost', 'rules' => 'required|real'],
-            ['field' => 'quantity', 'label' => 'Quantity', 'rules' => 'required|real']
-        ];
-        return $config;
     }
 
 }

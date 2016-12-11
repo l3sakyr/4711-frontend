@@ -1439,3 +1439,50 @@ ERROR - 2016-12-11 21:26:50 --> 404 Page Not Found: Assets/css
 ERROR - 2016-12-11 21:26:53 --> 404 Page Not Found: Assets/css
 ERROR - 2016-12-11 21:26:55 --> 404 Page Not Found: Assets/css
 ERROR - 2016-12-11 21:27:01 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:30:46 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:30:48 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:30:49 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:30:49 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:31:23 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:31:40 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:32:24 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:36:10 --> Severity: Notice --> Undefined index: quantity C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 268
+ERROR - 2016-12-11 21:36:10 --> Severity: Notice --> Undefined index: name C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 268
+ERROR - 2016-12-11 21:36:10 --> Severity: Notice --> Undefined index: description C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 268
+ERROR - 2016-12-11 21:36:10 --> Severity: Notice --> Undefined index: receiving_cost C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 268
+ERROR - 2016-12-11 21:36:10 --> Severity: Notice --> Undefined index: measuring_units C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 268
+ERROR - 2016-12-11 21:36:10 --> Severity: Notice --> Undefined index: receiving_amount C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 268
+ERROR - 2016-12-11 21:36:10 --> Severity: Notice --> Undefined index: code C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 268
+ERROR - 2016-12-11 21:36:10 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\4711-frontend\system\core\Exceptions.php:246) C:\xampp\htdocs\4711-frontend\system\helpers\url_helper.php 514
+ERROR - 2016-12-11 21:42:36 --> Severity: Notice --> Undefined index: quantity C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 268
+ERROR - 2016-12-11 21:42:36 --> Severity: Notice --> Undefined index: name C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 268
+ERROR - 2016-12-11 21:42:36 --> Severity: Notice --> Undefined index: description C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 268
+ERROR - 2016-12-11 21:42:36 --> Severity: Notice --> Undefined index: receiving_cost C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 268
+ERROR - 2016-12-11 21:42:36 --> Severity: Notice --> Undefined index: measuring_units C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 268
+ERROR - 2016-12-11 21:42:36 --> Severity: Notice --> Undefined index: receiving_amount C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 268
+ERROR - 2016-12-11 21:42:36 --> Severity: Notice --> Undefined index: code C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 268
+ERROR - 2016-12-11 21:42:36 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\4711-frontend\system\core\Exceptions.php:246) C:\xampp\htdocs\4711-frontend\system\helpers\url_helper.php 514
+ERROR - 2016-12-11 21:43:23 --> Severity: Notice --> Undefined index: quantity C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 268
+ERROR - 2016-12-11 21:43:23 --> Severity: Notice --> Undefined index: name C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 268
+ERROR - 2016-12-11 21:43:23 --> Severity: Notice --> Undefined index: description C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 268
+ERROR - 2016-12-11 21:43:23 --> Severity: Notice --> Undefined index: receiving_cost C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 268
+ERROR - 2016-12-11 21:43:23 --> Severity: Notice --> Undefined index: measuring_units C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 268
+ERROR - 2016-12-11 21:43:23 --> Severity: Notice --> Undefined index: receiving_amount C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 268
+ERROR - 2016-12-11 21:43:23 --> Severity: Notice --> Undefined index: code C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 268
+ERROR - 2016-12-11 21:43:23 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\4711-frontend\system\core\Exceptions.php:246) C:\xampp\htdocs\4711-frontend\system\helpers\url_helper.php 514
+ERROR - 2016-12-11 21:45:27 --> Severity: Notice --> Undefined index: quantity C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 268
+ERROR - 2016-12-11 21:45:27 --> Severity: Notice --> Undefined index: name C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 268
+ERROR - 2016-12-11 21:45:27 --> Severity: Notice --> Undefined index: description C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 268
+ERROR - 2016-12-11 21:45:27 --> Severity: Notice --> Undefined index: receiving_cost C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 268
+ERROR - 2016-12-11 21:45:27 --> Severity: Notice --> Undefined index: measuring_units C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 268
+ERROR - 2016-12-11 21:45:27 --> Severity: Notice --> Undefined index: receiving_amount C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 268
+ERROR - 2016-12-11 21:45:27 --> Severity: Notice --> Undefined index: code C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 268
+ERROR - 2016-12-11 21:45:27 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\4711-frontend\system\core\Exceptions.php:246) C:\xampp\htdocs\4711-frontend\system\helpers\url_helper.php 514
+ERROR - 2016-12-11 21:54:18 --> Severity: Notice --> Undefined index: quantity C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 282
+ERROR - 2016-12-11 21:54:18 --> Severity: Notice --> Undefined index: name C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 282
+ERROR - 2016-12-11 21:54:18 --> Severity: Notice --> Undefined index: description C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 282
+ERROR - 2016-12-11 21:54:18 --> Severity: Notice --> Undefined index: receiving_cost C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 282
+ERROR - 2016-12-11 21:54:18 --> Severity: Notice --> Undefined index: measuring_units C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 282
+ERROR - 2016-12-11 21:54:18 --> Severity: Notice --> Undefined index: receiving_amount C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 282
+ERROR - 2016-12-11 21:54:18 --> Severity: Notice --> Undefined index: code C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 282
+ERROR - 2016-12-11 21:54:18 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\4711-frontend\system\core\Exceptions.php:246) C:\xampp\htdocs\4711-frontend\system\helpers\url_helper.php 514

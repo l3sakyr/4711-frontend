@@ -123,7 +123,7 @@ class Sales extends Application {
         $order = new Order($this->session->userdata('order'));
         $order->additem($what);
         $this->session->set_userdata('order', (array) $order);
-        redirect('/sales');
+        redirect('/Sales');
     }
 
     /**
@@ -135,7 +135,7 @@ class Sales extends Application {
             $this->session->unset_userdata('order');
         }
 
-        redirect('/sales/summarize');
+        redirect('/Sales/summarize');
     }
 
     /**
@@ -147,7 +147,7 @@ class Sales extends Application {
         $order->save();
         $this->session->unset_userdata('order');
 
-        redirect('/sales/summarize');
+        redirect('/Sales/summarize');
     }
 
 }

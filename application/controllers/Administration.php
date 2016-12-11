@@ -26,6 +26,7 @@ class Administration extends Application {
      * Homepage for our app
      */
     public function index() {
+        $autoload['helper'] = array('form');
         $userrole = $this->session->userdata('userrole');
         if ($userrole != 'admin') {
             $message = 'You are not authorized to access this page. Go away';
@@ -207,6 +208,10 @@ class Administration extends Application {
         $this->render();
     }
 
+    /**
+     * Code that is run when the submit button is pressed
+     * when editing stock
+     */
     public function updatestock() {
         //method called when submit button is pressed
         $array = array();
@@ -218,9 +223,13 @@ class Administration extends Application {
             'price' => $this->input->post('price')
         );
         $this->stock->update($array);
-        redirect('/administration/stock');
+        redirect('/Administration/stock');
     }
 
+    /**
+     * Code that is run when the submit button is pressed
+     * when editing supplies
+     */
     public function updatesupply() {
         //method called when submit button is pressed
         $array = array();
@@ -234,9 +243,13 @@ class Administration extends Application {
             'measuring_units' => $this->input->post('measuring_units')
         );
         $this->supplies->update($array);
-        redirect('/administration/supplies');
+        redirect('/Administration/supplies');
     }
 
+    /**
+     * Code that is run when the submit button is pressed
+     * when editing recipes
+     */
     public function updaterecipe() {
         //method called when submit button is pressed
         $array = array();
@@ -246,7 +259,7 @@ class Administration extends Application {
             'description' => $this->input->post('description')
         );
         $this->recipes->update($array);
-        redirect('/administration/recipes');
+        redirect('/Administration/recipes');
     }
 
 }
