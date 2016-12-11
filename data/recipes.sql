@@ -28,7 +28,7 @@ INSERT INTO `recipes` (`name`, `description`) VALUES
 ('Unwind', 'Melt away stress and ease tension with this uplifting blend');
 
 
-
+DROP TABLE IF EXISTS `Ingredients`;
 CREATE TABLE `ingredients` (
   `icode` int(11) NOT NULL AUTO_INCREMENT, 
   `code` int(11) NOT NULL, 
@@ -52,6 +52,7 @@ INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
 (1,'Rosewood', 0.5);
 INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
 (1,'Cedarwood', 0.5);
+
 INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
 (2,'Lavendar',2);
 INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
@@ -60,7 +61,8 @@ INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
 (2,'Neroli', 1);
 INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
 (2,'Sandalwood', 1);
-INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
+
+INSERT INTO `ingredients` (`code`, `namet`, `amount`) VALUES
 (3,'Peppermint', 1.5);
 INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
 (3,'Rosemary', 1);
@@ -71,6 +73,7 @@ INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
 INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
 (3,'Basil', 0.5);
 INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
+
 (4,'Eucalyptus', 2);
 INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
 (4,'Peppermint', 1.5);
@@ -79,6 +82,7 @@ INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
 INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
 (4,'Ginger', 5);
 INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
+
 (5,'Orange', 2.5);
 INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
 (5,'Grapefruit', 1);
@@ -86,6 +90,7 @@ INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
 (5,'Lemon', 1);
 INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
 (5,'Neroli', 0.5);
+
 INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
 (6,'Orange', 1.5);
 INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
@@ -94,6 +99,7 @@ INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
 (6,'Marjoram', 1);
 INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
 (6,'Chamomile', 1);
+
 INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
 (7,'Orange', 2);
 INSERT INTO `ingredients` (`code`, `name`, `amount`) VALUES
