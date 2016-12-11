@@ -7,6 +7,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * & price for each. The goal of this page is to build an order with 
  * multiple items, and to log the transaction that would result if 
  * the sale proceeded for real.
+ * @author Theresa
  */
 class Sales extends Application {
 
@@ -21,12 +22,11 @@ class Sales extends Application {
      * Homepage for our app
      */
     public function index() {
-        
+
         $this->load->model('stock');
         $this->data['pagebody'] = 'sales';
 
         $stuff = '';
-        $errors = '';
         if ($this->session->has_userdata('order')) {
             $order = new Order($this->session->userdata('order'));
             $stuff = $order->receipt();
@@ -39,8 +39,7 @@ class Sales extends Application {
             }
         }
         $this->data['currentOrder'] = $this->parsedown->parse($stuff);
-        $this->data['errors'] = $this->parsedown->parse($errors);
-        
+
         $source = $this->stock->all();
         $stock = array();
         foreach ($source as $record) {
@@ -56,6 +55,9 @@ class Sales extends Application {
         $this->render();
     }
 
+    /**
+     * Show list of completed orders
+     */
     public function summarize() {
         // identify all of the order files
         $this->load->helper('directory');
@@ -77,17 +79,25 @@ class Sales extends Application {
         $this->data['pagebody'] = 'summary';
         $this->render('template');  // use the default template
     }
-    
+
+    /**
+     * Show info for one completed order
+     * @param type $which
+     */
     public function examine($which) {
         $this->session->set_userdata('which', $which);
         //$examine = 'true';
         $this->session->set_userdata('examine', 'true');
-        $order = new Order ('../data/order' . $which . '.xml');
+        $order = new Order('../data/order' . $which . '.xml');
         $stuff = $order->receipt();
-        $this->data['content'] = "<div style='width:25%'>".$this->parsedown->parse($stuff)."</div>";
+        $this->data['content'] = "<div style='width:25%'>" . $this->parsedown->parse($stuff) . "</div>";
         $this->render();
-    }	
+    }
 
+    /**
+     * Shows info for one stock
+     * @param type $id
+     */
     public function gimme($id) {
         $this->data['pagebody'] = 'justone';
         $source = $this->stock->get($id);
@@ -104,16 +114,21 @@ class Sales extends Application {
 
         $this->render();
     }
-   
 
-    // method to be called when button is clicked to add item
+    /**
+     * Add an item to the current order
+     * @param type $what
+     */
     public function add($what) {
         $order = new Order($this->session->userdata('order'));
         $order->additem($what);
         $this->session->set_userdata('order', (array) $order);
         redirect('/sales');
     }
-    
+
+    /**
+     * Cancel the current order if there is one
+     */
     public function cancel() {
         // Drop any order in progress
         if ($this->session->has_userdata('order')) {
@@ -123,12 +138,15 @@ class Sales extends Application {
         redirect('/sales/summarize');
     }
 
+    /**
+     * Checkout the current order
+     */
     public function checkout() {
         $order = new Order($this->session->userdata('order'));
 
         $order->save();
         $this->session->unset_userdata('order');
-        
+
         redirect('/sales/summarize');
     }
 

@@ -71,7 +71,7 @@ class Administration extends Application {
 
         // get the supply
         $source = $this->supplies->get($code);
-        print_r($source->fetch_object()['code']);
+        //print_r($source->fetch_object()['code']);
         $supplies = array();
         foreach ($source as $record) {
             $supplies[] = array(
@@ -84,7 +84,7 @@ class Administration extends Application {
                 'quantity' => $record['quantity']
             );
         }
-        
+
         $this->data = array_merge($this->data, $supplies);
         $this->data['supplies'] = $supplies;
         $this->render();
@@ -122,9 +122,9 @@ class Administration extends Application {
         $this->load->model('recipes');
         // get the ingredients for the recipe
         $source = $this->recipes->getIngre($code);
-        
+
         $ingredients = array();
-        foreach($source as $record){
+        foreach ($source as $record) {
             $supplyCode = $record['supplyCode'];
             $supply = $this->supplies->get($supplyCode);
             $supplyName = $this->supplies->getName($supplyCode);
@@ -150,7 +150,7 @@ class Administration extends Application {
                 'description' => $record['description']
             );
         }
-        
+
         $this->data = array_merge($this->data, $recipes);
         $this->data['recipes'] = $recipes;
         $this->render();
@@ -201,13 +201,13 @@ class Administration extends Application {
                 'quantity' => $record['quantity']
             );
         }
-        
+
         $this->data = array_merge($this->data, $stock);
         $this->data['stock'] = $stock;
         $this->render();
     }
-    
-    public function updatestock(){
+
+    public function updatestock() {
         //method called when submit button is pressed
         $array = array();
         $array[] = array(
@@ -220,8 +220,8 @@ class Administration extends Application {
         $this->stock->update($array);
         redirect('/administration/stock');
     }
-    
-    public function updatesupply(){
+
+    public function updatesupply() {
         //method called when submit button is pressed
         $array = array();
         $array[] = array(
@@ -236,8 +236,8 @@ class Administration extends Application {
         $this->supplies->update($array);
         redirect('/administration/supplies');
     }
-    
-    public function updaterecipe(){
+
+    public function updaterecipe() {
         //method called when submit button is pressed
         $array = array();
         $array[] = array(

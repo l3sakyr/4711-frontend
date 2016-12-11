@@ -9,7 +9,7 @@
                 <input type="text" name="quantity" placeholder="{quantity}"><br>
                 <input type="text" name="price" placeholder="{price}"><br>
                 <br>
-                <a class="btn btn-default" name="submit" value="Submit" href="/administration/updatestock">Submit</a><br>
+                <a class="btn btn-default" name="submit" value="Submit" href="/Administration/updatestock">Submit</a><br>
             </table>
         </form>
     </div>

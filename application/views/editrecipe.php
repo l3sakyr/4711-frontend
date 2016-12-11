@@ -11,7 +11,7 @@
                 <input type="text" name="{name}" placeholder="{supplyName} : {amount}mL" readonly><br>
                 {/ingredients}
                 <br>
-                <a class="btn btn-default" href="/administration/updaterecipe">Submit</a><br>
+                <a class="btn btn-default" href="/Administration/updaterecipe">Submit</a><br>
             </table>
         </form>
     </div>

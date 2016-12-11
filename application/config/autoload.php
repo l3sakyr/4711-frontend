@@ -59,7 +59,7 @@ $autoload['packages'] = array(APPPATH . 'third_party/caboose/', APPPATH . 'third
   |
   |	$autoload['libraries'] = array('user_agent' => 'ua');
  */
-$autoload['libraries'] = array('parser', 'session', 'caboose', 'database','parsedown');
+$autoload['libraries'] = array('parser', 'session', 'caboose', 'database', 'parsedown');
 
 /*
   | -------------------------------------------------------------------
@@ -133,4 +133,4 @@ $autoload['language'] = array();
   |
   |	$autoload['model'] = array('first_model' => 'first');
  */
-$autoload['model'] = array('order','stock', 'supplies', 'recipes');
+$autoload['model'] = array('order', 'stock', 'supplies', 'recipes');

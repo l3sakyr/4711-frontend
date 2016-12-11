@@ -50,32 +50,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   | Examples:	my-controller/index	-> my_controller/index
   |		my-controller/my-method	-> my_controller/my_method
  */
-//$route['(^comp\d+)/:any'] = 'Wise/bingo';
-//$route['show/(:num)'] = 'first/gimme/$1';
-//$route['lock/(:any)/(:any)'] = 'welcome/shucks';
-//$route['sleep'] = 'first/zzz';
-//$route['dunno'] = function(){
-//    $source = './pix/Pig-Wallpaper-150x150.jpg';
-//    // set the mine type for the image
-//    header("Content-type: image/jpeg");
-//    header('Content-Distribution: inline');
-//    readfile($source);
-//    die();
-//};
-//$route['([a-zA-Z]{4})/bingo'] = '/bingo';
-//$route['default_controller'] = 'homepage';
 
-$route['sales/item/(:num)'] = 'sales/gimme/$1';
-$route['receiving/supply/(:num)'] = 'receiving/gimme/$1';
+$route['Sales/item/(:num)'] = 'sales/gimme/$1';
+$route['Receiving/supply/(:num)'] = 'receiving/gimme/$1';
 $route['default_controller'] = 'homepage';
-$route['production/ingredients/(:num)'] = 'production/gimme/$1';
+$route['Production/ingredients/(:num)'] = 'production/gimme/$1';
 
 //edit routing
-$route['administration/editsupply/(:num)'] = 'administration/editsupply/$1';
-$route['administration/editstock/(:num)'] = 'administration/editstock/$1';
-$route['administration/editrecipe/(:num)'] = 'administration/editrecipe/$1';
-$route['administration/addrecipe/(:num)'] = 'administration/addrecipe/$1';
-$route['administration/addrecipe/'] = 'administration/editrecipe/';
+$route['Administration/editsupply/(:num)'] = 'administration/editsupply/$1';
+$route['Administration/editstock/(:num)'] = 'administration/editstock/$1';
+$route['Administration/editrecipe/(:num)'] = 'administration/editrecipe/$1';
+$route['Administration/addrecipe/(:num)'] = 'administration/addrecipe/$1';
 
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

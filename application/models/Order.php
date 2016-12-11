@@ -60,21 +60,25 @@ class Order extends CI_Model {
         }
         return $total;
     }
-    
-    
-    public function validate(){
-        foreach($this->items as $key => $value){
+
+    public function validate() {
+        foreach ($this->items as $key => $value) {
+            // get the quantity available
             $quantity = $this->stock->getQuantity($key);
-            if($quantity - $value < 0){
-                return;
+            if ($quantity - $value < 0) {
+                return false;
             }
         }
+        return true;
     }
 
     public function save() {
-        if(!$this->validate()){
+        $validate = $this->validate();
+        if (!$validate) {
+            //print_r("validate failed");
             return;
         }
+        //print_r("validate passed");
         // figure out the order to use
         while ($this->number == 0) {
             // pick random 3 digit #
@@ -96,13 +100,13 @@ class Order extends CI_Model {
             $lineitem = $xml->addChild('item');
             $lineitem->addChild('code', $key);
             $lineitem->addChild('quantity', $value);
-            for($i = 0; $i < $value; $i++){
+            for ($i = 0; $i < $value; $i++) {
                 $this->stock->takeOne($key);
             }
             $i++;
         }
-        if($i==0){
-            return false;
+        if ($i == 0) {
+            return;
         }
 
         // save it

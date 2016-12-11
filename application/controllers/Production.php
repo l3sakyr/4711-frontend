@@ -15,6 +15,10 @@ class Production extends Application {
         parent::__construct();
     }
 
+    /**
+     * Index
+     * @return type
+     */
     public function index() {
         $userrole = $this->session->userdata('userrole');
         if ($userrole == 'guest') {
@@ -43,41 +47,18 @@ class Production extends Application {
         $this->render();
     }
 
-//    public function gimme($id) {
-//        $this->data['pagebody'] = 'ingredients';
-//
-//
-//        $recipe = $this->recipes->get($id);
-//        $source = $this->recipes->getIngre($id);
-//        $template = array(
-//            'table_open' => '<table border="1" cellpadding="2" cellspacing="1" class="mytable">'
-//        );
-//
-//        $this->load->library('table');
-//        $this->table->set_template($template);
-//        $this->table->set_heading('Ingredient', 'Amount', 'Measuring Unit');
-//
-//
-//        $result = array();
-//        foreach ($source as $item) {
-//            array_push($result, $item);
-//        }
-//
-//        $res = $this->table->generate($result);
-//
-//        $this->data['result'] = $res;
-//        $this->data = array_merge($this->data, $result, $recipe);
-//        $this->render();
-//    }
-    
-    public function gimme($id){
+    /**
+     * Get info for one recipe
+     * @param type $id
+     */
+    public function gimme($id) {
         $this->data['pagebody'] = 'ingredients';
         $this->load->model('supplies');
         $this->load->model('recipes');
         // get the ingredients for the recipe
         $source = $this->recipes->getIngre($id);
         $ingredients = array();
-        foreach ($source as $record){
+        foreach ($source as $record) {
             $ingredients[] = array(
                 'code' => $record['code'],
                 'supplyCode' => $record['supplyCode'],
@@ -88,7 +69,7 @@ class Production extends Application {
             );
         }
         $this->data['ingredients'] = $ingredients;
-        
+
         // get the recipe
         $source = $this->recipes->get($id);
         $recipes = array();
@@ -99,47 +80,34 @@ class Production extends Application {
                 'description' => $record['description']
             );
         }
-        
+
         $this->data = array_merge($this->data, $recipes);
         $this->data['recipes'] = $recipes;
 
         $this->render();
     }
-	
+
+    /**
+     * Make product
+     */
     public function makeProduct() {
         $this->data['pagebody'] = 'produce';
-        
-        $quantity = $_GET['production_quantity/'.$_GET['id']];
-        $name = $this->recipes->getRecipeName($_GET['id']);
-        
-        $log = $quantity . " of " . $name . " is produced.";
-        
 
-		$transaction = "";
+        $quantity = $_GET['production_quantity/' . $_GET['id']];
+        $name = $this->recipes->getRecipeName($_GET['id']);
+
+        $log = $quantity . " of " . $name . " is produced.";
+
+
+        $transaction = "";
 
         $this->recipes->transaction($log);
 
         $logger[] = array('transaction_msg' => $log);
         $this->data['transaction'] = $logger;
-		
+
         $this->stock->produce_update_db();
         $this->render();
     }
 
-    /**
-      public function get($code){
-      //the pagebody of the ingredients and amounts to make an item/recipe
-      $this->data['pagebody'] = 'ingredients';
-
-      //
-      $source = $this->recipes->get($code);
-      $recipes[] = array('id' => $source['code'],
-      'name' => $source['name'],
-      'description' => $source['dscription'],
-      'ingredients' => $source['ingredients']);
-      $this->data['recipes'] = $recipes;
-      $this->render();
-      }
-     * 
-     */
 }

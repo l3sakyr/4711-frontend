@@ -22,7 +22,7 @@
             </tr>
             {supplies}
             <tr align="center">
-                <td><a href="/receiving/supply/{code}">{name}<a></td>
+                <td><a href="/Receiving/supply/{code}">{name}<a></td>
                             <td>{description}</td>
                             <td><input type="text" name="receiving_amount/{code}" style="width:20px"></td>
                             <td><input type="submit" name="id" value="{code}"></td>

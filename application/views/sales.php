@@ -10,20 +10,19 @@
             </tr>
             {stock}
             <tr align="center">
-                <td><a href="/sales/item/{code}">{name}<a></td>
+                <td><a href="/Sales/item/{code}">{name}<a></td>
                             <td>{price}</td>
                             <td>{description}</td>
-                            <td><a class="btn btn-default" role="button" value="{code}" href="/sales/add/{code}">Add</a></td>
+                            <td><a class="btn btn-default" role="button" value="{code}" href="/Sales/add/{code}">Add</a></td>
                             </tr>
                             {/stock}
                             </table>
-        
-       <div style="width:200px">
-        {currentOrder}
-        {errors}
-        </div>
+
+                            <div style="width:200px">
+                                {currentOrder}
+                            </div>
                             <br>
-                            <a class="btn btn-default" href="/sales/checkout">Checkout</a>
-                            <a class="btn btn-default" href="/sales/cancel">Cancel</a>
+                            <a class="btn btn-default" href="/Sales/checkout">Checkout</a>
+                            <a class="btn btn-default" href="/Sales/cancel">Cancel</a>
                             </form>
                             </div>

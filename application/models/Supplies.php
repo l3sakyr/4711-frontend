@@ -106,7 +106,7 @@ class Supplies extends CI_Model {
         //SQL//
         return $measuring_units;
     }
-    
+
     /**
      * Gets the receiving cost from the database
      * @return type
@@ -164,7 +164,7 @@ class Supplies extends CI_Model {
         return $result;
     }
 
-	// records the transaction into the transaction table
+    // records the transaction into the transaction table
     public function transaction($log) {
         //SQL
         $servername = "localhost";
@@ -250,8 +250,8 @@ class Supplies extends CI_Model {
         $conn->close();
         //SQL//
     }
-    
-    public function update($array){
+
+    public function update($array) {
         $servername = "localhost";
         $username = "root";
         $password = "";
@@ -263,9 +263,9 @@ class Supplies extends CI_Model {
         if ($conn->connect_error) {
             die("Connection failed: " . $conn->connect_error);
         }
-        
+
         // Updates the supplies fields
-        $sql = "UPDATE Supplies SET quantity = " . $array['quantity'] . ", name = ". $array['name'] ." , description = ". $array['description'] .", receiving_cost = ". $array['receiving_cost'] .", measuring_units = ". $array['measuring_units'] .", receiving_amount = ". $array['receiving_amount'] ." WHERE code <=> " . $array['code'] . ";";
+        $sql = "UPDATE Supplies SET quantity = " . $array['quantity'] . ", name = " . $array['name'] . " , description = " . $array['description'] . ", receiving_cost = " . $array['receiving_cost'] . ", measuring_units = " . $array['measuring_units'] . ", receiving_amount = " . $array['receiving_amount'] . " WHERE code <=> " . $array['code'] . ";";
         $result = $conn->query($sql);
         $conn->close();
     }
