@@ -5,11 +5,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 // the menu basics (text navbar)
 $config['menudata'] = array(
     array('name' => 'Homepage', 'link' => '/'),
-    array('name' => 'Administration', 'link' => '/administration'),
-    array('name' => 'Production', 'link' => '/production'),
-    array('name' => 'Receiving', 'link' => '/receiving'),
-    array('name' => 'Sales', 'link' => '/sales/summarize'),
-    array('name' => 'Toggle Role', 'link' => '/toggle')
+    array('name' => 'Administration', 'link' => '/Administration'),
+    array('name' => 'Production', 'link' => '/Production'),
+    array('name' => 'Receiving', 'link' => '/Receiving'),
+    array('name' => 'Sales', 'link' => '/Sales/summarize'),
+    array('name' => 'Toggle Role', 'link' => '/Toggle')
 );
 
 /*
@@ -34,7 +34,7 @@ $config['menudata'] = array(
   | a PHP script and you can easily do that on your own.
   |
  */
-$config['base_url'] = '/';
+$config['base_url'] = 'frontend.local/';
 
 /*
   |--------------------------------------------------------------------------

@@ -3,6 +3,7 @@
 
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
+            {pagetitle}
             <img height="35" width="35" src="/assets/images/logo.png">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>

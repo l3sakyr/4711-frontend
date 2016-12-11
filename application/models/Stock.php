@@ -7,51 +7,6 @@
  */
 
 class Stock extends CI_Model {
-    //Initialize the array of stock
-//    var $data = array(
-//        array(
-//            'code' => '0',
-//            'name' => 'Refresh',
-//            'description' => 'Sharpen concentration, increase stamina, and revitalize your senses',
-//            'quantity' => '4',
-//            'price' => '$14.95'),
-//        array(
-//            'code' => '1',
-//            'name' => 'Cloud Nine',
-//            'description' => 'Lift your spirits',
-//            'quantity' => '7',
-//            'price' => '$16.45'),
-//        array(
-//            'code' => '2',
-//            'name' => 'Energy',
-//            'description' => 'Invigorate and refresh your mind and body',
-//            'quantity' => '5',
-//            'price' => '$18.45'),
-//        array(
-//            'code' => '3',
-//            'name' => 'Exhale',
-//            'description' => 'An exhilarating essential oil blend that renews and strengthens',
-//            'quantity' => '4',
-//            'price' => '$12.95'),
-//        array(
-//            'code' => '4',
-//            'name' => 'Citrus Dream',
-//            'description' => 'For promoting a sense of calmness and positivity',
-//            'quantity' => '9',
-//            'price' => '$16.95'),
-//        array(
-//            'code' => '5',
-//            'name' => 'Tranquility',
-//            'description' => 'For a deeper, more restful sleep',
-//            'quantity' => '5',
-//            'price' => '$12.45'),
-//        array(
-//            'code' => '6',
-//            'name' => 'Unwind',
-//            'description' => 'Melt away stress and ease tension with this uplifting blend',
-//            'quantity' => '7',
-//            'price' => '$19.45')
-//    );
 
     /**
      * Constructor
@@ -86,6 +41,11 @@ class Stock extends CI_Model {
         return $record;
     }
 
+    /**
+     * Get price
+     * @param type $id
+     * @return type
+     */
     public function getPrice($id) {
         //SQL
         $servername = "localhost";
@@ -118,6 +78,11 @@ class Stock extends CI_Model {
         return $price;
     }
 
+    /**
+     * Update quantity
+     * @param type $id
+     * @return type
+     */
     public function updateQuantity($id) {
         $servername = "localhost";
         $username = "root";
@@ -149,6 +114,11 @@ class Stock extends CI_Model {
         return $quantity;
     }
 
+    /**
+     * Get quantity
+     * @param type $id
+     * @return type
+     */
     public function getQuantity($id) {
         //SQL
         $servername = "localhost";
@@ -176,6 +146,11 @@ class Stock extends CI_Model {
         return $quantity;
     }
 
+    /**
+     * Get name
+     * @param type $id
+     * @return type
+     */
     public function getName($id) {
         //SQL
         $servername = "localhost";
@@ -208,6 +183,10 @@ class Stock extends CI_Model {
         return $name;
     }
 
+    /**
+     * Get all
+     * @return type
+     */
     public function all() {
         //SQL
         $servername = "localhost";
@@ -229,12 +208,10 @@ class Stock extends CI_Model {
         return $result;
     }
 
-    //public function numentries(){
-    //    $source = $this->all();
-    //    $numentries = $source->num_rows;
-    //    return $numentries;
-    //}
-
+    /**
+     * Reduces stock by one
+     * @param type $which
+     */
     public function takeOne($which) {
         $servername = "localhost";
         $username = "root";
@@ -258,6 +235,9 @@ class Stock extends CI_Model {
         $conn->close();
     }
 
+    /**
+     * Update db
+     */
     public function produce_update_db() {
         //SQL
         $servername = "localhost";
@@ -280,6 +260,10 @@ class Stock extends CI_Model {
         //SQL//
     }
 
+    /**
+     * Update stock
+     * @param type $array
+     */
     public function update($array) {
         $servername = "localhost";
         $username = "root";
