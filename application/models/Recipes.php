@@ -218,6 +218,31 @@ class Recipes extends CI_Model {
         return $record;
     }
 
+    public function getRecipeName($id) {
+        $servername = "localhost";
+        $username = "root";
+        $password = "";
+        $dbname = "a2Database";
+        // Create connection
+        $conn = new mysqli($servername, $username, $password, $dbname);
+        // Check connection
+        if ($conn->connect_error) {
+            die("Connection failed: " . $conn->connect_error);
+        }
+
+        $sql = "SELECT name FROM recipes WHERE code <=> " . $id . ";";
+
+        $result = $conn->query($sql);
+
+        if ($result->num_rows > 0) {
+            while ($row = $result->fetch_assoc()) {
+                $name = $row["name"];
+            }
+        }
+        $conn->close();
+        return $name;
+    }
+
     public function getIngre($code) {
         $servername = "localhost";
         $username = "root";
@@ -234,9 +259,9 @@ class Recipes extends CI_Model {
             join recipe_supply
             on recipe_supply.recipeCode = recipes.code
             and recipe_supply.recipeCode = " . $code . PHP_EOL .
-            "join supplies on supplies.code = recipe_supply.supplyCode;";
+                "join supplies on supplies.code = recipe_supply.supplyCode;";
         $result = $conn->query($sql);
-        
+
         $conn->close();
         return $result;
     }
@@ -288,6 +313,28 @@ class Recipes extends CI_Model {
             ['field' => 'description', 'label' => 'Item description', 'rules' => 'required|max_length[256]']
         ];
         return $config;
+    }
+
+    public function update_recipe_quantity() {
+        //SQL
+        $servername = "localhost";
+        $username = "root";
+        $password = "";
+        $dbname = "a2Database";
+
+        // Create connection
+        $conn = new mysqli($servername, $username, $password, $dbname);
+        // Check connection
+        if ($conn->connect_error) {
+            die("Connection failed: " . $conn->connect_error);
+        }
+
+        // Template for adding product
+        $quantity = $_GET['production_quantity/'.$_GET['id']];
+        $sql = "UPDATE recipes_supply SET quantity = quantity + " . $quantity . " WHERE code <=>" . $_GET['id'] . ";";
+        $result = $conn->query($sql);
+        $conn->close();
+        //SQL//
     }
 
 }

@@ -34,7 +34,7 @@ class Homepage extends Application {
         $this->invCal();
         $this->saleCal();
         $this->countRecipe();
-        $this->countIngredients();
+        $this->countSupplies();
         //this makes the view rendered
         $this->render();
     }
@@ -95,7 +95,7 @@ class Homepage extends Application {
         $this->data['recipeCount'] = $recipeCount;
     }
 
-    public function countIngredients() {
+    public function countSupplies() {
         // gets a list of supplies
         $source = $this->supplies->all();
         $supplyCount = 0;
