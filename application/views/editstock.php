@@ -1,3 +1,4 @@
+{stock}
 <div class="row">
     <div>
         <form>
@@ -13,3 +14,4 @@
         </form>
     </div>
 </div>
+{/stock}

@@ -306,3 +306,187 @@ ERROR - 2016-12-11 05:05:52 --> 404 Page Not Found: Assets/css
 ERROR - 2016-12-11 05:05:54 --> Severity: Error --> Administration::editrecipe(): Cannot write property C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 124
 ERROR - 2016-12-11 05:06:27 --> Severity: Parsing Error --> syntax error, unexpected 'foreach' (T_FOREACH) C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 142
 ERROR - 2016-12-11 05:06:35 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 05:18:12 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 05:18:16 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 05:18:17 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 05:18:18 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 05:21:56 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 05:21:58 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 05:23:10 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 05:23:14 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 05:23:32 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 05:24:51 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 05:25:02 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 05:25:59 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 05:29:17 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 05:29:39 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 05:30:28 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 05:30:30 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 05:30:44 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 05:30:45 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 05:30:57 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 05:30:59 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 05:31:34 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 05:32:27 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 81
+ERROR - 2016-12-11 05:32:27 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 82
+ERROR - 2016-12-11 05:32:27 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 68
+ERROR - 2016-12-11 05:32:27 --> Severity: Notice --> Undefined variable: name C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 77
+ERROR - 2016-12-11 05:32:27 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 81
+ERROR - 2016-12-11 05:32:27 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 82
+ERROR - 2016-12-11 05:32:27 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 68
+ERROR - 2016-12-11 05:32:27 --> Severity: Notice --> Undefined variable: name C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 77
+ERROR - 2016-12-11 05:32:27 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 81
+ERROR - 2016-12-11 05:32:27 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 82
+ERROR - 2016-12-11 05:32:27 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 68
+ERROR - 2016-12-11 05:32:27 --> Severity: Notice --> Undefined variable: name C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 77
+ERROR - 2016-12-11 05:32:27 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 81
+ERROR - 2016-12-11 05:32:27 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 82
+ERROR - 2016-12-11 05:32:27 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 68
+ERROR - 2016-12-11 05:32:27 --> Severity: Notice --> Undefined variable: name C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 77
+ERROR - 2016-12-11 05:32:27 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 81
+ERROR - 2016-12-11 05:32:27 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 82
+ERROR - 2016-12-11 05:32:27 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 68
+ERROR - 2016-12-11 05:32:27 --> Severity: Notice --> Undefined variable: name C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 77
+ERROR - 2016-12-11 05:32:27 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 81
+ERROR - 2016-12-11 05:32:28 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 82
+ERROR - 2016-12-11 05:32:28 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 68
+ERROR - 2016-12-11 05:32:28 --> Severity: Notice --> Undefined variable: name C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 77
+ERROR - 2016-12-11 05:32:28 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 05:32:33 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 81
+ERROR - 2016-12-11 05:32:33 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 82
+ERROR - 2016-12-11 05:32:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 68
+ERROR - 2016-12-11 05:32:33 --> Severity: Notice --> Undefined variable: name C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 77
+ERROR - 2016-12-11 05:32:33 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 81
+ERROR - 2016-12-11 05:32:33 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 82
+ERROR - 2016-12-11 05:32:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 68
+ERROR - 2016-12-11 05:32:33 --> Severity: Notice --> Undefined variable: name C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 77
+ERROR - 2016-12-11 05:32:33 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 81
+ERROR - 2016-12-11 05:32:33 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 82
+ERROR - 2016-12-11 05:32:33 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 68
+ERROR - 2016-12-11 05:32:33 --> Severity: Notice --> Undefined variable: name C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 77
+ERROR - 2016-12-11 05:32:33 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 81
+ERROR - 2016-12-11 05:32:33 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 82
+ERROR - 2016-12-11 05:32:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 68
+ERROR - 2016-12-11 05:32:34 --> Severity: Notice --> Undefined variable: name C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 77
+ERROR - 2016-12-11 05:32:34 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 81
+ERROR - 2016-12-11 05:32:34 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 82
+ERROR - 2016-12-11 05:32:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 68
+ERROR - 2016-12-11 05:32:34 --> Severity: Notice --> Undefined variable: name C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 77
+ERROR - 2016-12-11 05:32:34 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 81
+ERROR - 2016-12-11 05:32:34 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 82
+ERROR - 2016-12-11 05:32:34 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 68
+ERROR - 2016-12-11 05:32:34 --> Severity: Notice --> Undefined variable: name C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 77
+ERROR - 2016-12-11 05:32:34 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 05:32:35 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 81
+ERROR - 2016-12-11 05:32:35 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 82
+ERROR - 2016-12-11 05:32:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 68
+ERROR - 2016-12-11 05:32:35 --> Severity: Notice --> Undefined variable: name C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 77
+ERROR - 2016-12-11 05:32:35 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 81
+ERROR - 2016-12-11 05:32:35 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 82
+ERROR - 2016-12-11 05:32:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 68
+ERROR - 2016-12-11 05:32:35 --> Severity: Notice --> Undefined variable: name C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 77
+ERROR - 2016-12-11 05:32:35 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 81
+ERROR - 2016-12-11 05:32:35 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 82
+ERROR - 2016-12-11 05:32:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 68
+ERROR - 2016-12-11 05:32:35 --> Severity: Notice --> Undefined variable: name C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 77
+ERROR - 2016-12-11 05:32:35 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 81
+ERROR - 2016-12-11 05:32:35 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 82
+ERROR - 2016-12-11 05:32:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 68
+ERROR - 2016-12-11 05:32:35 --> Severity: Notice --> Undefined variable: name C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 77
+ERROR - 2016-12-11 05:32:35 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 81
+ERROR - 2016-12-11 05:32:35 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 82
+ERROR - 2016-12-11 05:32:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 68
+ERROR - 2016-12-11 05:32:35 --> Severity: Notice --> Undefined variable: name C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 77
+ERROR - 2016-12-11 05:32:35 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 81
+ERROR - 2016-12-11 05:32:35 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 82
+ERROR - 2016-12-11 05:32:35 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 68
+ERROR - 2016-12-11 05:32:35 --> Severity: Notice --> Undefined variable: name C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 77
+ERROR - 2016-12-11 05:32:36 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 05:32:47 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 81
+ERROR - 2016-12-11 05:32:47 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 82
+ERROR - 2016-12-11 05:32:47 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 68
+ERROR - 2016-12-11 05:32:47 --> Severity: Notice --> Undefined variable: name C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 77
+ERROR - 2016-12-11 05:32:47 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 81
+ERROR - 2016-12-11 05:32:47 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 82
+ERROR - 2016-12-11 05:32:47 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 68
+ERROR - 2016-12-11 05:32:47 --> Severity: Notice --> Undefined variable: name C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 77
+ERROR - 2016-12-11 05:32:47 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 81
+ERROR - 2016-12-11 05:32:47 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 82
+ERROR - 2016-12-11 05:32:47 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 68
+ERROR - 2016-12-11 05:32:47 --> Severity: Notice --> Undefined variable: name C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 77
+ERROR - 2016-12-11 05:32:47 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 81
+ERROR - 2016-12-11 05:32:47 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 82
+ERROR - 2016-12-11 05:32:47 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 68
+ERROR - 2016-12-11 05:32:47 --> Severity: Notice --> Undefined variable: name C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 77
+ERROR - 2016-12-11 05:32:47 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 81
+ERROR - 2016-12-11 05:32:47 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 82
+ERROR - 2016-12-11 05:32:47 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 68
+ERROR - 2016-12-11 05:32:47 --> Severity: Notice --> Undefined variable: name C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 77
+ERROR - 2016-12-11 05:32:47 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 81
+ERROR - 2016-12-11 05:32:47 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 82
+ERROR - 2016-12-11 05:32:47 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 68
+ERROR - 2016-12-11 05:32:47 --> Severity: Notice --> Undefined variable: name C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 77
+ERROR - 2016-12-11 05:32:47 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 05:33:06 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 05:34:04 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 85
+ERROR - 2016-12-11 05:34:04 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 68
+ERROR - 2016-12-11 05:34:04 --> Severity: Notice --> Undefined variable: name C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 77
+ERROR - 2016-12-11 05:34:04 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 85
+ERROR - 2016-12-11 05:34:04 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 68
+ERROR - 2016-12-11 05:34:04 --> Severity: Notice --> Undefined variable: name C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 77
+ERROR - 2016-12-11 05:34:04 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 85
+ERROR - 2016-12-11 05:34:04 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 68
+ERROR - 2016-12-11 05:34:04 --> Severity: Notice --> Undefined variable: name C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 77
+ERROR - 2016-12-11 05:34:05 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 85
+ERROR - 2016-12-11 05:34:05 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 68
+ERROR - 2016-12-11 05:34:05 --> Severity: Notice --> Undefined variable: name C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 77
+ERROR - 2016-12-11 05:34:05 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 85
+ERROR - 2016-12-11 05:34:05 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 68
+ERROR - 2016-12-11 05:34:05 --> Severity: Notice --> Undefined variable: name C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 77
+ERROR - 2016-12-11 05:34:05 --> Severity: Notice --> Undefined variable: supplyCode C:\xampp\htdocs\4711-frontend\application\controllers\Production.php 85
+ERROR - 2016-12-11 05:34:05 --> Severity: Notice --> Trying to get property of non-object C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 68
+ERROR - 2016-12-11 05:34:05 --> Severity: Notice --> Undefined variable: name C:\xampp\htdocs\4711-frontend\application\models\Supplies.php 77
+ERROR - 2016-12-11 05:34:05 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 05:34:20 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 05:36:51 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 05:39:27 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 05:40:13 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 05:42:14 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 05:46:53 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 05:48:36 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 05:48:58 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 05:49:17 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 05:52:58 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 05:53:15 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 05:58:11 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 05:58:12 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 05:58:14 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 05:58:18 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 05:58:19 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 05:58:50 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 05:58:58 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 05:59:06 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 05:59:07 --> Severity: Warning --> array_merge(): Argument #2 is not an array C:\xampp\htdocs\4711-frontend\application\controllers\Administration.php 193
+ERROR - 2016-12-11 05:59:07 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\4711-frontend\system\libraries\Parser.php 140
+ERROR - 2016-12-11 05:59:07 --> Severity: Notice --> Undefined index: pagebody C:\xampp\htdocs\4711-frontend\application\core\MY_Controller.php 38
+ERROR - 2016-12-11 06:01:26 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 06:01:44 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 06:02:05 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 06:02:09 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 06:02:12 --> 404 Page Not Found: Administration/addsupply
+ERROR - 2016-12-11 06:02:35 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 06:02:37 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 06:02:39 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 06:02:40 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 06:02:42 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 06:02:44 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 06:02:46 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 06:02:47 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 06:02:49 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 06:04:47 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 06:04:55 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 06:05:18 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 06:06:45 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 06:07:27 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 06:07:30 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 06:07:31 --> 404 Page Not Found: Assets/css

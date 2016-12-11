@@ -77,7 +77,40 @@ class Supplies extends CI_Model {
         return $name;
     }
 
-    // gets the receiving cost from the database
+    public function getMeasuringUnits($id) {
+        //SQL
+        $servername = "localhost";
+        $username = "root";
+        $password = "";
+        $dbname = "a2Database";
+
+        // Create connection
+        $conn = new mysqli($servername, $username, $password, $dbname);
+        // Check connection
+        if ($conn->connect_error) {
+            die("Connection failed: " . $conn->connect_error);
+        }
+
+        $sql = "SELECT measuring_units FROM supplies WHERE code <=> " . $id . ";";
+
+        $result = $conn->query($sql);
+
+        if ($result->num_rows > 0) {
+            // output data of each row
+            while ($row = $result->fetch_assoc()) {
+                //echo "<br> name: " . $row["name"] ."<br>";
+                $measuring_units = $row["measuring_units"];
+            }
+        }
+        $conn->close();
+        //SQL//
+        return $measuring_units;
+    }
+    
+    /**
+     * Gets the receiving cost from the database
+     * @return type
+     */
     public function getRc() {
         //SQL
         $servername = "localhost";

@@ -130,7 +130,9 @@ class Administration extends Application {
                 'code' => $record['code'],
                 'supplyCode' => $record['supplyCode'],
                 'recipeCode' => $record['recipeCode'],
-                'supplyName' => $supplyName
+                'supplyName' => $supplyName,
+                'measuring_units' => $record['measuring_units'],
+                'amount' => $record['amount']
             );
         }
         $this->data['ingredients'] = $ingredients;
@@ -182,13 +184,24 @@ class Administration extends Application {
      * @param type $code
      */
     public function editstock($code = null) {
-        // code to show form to edit a stock
         $this->load->model('stock');
         $this->data['pagebody'] = 'editstock';
 
-        // gets a list of supplies
+        // get the supply
         $source = $this->stock->get($code);
-        $this->data = array_merge($this->data, $source);
+        $stock = array();
+        foreach ($source as $record) {
+            $stock[] = array(
+                'code' => $record['code'],
+                'name' => $record['name'],
+                'description' => $record['description'],
+                'price' => $record['price'],
+                'quantity' => $record['quantity']
+            );
+        }
+        
+        $this->data = array_merge($this->data, $stock);
+        $this->data['stock'] = $stock;
         $this->render();
     }
 
