@@ -89,7 +89,6 @@ class Sales extends Application {
         if (!$this->session->has_userdata('order')) {
             $order = new Order();
             $this->session->set_userdata('order', (array) $order);
-            echo('order num' . $order->number);
         }
     }
 
