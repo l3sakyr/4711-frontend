@@ -1169,3 +1169,199 @@ ERROR - 2016-12-11 11:25:56 --> 404 Page Not Found: Assets/css
 ERROR - 2016-12-11 11:25:58 --> Severity: Notice --> Object of class mysqli_result could not be converted to int C:\xampp\htdocs\4711-frontend\application\models\Order.php 68
 ERROR - 2016-12-11 11:25:58 --> 404 Page Not Found: Assets/css
 ERROR - 2016-12-11 11:25:59 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:08:21 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:08:24 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:08:28 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:08:29 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:08:30 --> Severity: Notice --> Object of class mysqli_result could not be converted to int C:\xampp\htdocs\4711-frontend\application\models\Order.php 68
+ERROR - 2016-12-11 20:08:30 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:08:34 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:08:36 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:08:40 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:08:41 --> Severity: Notice --> Object of class mysqli_result could not be converted to int C:\xampp\htdocs\4711-frontend\application\models\Order.php 68
+ERROR - 2016-12-11 20:08:41 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:09:28 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:09:29 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:09:31 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:09:32 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:09:33 --> Severity: Notice --> Object of class mysqli_result could not be converted to int C:\xampp\htdocs\4711-frontend\application\models\Order.php 68
+ERROR - 2016-12-11 20:09:33 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:09:49 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:09:50 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:09:54 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:09:54 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:09:56 --> Severity: Notice --> Object of class mysqli_result could not be converted to int C:\xampp\htdocs\4711-frontend\application\models\Order.php 68
+ERROR - 2016-12-11 20:09:56 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:10:59 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:11:00 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:11:03 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:11:03 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:11:05 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:11:07 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:11:08 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:11:11 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:11:12 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:11:18 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:11:54 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:11:57 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:11:58 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:12:30 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:12:32 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:12:33 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:12:35 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:12:36 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:12:37 --> Severity: Notice --> Object of class mysqli_result could not be converted to int C:\xampp\htdocs\4711-frontend\application\models\Order.php 68
+ERROR - 2016-12-11 20:12:37 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:14:44 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:14:46 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:14:47 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:14:48 --> Severity: Notice --> Object of class mysqli_result could not be converted to int C:\xampp\htdocs\4711-frontend\application\models\Order.php 68
+ERROR - 2016-12-11 20:14:48 --> Severity: 4096 --> Object of class mysqli_result could not be converted to string C:\xampp\htdocs\4711-frontend\application\models\Order.php 69
+ERROR - 2016-12-11 20:14:48 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:15:26 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:15:27 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:15:28 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:15:29 --> Severity: Notice --> Object of class mysqli_result could not be converted to int C:\xampp\htdocs\4711-frontend\application\models\Order.php 68
+ERROR - 2016-12-11 20:15:29 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:16:34 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:16:36 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:16:36 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:16:38 --> Severity: Notice --> Object of class mysqli_result could not be converted to int C:\xampp\htdocs\4711-frontend\application\models\Order.php 68
+ERROR - 2016-12-11 20:16:38 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:16:41 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:16:42 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:16:43 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:16:44 --> Severity: Notice --> Object of class mysqli_result could not be converted to int C:\xampp\htdocs\4711-frontend\application\models\Order.php 68
+ERROR - 2016-12-11 20:16:44 --> Severity: Notice --> Object of class mysqli_result could not be converted to int C:\xampp\htdocs\4711-frontend\application\models\Order.php 68
+ERROR - 2016-12-11 20:16:45 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:16:54 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:16:55 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:16:57 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:16:59 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:17:03 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:17:05 --> Severity: Notice --> Object of class mysqli_result could not be converted to int C:\xampp\htdocs\4711-frontend\application\models\Order.php 68
+ERROR - 2016-12-11 20:17:05 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:17:08 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:19:18 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:19:20 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:19:22 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:19:24 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:19:26 --> Severity: Notice --> Object of class mysqli_result could not be converted to int C:\xampp\htdocs\4711-frontend\application\models\Order.php 70
+ERROR - 2016-12-11 20:19:26 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:20:32 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:20:33 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:20:36 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:20:37 --> Severity: Notice --> Object of class mysqli_result could not be converted to int C:\xampp\htdocs\4711-frontend\application\models\Order.php 70
+ERROR - 2016-12-11 20:20:37 --> Severity: Notice --> Object of class mysqli_result could not be converted to int C:\xampp\htdocs\4711-frontend\application\models\Order.php 71
+ERROR - 2016-12-11 20:20:37 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:36:22 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:36:24 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:37:05 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:37:07 --> Severity: Notice --> Object of class mysqli_result could not be converted to int C:\xampp\htdocs\4711-frontend\application\models\Order.php 70
+ERROR - 2016-12-11 20:37:07 --> Severity: Notice --> Object of class mysqli_result could not be converted to int C:\xampp\htdocs\4711-frontend\application\models\Order.php 71
+ERROR - 2016-12-11 20:37:07 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:37:12 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:41:56 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:41:58 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:42:01 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:42:02 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:42:04 --> Severity: Notice --> Object of class mysqli_result could not be converted to int C:\xampp\htdocs\4711-frontend\application\models\Order.php 70
+ERROR - 2016-12-11 20:42:04 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:42:05 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:42:07 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:42:10 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:42:14 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:42:15 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:42:16 --> Severity: Notice --> Object of class mysqli_result could not be converted to int C:\xampp\htdocs\4711-frontend\application\models\Order.php 70
+ERROR - 2016-12-11 20:42:17 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:45:29 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:45:31 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:45:36 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:45:37 --> Severity: Notice --> Object of class mysqli_result could not be converted to int C:\xampp\htdocs\4711-frontend\application\models\Order.php 70
+ERROR - 2016-12-11 20:45:38 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:48:14 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:48:16 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:48:18 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:48:20 --> Severity: Notice --> Object of class mysqli_result could not be converted to int C:\xampp\htdocs\4711-frontend\application\models\Order.php 70
+ERROR - 2016-12-11 20:48:20 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:49:26 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:51:01 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:51:02 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:51:03 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:51:05 --> Severity: Notice --> Object of class mysqli_result could not be converted to int C:\xampp\htdocs\4711-frontend\application\models\Order.php 70
+ERROR - 2016-12-11 20:51:05 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:54:00 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:54:01 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:54:03 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:54:04 --> Severity: Notice --> Object of class mysqli_result could not be converted to int C:\xampp\htdocs\4711-frontend\application\models\Order.php 70
+ERROR - 2016-12-11 20:54:04 --> Severity: Notice --> Object of class mysqli_result could not be converted to int C:\xampp\htdocs\4711-frontend\application\models\Order.php 73
+ERROR - 2016-12-11 20:54:04 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:54:06 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:54:08 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:54:11 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:54:13 --> Severity: Notice --> Object of class mysqli_result could not be converted to int C:\xampp\htdocs\4711-frontend\application\models\Order.php 70
+ERROR - 2016-12-11 20:54:13 --> Severity: Notice --> Object of class mysqli_result could not be converted to int C:\xampp\htdocs\4711-frontend\application\models\Order.php 73
+ERROR - 2016-12-11 20:54:13 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:54:32 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:54:33 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:54:37 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:54:38 --> Severity: Notice --> Object of class mysqli_result could not be converted to int C:\xampp\htdocs\4711-frontend\application\models\Order.php 70
+ERROR - 2016-12-11 20:54:38 --> Severity: Notice --> Object of class mysqli_result could not be converted to int C:\xampp\htdocs\4711-frontend\application\models\Order.php 73
+ERROR - 2016-12-11 20:54:38 --> Severity: Notice --> Object of class mysqli_result could not be converted to int C:\xampp\htdocs\4711-frontend\application\models\Order.php 76
+ERROR - 2016-12-11 20:54:39 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\4711-frontend\system\core\Exceptions.php:246) C:\xampp\htdocs\4711-frontend\system\helpers\url_helper.php 514
+ERROR - 2016-12-11 20:55:43 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:55:48 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:55:49 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:55:51 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:55:54 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 20:55:56 --> Severity: Error --> Cannot use object of type mysqli_result as array C:\xampp\htdocs\4711-frontend\application\models\Stock.php 169
+ERROR - 2016-12-11 21:01:55 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:01:57 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:02:00 --> Severity: Notice --> Undefined variable: result C:\xampp\htdocs\4711-frontend\application\models\Stock.php 171
+ERROR - 2016-12-11 21:02:00 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:02:02 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:02:04 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:02:07 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:02:10 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:02:11 --> Severity: Notice --> Undefined variable: result C:\xampp\htdocs\4711-frontend\application\models\Stock.php 171
+ERROR - 2016-12-11 21:02:11 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:03:11 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:03:12 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:03:14 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:03:18 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:03:21 --> Severity: Notice --> Undefined variable: result C:\xampp\htdocs\4711-frontend\application\models\Stock.php 171
+ERROR - 2016-12-11 21:03:21 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:03:22 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:03:23 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:05:21 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:05:23 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:05:24 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:05:27 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:05:28 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:05:29 --> Severity: Notice --> Undefined variable: result C:\xampp\htdocs\4711-frontend\application\models\Stock.php 171
+ERROR - 2016-12-11 21:05:30 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:05:32 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:05:33 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:09:53 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:09:54 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:09:56 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:09:58 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:10:02 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:10:03 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:10:07 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:10:09 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:10:11 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:10:12 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:10:16 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:10:19 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:10:21 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:10:23 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:10:25 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:10:33 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:10:41 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:10:49 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:10:54 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:10:58 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:10:59 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:11:03 --> 404 Page Not Found: Assets/css
+ERROR - 2016-12-11 21:11:05 --> 404 Page Not Found: Assets/css

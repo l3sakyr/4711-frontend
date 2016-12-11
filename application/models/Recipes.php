@@ -282,6 +282,7 @@ class Recipes extends CI_Model {
 
         $sql = "SELECT * FROM recipes";
         $result = $conn->query($sql);
+        
         $conn->close();
         //SQL//
         return $result;

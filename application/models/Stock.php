@@ -165,10 +165,15 @@ class Stock extends CI_Model {
 
         $sql = "SELECT quantity FROM stock WHERE code <=> " . $id . ";";
 
-        $result = $conn->query($sql);
+        $source = $conn->query($sql);
+
+        foreach ($source as $record) {
+            $quantity = $record['quantity'];
+        }
+        
         $conn->close();
         //SQL//
-        return $result;
+        return $quantity;
     }
 
     public function getName($id) {
