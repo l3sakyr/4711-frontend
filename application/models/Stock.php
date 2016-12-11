@@ -7,7 +7,6 @@
  */
 
 class Stock extends CI_Model {
-
     //Initialize the array of stock
 //    var $data = array(
 //        array(
