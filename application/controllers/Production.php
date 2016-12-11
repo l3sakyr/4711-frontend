@@ -114,11 +114,10 @@ class Production extends Application {
         
         $log = $quantity . " of " . $name . " is produced.";
         
-        //$this->data['production'] = $log;
 
 		$transaction = "";
 
-        //$this->supplies->transaction($log);
+        $this->recipes->transaction($log);
 
         $logger[] = array('transaction_msg' => $log);
         $this->data['transaction'] = $logger;
