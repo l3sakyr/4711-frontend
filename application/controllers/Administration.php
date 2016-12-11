@@ -71,6 +71,7 @@ class Administration extends Application {
 
         // get the supply
         $source = $this->supplies->get($code);
+        print_r($source->fetch_object()['code']);
         $supplies = array();
         foreach ($source as $record) {
             $supplies[] = array(
@@ -121,6 +122,7 @@ class Administration extends Application {
         $this->load->model('recipes');
         // get the ingredients for the recipe
         $source = $this->recipes->getIngre($code);
+        
         $ingredients = array();
         foreach($source as $record){
             $supplyCode = $record['supplyCode'];
