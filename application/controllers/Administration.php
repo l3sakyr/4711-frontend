@@ -46,13 +46,11 @@ class Administration extends Application {
         $source = $this->supplies->all();
         $supplies = array();
         foreach ($source as $record) {
-            $supplies[] = array('code' => $record['code'],
+            $supplies[] = array(
+                'code' => $record['code'],
                 'name' => $record['name'],
-                'description' => $record['description'],
-                'receiving_unit' => $record['receiving_unit'],
-                'receiving_cost' => $record['receiving_cost'],
-                'stocking_unit' => $record['stocking_unit'],
-                'quantity' => $record['quantity']);
+                'description' => $record['description']
+            );
         }
         $this->data['supplies'] = $supplies;
 
@@ -77,10 +75,11 @@ class Administration extends Application {
         $source = $this->recipes->all();
         $supplies = array();
         foreach ($source as $record) {
-            $recipes[] = array('code' => $record['code'],
+            $recipes[] = array(
+                'code' => $record['code'],
                 'name' => $record['name'],
-                'description' => $record['description'],
-                'ingredients' => $record['ingredients']);
+                'description' => $record['description']
+            );
         }
         $this->data['recipes'] = $recipes;
 
@@ -114,11 +113,13 @@ class Administration extends Application {
         $source = $this->stock->all();
         $supplies = array();
         foreach ($source as $record) {
-            $stock[] = array('code' => $record['code'],
+            $stock[] = array(
+                'code' => $record['code'],
                 'name' => $record['name'],
                 'description' => $record['description'],
                 'price' => $record['price'],
-                'quantity' => $record['quantity']);
+                'quantity' => $record['quantity']
+            );
         }
         $this->data['stock'] = $stock;
 
