@@ -17,6 +17,11 @@
                             </tr>
                             {/stock}
                             </table>
+        
+       <div style="width:200px">
+        {currentOrder}
+        {errors}
+        </div>
                             <br>
                             <a class="btn btn-default" href="/sales/checkout">Checkout</a>
                             <a class="btn btn-default" href="/sales/cancel">Cancel</a>

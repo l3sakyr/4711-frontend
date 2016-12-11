@@ -65,11 +65,10 @@ class Order extends CI_Model {
     public function validate(){
         foreach($this->items as $key => $value){
             $quantity = $this->stock->getQuantity($key);
-            if($quantity - $value <= 0){
-                return false;
+            if($quantity - $value < 0){
+                return;
             }
         }
-        return true;
     }
 
     public function save() {
@@ -92,6 +91,7 @@ class Order extends CI_Model {
         // add the main properties
         $xml->addChild('number', $this->number);
         $xml->addChild('datetime', $this->datetime);
+        $i = 0;
         foreach ($this->items as $key => $value) {
             $lineitem = $xml->addChild('item');
             $lineitem->addChild('code', $key);
@@ -99,6 +99,10 @@ class Order extends CI_Model {
             for($i = 0; $i < $value; $i++){
                 $this->stock->takeOne($key);
             }
+            $i++;
+        }
+        if($i==0){
+            return false;
         }
 
         // save it

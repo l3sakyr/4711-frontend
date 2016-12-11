@@ -21,14 +21,25 @@ class Sales extends Application {
      * Homepage for our app
      */
     public function index() {
+        
         $this->load->model('stock');
         $this->data['pagebody'] = 'sales';
 
+        $stuff = '';
+        $errors = '';
         if ($this->session->has_userdata('order')) {
-            
+            $order = new Order($this->session->userdata('order'));
+            $stuff = $order->receipt();
         } else {
-            $this->neworder();
+            $this->session->unset_userdata('order');
+            $stuff = '';
+            if (!$this->session->has_userdata('order')) {
+                $order = new Order();
+                $this->session->set_userdata('order', (array) $order);
+            }
         }
+        $this->data['currentOrder'] = $this->parsedown->parse($stuff);
+        $this->data['errors'] = $this->parsedown->parse($errors);
         
         $source = $this->stock->all();
         $stock = array();
@@ -66,6 +77,16 @@ class Sales extends Application {
         $this->data['pagebody'] = 'summary';
         $this->render('template');  // use the default template
     }
+    
+    public function examine($which) {
+        $this->session->set_userdata('which', $which);
+        //$examine = 'true';
+        $this->session->set_userdata('examine', 'true');
+        $order = new Order ('../data/order' . $which . '.xml');
+        $stuff = $order->receipt();
+        $this->data['content'] = "<div style='width:25%'>".$this->parsedown->parse($stuff)."</div>";
+        $this->render();
+    }	
 
     public function gimme($id) {
         $this->data['pagebody'] = 'justone';
@@ -83,22 +104,13 @@ class Sales extends Application {
 
         $this->render();
     }
-    
-    public function neworder() {
-        // create a new order if needed
-        if (!$this->session->has_userdata('order')) {
-            $order = new Order();
-            $this->session->set_userdata('order', (array) $order);
-        }
-    }
+   
 
     // method to be called when button is clicked to add item
     public function add($what) {
         $order = new Order($this->session->userdata('order'));
         $order->additem($what);
         $this->session->set_userdata('order', (array) $order);
-        //decrease that items stock by 1
-        //$this->stock->takeOne($which);
         redirect('/sales');
     }
     
@@ -108,7 +120,7 @@ class Sales extends Application {
             $this->session->unset_userdata('order');
         }
 
-        $this->index();
+        redirect('/sales/summarize');
     }
 
     public function checkout() {
@@ -116,7 +128,8 @@ class Sales extends Application {
 
         $order->save();
         $this->session->unset_userdata('order');
-        redirect('/sales');
+        
+        redirect('/sales/summarize');
     }
 
 }
