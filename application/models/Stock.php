@@ -233,6 +233,12 @@ class Stock extends CI_Model {
         //SQL//
         return $result;
     }
+    
+    //public function numentries(){
+    //    $source = $this->all();
+    //    $numentries = $source->num_rows;
+    //    return $numentries;
+    //}
 
     public function takeOne($which) {
         $servername = "localhost";
@@ -247,6 +253,10 @@ class Stock extends CI_Model {
             die("Connection failed: " . $conn->connect_error);
         }
 
+        //$numentries = $this->numentries();
+        //if($numentries() == 0){
+        //    return -1;
+        //}
         $sql = "UPDATE Stock SET quantity = quantity - 1 WHERE code = " . $which;
 
         $result = $conn->query($sql);
