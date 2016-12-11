@@ -39,6 +39,9 @@ class Administration extends Application {
         $this->render();
     }
 
+    /**
+     * Show all supplies
+     */
     public function supplies() {
         $this->load->model('supplies');
         $this->data['pagebody'] = 'supplies';
@@ -57,27 +60,38 @@ class Administration extends Application {
         $this->render();
     }
 
+    /**
+     * Edit a supply
+     * When code is null, a new supply is being added
+     * @param type $code
+     */
     public function editsupply($code) {
         $this->load->model('supplies');
         $this->data['pagebody'] = 'editsupply';
 
         // get the supply
         $source = $this->supplies->get($code);
-        
+        $supplies = array();
         foreach ($source as $record) {
             $supplies[] = array(
-                'code'             => $record['code'],
-                'name'             => $record['name'],
-                'description'      => $record['description'], 
+                'code' => $record['code'],
+                'name' => $record['name'],
+                'description' => $record['description'],
+                'measuring_units' => $record['measuring_units'],
+                'receiving_cost' => $record['receiving_cost'],
                 'receiving_amount' => $record['receiving_amount'],
-                'receiving_cost'   => $record['receiving_cost'],
-                'measuring_units'  => $record['measuring_units'],
-                'quantity'         => $record['quantity']);
+                'quantity' => $record['quantity']
+            );
         }
+        
+        $this->data = array_merge($this->data, $supplies);
         $this->data['supplies'] = $supplies;
         $this->render();
     }
 
+    /**
+     * Show all recipes
+     */
     public function recipes() {
         $this->load->model('recipes');
         $this->data['pagebody'] = 'recipes';
@@ -97,28 +111,52 @@ class Administration extends Application {
         $this->render();
     }
 
+    /**
+     * Edit a recipe
+     * When code is null, new recipe is being added
+     * @param type $code
+     */
     public function editrecipe($code) {
+        $this->load->model('supplies');
         $this->load->model('recipes');
+        // get the ingredients for the recipe
+        $source = $this->recipes->getIngre($code);
+        $ingredients = array();
+        foreach($source as $record){
+            $supplyCode = $record['supplyCode'];
+            $supply = $this->supplies->get($supplyCode);
+            $supplyName = $this->supplies->getName($supplyCode);
+            $ingredients[] = array(
+                'code' => $record['code'],
+                'supplyCode' => $record['supplyCode'],
+                'recipeCode' => $record['recipeCode'],
+                'supplyName' => $supplyName,
+                'measuring_units' => $record['measuring_units'],
+                'amount' => $record['amount']
+            );
+        }
+        $this->data['ingredients'] = $ingredients;
         $this->data['pagebody'] = 'editrecipe';
 
         // get the recipe
         $source = $this->recipes->get($code);
-
+        $recipes = array();
         foreach ($source as $record) {
             $recipes[] = array(
-                'code'             => $record['code'],
-                'name'             => $record['name'],
-                'description'      => $record['description']
-                //, 
-                //'ingredients'      => $record['ingredients'],
-                //'quantity'         => $record['quantity']
-                );
+                'code' => $record['code'],
+                'name' => $record['name'],
+                'description' => $record['description']
+            );
         }
         
+        $this->data = array_merge($this->data, $recipes);
         $this->data['recipes'] = $recipes;
         $this->render();
     }
 
+    /**
+     * Show all stock
+     */
     public function stock() {
         $this->load->model('stock');
         $this->data['pagebody'] = 'stock';
@@ -140,24 +178,29 @@ class Administration extends Application {
         $this->render();
     }
 
-    public function editstock($code) {
-        // code to show form to edit a stock
+    /**
+     * Edit a stock
+     * When code is null, stock is being added
+     * @param type $code
+     */
+    public function editstock($code = null) {
         $this->load->model('stock');
         $this->data['pagebody'] = 'editstock';
 
-        // gets a list of supplies
+        // get the supply
         $source = $this->stock->get($code);
-        
+        $stock = array();
         foreach ($source as $record) {
             $stock[] = array(
-                'code'             => $record['code'],
-                'name'             => $record['name'],
-                'description'      => $record['description'],
-                'quantity'         => $record['quantity'],
-                'price'            => $record['price']
-                );
+                'code' => $record['code'],
+                'name' => $record['name'],
+                'description' => $record['description'],
+                'price' => $record['price'],
+                'quantity' => $record['quantity']
+            );
         }
         
+        $this->data = array_merge($this->data, $stock);
         $this->data['stock'] = $stock;
         $this->render();
     }

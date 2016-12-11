@@ -1,3 +1,4 @@
+{stock}
 <div class="row">
     <div>
         <form>
@@ -7,8 +8,10 @@
                 <input type="text" name="description" placeholder="{description}"><br>
                 <input type="text" name="quantity" placeholder="{quantity}"><br>
                 <input type="text" name="price" placeholder="{price}"><br>
-                <input type="submit"><br>
+                <br>
+                <a class="btn btn-default" href="/administration/editstock/{code}">Submit</a><br>
             </table>
         </form>
     </div>
 </div>
+{/stock}

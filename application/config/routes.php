@@ -74,7 +74,8 @@ $route['production/ingredients/(:num)'] = 'production/gimme/$1';
 $route['administration/editsupply/(:num)'] = 'administration/editsupply/$1';
 $route['administration/editstock/(:num)'] = 'administration/editstock/$1';
 $route['administration/editrecipe/(:num)'] = 'administration/editrecipe/$1';
-
+$route['administration/addrecipe/(:num)'] = 'administration/addrecipe/$1';
+$route['administration/addrecipe/'] = 'administration/editrecipe/';
 
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

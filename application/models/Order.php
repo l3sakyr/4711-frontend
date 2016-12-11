@@ -40,15 +40,14 @@ class Order extends CI_Model {
     }
 
     public function receipt() {
-        $total = 0;
+        $total = 0.00;
         $result = $this->data['pagetitle'] . '  ' . PHP_EOL;
         $result .= date(DATE_ATOM) . PHP_EOL;
         $result .= PHP_EOL . 'Your Order:' . PHP_EOL . PHP_EOL;
         $result .= '##' . $this->number . PHP_EOL;
         foreach ($this->items as $key => $value) {
-            $stock = $this->stock->get($key);
-            $result .= '- ' . $value . ' ' . $stock->name . PHP_EOL;
-            $total += $value * $menu->price;
+            $result .= '- ' . $value . ' ' . $this->stock->getName($key) . PHP_EOL;
+            $total += $value * $this->stock->getPrice($key);
         }
         $result .= PHP_EOL . 'Total: $' . number_format($total, 2) . PHP_EOL;
         return $result;
@@ -57,10 +56,19 @@ class Order extends CI_Model {
     public function total() {
         $total = 0;
         foreach ($this->items as $key => $value) {
-            $menu = $this->menu->get($key);
-            $total += $value * $menu->price;
+            $total += $value * $this->stock->getPrice($key);
         }
         return $total;
+    }
+    
+    
+    public function validate(){
+        foreach($this->items as $key => $value){
+            $quantity = $this->stock->getQuantity($key);
+            if($quantity > $value){
+                
+            }
+        }
     }
 
     public function save() {
@@ -84,6 +92,9 @@ class Order extends CI_Model {
             $lineitem = $xml->addChild('item');
             $lineitem->addChild('code', $key);
             $lineitem->addChild('quantity', $value);
+            for($i = 0; $i < $value; $i++){
+                $this->stock->takeOne($key);
+            }
         }
 
         // save it

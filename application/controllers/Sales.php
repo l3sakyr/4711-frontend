@@ -97,6 +97,8 @@ class Sales extends Application {
         $order = new Order($this->session->userdata('order'));
         $order->additem($what);
         $this->session->set_userdata('order', (array) $order);
+        //decrease that items stock by 1
+        //$this->stock->takeOne($which);
         redirect('/sales');
     }
     

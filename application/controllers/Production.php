@@ -43,30 +43,66 @@ class Production extends Application {
         $this->render();
     }
 
-    public function gimme($id) {
+//    public function gimme($id) {
+//        $this->data['pagebody'] = 'ingredients';
+//
+//
+//        $recipe = $this->recipes->get($id);
+//        $source = $this->recipes->getIngre($id);
+//        $template = array(
+//            'table_open' => '<table border="1" cellpadding="2" cellspacing="1" class="mytable">'
+//        );
+//
+//        $this->load->library('table');
+//        $this->table->set_template($template);
+//        $this->table->set_heading('Ingredient', 'Amount', 'Measuring Unit');
+//
+//
+//        $result = array();
+//        foreach ($source as $item) {
+//            array_push($result, $item);
+//        }
+//
+//        $res = $this->table->generate($result);
+//
+//        $this->data['result'] = $res;
+//        $this->data = array_merge($this->data, $result, $recipe);
+//        $this->render();
+//    }
+    
+    public function gimme($id){
         $this->data['pagebody'] = 'ingredients';
-
-
-        $recipe = $this->recipes->get($id);
+        $this->load->model('supplies');
+        $this->load->model('recipes');
+        // get the ingredients for the recipe
         $source = $this->recipes->getIngre($id);
-        $template = array(
-            'table_open' => '<table border="1" cellpadding="2" cellspacing="1" class="mytable">'
-        );
-
-        $this->load->library('table');
-        $this->table->set_template($template);
-        $this->table->set_heading('Ingredient', 'Amount', 'Measuring Unit');
-
-
-        $result = array();
-        foreach ($source as $item) {
-            array_push($result, $item);
+        $ingredients = array();
+        foreach ($source as $record){
+            $ingredients[] = array(
+                'code' => $record['code'],
+                'supplyCode' => $record['supplyCode'],
+                'recipeCode' => $record['recipeCode'],
+                'supplyName' => $this->supplies->getName($record['supplyCode']),
+                'measuring_units' => $record['measuring_units'],
+                'amount' => $record['amount']
+            );
         }
+        $this->data['ingredients'] = $ingredients;
+        
+        // get the recipe
+        $source = $this->recipes->get($id);
+        $recipes = array();
+        foreach ($source as $record) {
+            $recipes[] = array(
+                'code' => $record['code'],
+                'name' => $record['name'],
+                'description' => $record['description']
+            );
+        }
+        
+        $this->data = array_merge($this->data, $recipes);
+        $this->data['recipes'] = $recipes;
 
-        $res = $this->table->generate($result);
-
-        $this->data['result'] = $res;
-        $this->data = array_merge($this->data, $result, $recipe);
         $this->render();
     }
 

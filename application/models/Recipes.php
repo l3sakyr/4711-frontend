@@ -233,10 +233,10 @@ class Recipes extends CI_Model {
         $sql = "select * from recipes
             join recipe_supply
             on recipe_supply.recipeCode = recipes.code
-            and recipe_supply.recipeCode = " . $code .
-                "join supplies
-            on supplies.code = recipe_supply.supplyCode";
+            and recipe_supply.recipeCode = " . $code . PHP_EOL .
+            "join supplies on supplies.code = recipe_supply.supplyCode;";
         $result = $conn->query($sql);
+        
         $conn->close();
         return $result;
     }

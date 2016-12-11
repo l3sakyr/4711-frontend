@@ -85,6 +85,102 @@ class Stock extends CI_Model {
         //SQL//
         return $record;
     }
+    
+    public function getPrice($id) {
+        //SQL
+        $servername = "localhost";
+        $username = "root";
+        $password = "";
+        $dbname = "a2Database";
+
+        // Create connection
+        $conn = new mysqli($servername, $username, $password, $dbname);
+        // Check connection
+        if ($conn->connect_error) {
+            die("Connection failed: " . $conn->connect_error);
+        }
+
+        $sql = "SELECT price FROM stock WHERE code <=> " . $id . ";";
+
+        $result = $conn->query($sql);
+
+        if ($result->num_rows > 0) {
+            // output data of each row
+            while ($row = $result->fetch_assoc()) {
+                //echo "<br> name: " . $row["name"] ."<br>";
+                $price = $row["price"];
+            }
+        } else {
+            echo "0 results";
+        }
+        $conn->close();
+        //SQL//
+        return $price;
+    }
+    
+    public function getQuantity($id) {
+        //SQL
+        $servername = "localhost";
+        $username = "root";
+        $password = "";
+        $dbname = "a2Database";
+
+        // Create connection
+        $conn = new mysqli($servername, $username, $password, $dbname);
+        // Check connection
+        if ($conn->connect_error) {
+            die("Connection failed: " . $conn->connect_error);
+        }
+
+        $sql = "SELECT quantity FROM stock WHERE code <=> " . $id . ";";
+
+        $result = $conn->query($sql);
+
+        if ($result->num_rows > 0) {
+            // output data of each row
+            while ($row = $result->fetch_assoc()) {
+                //echo "<br> name: " . $row["name"] ."<br>";
+                $quantity = $row["quantity"];
+            }
+        } else {
+            echo "0 results";
+        }
+        $conn->close();
+        //SQL//
+        return $quantity;
+    }
+    
+    public function getName($id) {
+        //SQL
+        $servername = "localhost";
+        $username = "root";
+        $password = "";
+        $dbname = "a2Database";
+
+        // Create connection
+        $conn = new mysqli($servername, $username, $password, $dbname);
+        // Check connection
+        if ($conn->connect_error) {
+            die("Connection failed: " . $conn->connect_error);
+        }
+
+        $sql = "SELECT name FROM stock WHERE code <=> " . $id . ";";
+
+        $result = $conn->query($sql);
+
+        if ($result->num_rows > 0) {
+            // output data of each row
+            while ($row = $result->fetch_assoc()) {
+                //echo "<br> name: " . $row["name"] ."<br>";
+                $name = $row["name"];
+            }
+        } else {
+            echo "0 results";
+        }
+        $conn->close();
+        //SQL//
+        return $name;
+    }
 
     public function all() {
         //SQL
@@ -105,6 +201,26 @@ class Stock extends CI_Model {
         $conn->close();
         //SQL//
         return $result;
+    }
+    
+    public function takeOne($which){
+        $servername = "localhost";
+        $username = "root";
+        $password = "";
+        $dbname = "a2Database";
+        
+        // Create connection
+        $conn = new mysqli($servername, $username, $password, $dbname);
+        // Check connection
+        if ($conn->connect_error) {
+            die("Connection failed: " . $conn->connect_error);
+        }
+        
+        $sql = "UPDATE Stock SET quantity = quantity - 1 WHERE code = " . $which;
+        
+        $result = $conn->query($sql);
+        $conn->close();
+        
     }
 
     public function produce_update_db() {
