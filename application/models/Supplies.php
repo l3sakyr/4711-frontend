@@ -71,8 +71,6 @@ class Supplies extends CI_Model {
                 //echo "<br> name: " . $row["name"] ."<br>";
                 $name = $row["name"];
             }
-        } else {
-            echo "0 results";
         }
         $conn->close();
         //SQL//

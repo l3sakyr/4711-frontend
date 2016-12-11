@@ -234,9 +234,9 @@ class Recipes extends CI_Model {
             join recipe_supply
             on recipe_supply.recipeCode = recipes.code
             and recipe_supply.recipeCode = " . $code .
-                "join supplies
-            on supplies.code = recipe_supply.supplyCode";
+            " join supplies on supplies.code = recipe_supply.supplyCode;";
         $result = $conn->query($sql);
+        
         $conn->close();
         return $result;
     }

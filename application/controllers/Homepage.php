@@ -34,7 +34,7 @@ class Homepage extends Application {
         $this->invCal();
         $this->saleCal();
         $this->countRecipe();
-        $this->countProduct();
+        $this->countIngredients();
         //this makes the view rendered
         $this->render();
     }
@@ -65,19 +65,22 @@ class Homepage extends Application {
      * Function for calculating the received from sales
      */
     public function saleCal() {
-        // gets a list of supplies
-        $source = $this->stock->all();
-        $supplies = array();
 
         //Total
         $totalInc = 0;
-
-        //Calculates
-        foreach ($source as $record) {
-            $stock = intval(preg_replace('/[^0-9]+/', '', $record['quantity']), 10);
-            $price = floatval(preg_replace('/[^0-9.+]/', '', $record['price']));
-            $totalInc += ($stock * $price);
+        
+        $this->load->helper('directory');
+        $candidates = directory_map('../data/');
+        $parms = array();
+        foreach ($candidates as $filename) {
+            if (substr($filename, 0, 5) == 'order') {
+                // restore that order object
+                $order = new Order('../data/' . $filename);
+                // add the order total to our total made from sales
+                $totalInc += $order->total();
+            }
         }
+
         //Makes a data field
         $this->data['totalInc'] = $totalInc;
     }
@@ -87,19 +90,19 @@ class Homepage extends Application {
         $source = $this->recipes->all();
         $recipeCount = 0;
         foreach ($source as $record) {
-            $recipeCount += count($record);
+            $recipeCount++;
         }
         $this->data['recipeCount'] = $recipeCount;
     }
 
-    public function countProduct() {
+    public function countIngredients() {
         // gets a list of supplies
-        $source = $this->stock->all();
-        $productCount = 0;
+        $source = $this->supplies->all();
+        $supplyCount = 0;
         foreach ($source as $record) {
-            $productCount += count($record);
+            $supplyCount++;
         }
-        $this->data['productCount'] = $productCount;
+        $this->data['supplyCount'] = $supplyCount;
     }
 
 }
