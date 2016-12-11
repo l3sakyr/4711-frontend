@@ -105,17 +105,24 @@ class Production extends Application {
 
         $this->render();
     }
-
+	
     public function makeProduct() {
         $this->data['pagebody'] = 'produce';
         
         $quantity = $_GET['production_quantity/'.$_GET['id']];
         $name = $this->recipes->getRecipeName($_GET['id']);
         
-        $log = $quantity . " of " . $name . " is produced";
+        $log = $quantity . " of " . $name . " is produced.";
         
-        $this->data['production'] = $log;
+        //$this->data['production'] = $log;
 
+		$transaction = "";
+
+        //$this->supplies->transaction($log);
+
+        $logger[] = array('transaction_msg' => $log);
+        $this->data['transaction'] = $logger;
+		
         $this->stock->produce_update_db();
         $this->render();
     }
