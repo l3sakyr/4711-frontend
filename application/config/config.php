@@ -8,7 +8,7 @@ $config['menudata'] = array(
     array('name' => 'Administration', 'link' => '/administration'),
     array('name' => 'Production', 'link' => '/production'),
     array('name' => 'Receiving', 'link' => '/receiving'),
-    array('name' => 'Sales', 'link' => '/sales'),
+    array('name' => 'Sales', 'link' => '/sales/summarize'),
     array('name' => 'Toggle Role', 'link' => '/toggle')
 );
 
