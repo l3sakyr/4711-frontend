@@ -107,6 +107,7 @@ class Production extends Application {
         $this->data['transaction'] = $logger;
 
         $this->stock->produce_update_db();
+		$this->recipes->update_recipe_quantity();
         $this->render();
     }
 

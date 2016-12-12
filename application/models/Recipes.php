@@ -195,10 +195,33 @@ class Recipes extends CI_Model {
             die("Connection failed: " . $conn->connect_error);
         }
 
+		// sql for getting all the ingredients of a single recipe
+		$sc_sql = "SELECT s.supplyCode FROM recipes r
+					JOIN recipe_supply s ON s.recipeCode <=> r.code
+					JOIN supplies e ON e.code <=> s.supplyCode
+					WHERE r.name <=> " . $_GET['id'];
+					
+		$result = $conn->query($sc_sql);
+		
+		$sc = array();
+		
+		if ($result->num_rows > 0) {
+            // output data of each row
+            while ($row = $result->fetch_assoc()) {
+                array_push($sc, $row["supplyCode"]);
+				//print_r($sc);
+				//echo ($row["supplyCode"]);
+
+            }
+        } else {
+            echo "0 results";
+        }
+		
         // Template for adding product
         $quantity = $_GET['production_quantity/' . $_GET['id']];
         $sql = "UPDATE recipes_supply SET quantity = quantity + " . $quantity . " WHERE code <=>" . $_GET['id'] . ";";
         $result = $conn->query($sql);
+		//echo $_GET['id'] . " " . $quantity;
         $conn->close();
         //SQL//
     }
