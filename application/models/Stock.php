@@ -168,7 +168,9 @@ class Stock extends CI_Model {
         $sql = "SELECT name FROM stock WHERE code <=> " . $id . ";";
 
         $result = $conn->query($sql);
-
+		
+		$name = "";
+		
         if ($result->num_rows > 0) {
             // output data of each row
             while ($row = $result->fetch_assoc()) {

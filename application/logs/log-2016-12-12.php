@@ -159,3 +159,10 @@ ERROR - 2016-12-12 02:20:50 --> Severity: Notice --> Trying to get property of n
 ERROR - 2016-12-12 02:20:50 --> Severity: Notice --> Undefined variable: name C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Stock.php 183
 ERROR - 2016-12-12 02:20:50 --> Severity: Notice --> Trying to get property of non-object C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Stock.php 67
 ERROR - 2016-12-12 02:20:50 --> Severity: Notice --> Undefined variable: price C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Stock.php 78
+ERROR - 2016-12-12 02:22:29 --> Severity: Notice --> Trying to get property of non-object C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Stock.php 172
+ERROR - 2016-12-12 02:22:29 --> Severity: Notice --> Undefined variable: name C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Stock.php 183
+ERROR - 2016-12-12 02:22:29 --> Severity: Notice --> Trying to get property of non-object C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Stock.php 67
+ERROR - 2016-12-12 02:22:29 --> Severity: Notice --> Undefined variable: price C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Stock.php 78
+ERROR - 2016-12-12 02:29:15 --> Severity: Notice --> Trying to get property of non-object C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Stock.php 174
+ERROR - 2016-12-12 02:29:15 --> Severity: Notice --> Trying to get property of non-object C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Stock.php 67
+ERROR - 2016-12-12 02:29:15 --> Severity: Notice --> Undefined variable: price C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Stock.php 78
