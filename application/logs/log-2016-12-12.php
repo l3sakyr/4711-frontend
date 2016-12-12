@@ -127,3 +127,35 @@ ERROR - 2016-12-12 02:07:52 --> Severity: Notice --> Array to string conversion 
 ERROR - 2016-12-12 02:07:52 --> Severity: Notice --> Array to string conversion C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Recipes.php 211
 ERROR - 2016-12-12 02:07:52 --> Severity: Notice --> Array to string conversion C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Recipes.php 211
 ERROR - 2016-12-12 02:07:52 --> Severity: Notice --> Array to string conversion C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Recipes.php 211
+ERROR - 2016-12-12 02:11:33 --> Severity: Notice --> Trying to get property of non-object C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Stock.php 172
+ERROR - 2016-12-12 02:11:33 --> Severity: Notice --> Undefined variable: name C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Stock.php 183
+ERROR - 2016-12-12 02:11:33 --> Severity: Notice --> Trying to get property of non-object C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Stock.php 67
+ERROR - 2016-12-12 02:11:33 --> Severity: Notice --> Undefined variable: price C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Stock.php 78
+ERROR - 2016-12-12 02:12:00 --> Severity: Notice --> Undefined index: quantity C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 282
+ERROR - 2016-12-12 02:12:00 --> Severity: Notice --> Undefined index: name C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 282
+ERROR - 2016-12-12 02:12:00 --> Severity: Notice --> Undefined index: description C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 282
+ERROR - 2016-12-12 02:12:00 --> Severity: Notice --> Undefined index: receiving_cost C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 282
+ERROR - 2016-12-12 02:12:00 --> Severity: Notice --> Undefined index: measuring_units C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 282
+ERROR - 2016-12-12 02:12:00 --> Severity: Notice --> Undefined index: receiving_amount C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 282
+ERROR - 2016-12-12 02:12:00 --> Severity: Notice --> Undefined index: code C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Supplies.php 282
+ERROR - 2016-12-12 02:12:00 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\Apps\XAMPP\htdocs\4711-frontend\system\core\Exceptions.php:246) C:\Apps\XAMPP\htdocs\4711-frontend\system\helpers\url_helper.php 514
+ERROR - 2016-12-12 02:12:17 --> Severity: Notice --> Trying to get property of non-object C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Stock.php 172
+ERROR - 2016-12-12 02:12:17 --> Severity: Notice --> Undefined variable: name C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Stock.php 183
+ERROR - 2016-12-12 02:12:17 --> Severity: Notice --> Trying to get property of non-object C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Stock.php 67
+ERROR - 2016-12-12 02:12:17 --> Severity: Notice --> Undefined variable: price C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Stock.php 78
+ERROR - 2016-12-12 02:12:42 --> Severity: Notice --> Trying to get property of non-object C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Stock.php 172
+ERROR - 2016-12-12 02:12:42 --> Severity: Notice --> Undefined variable: name C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Stock.php 183
+ERROR - 2016-12-12 02:12:42 --> Severity: Notice --> Trying to get property of non-object C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Stock.php 67
+ERROR - 2016-12-12 02:12:42 --> Severity: Notice --> Undefined variable: price C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Stock.php 78
+ERROR - 2016-12-12 02:18:29 --> Severity: Notice --> Trying to get property of non-object C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Stock.php 172
+ERROR - 2016-12-12 02:18:29 --> Severity: Notice --> Undefined variable: name C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Stock.php 183
+ERROR - 2016-12-12 02:18:29 --> Severity: Notice --> Trying to get property of non-object C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Stock.php 67
+ERROR - 2016-12-12 02:18:29 --> Severity: Notice --> Undefined variable: price C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Stock.php 78
+ERROR - 2016-12-12 02:18:39 --> Severity: Notice --> Trying to get property of non-object C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Stock.php 172
+ERROR - 2016-12-12 02:18:39 --> Severity: Notice --> Undefined variable: name C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Stock.php 183
+ERROR - 2016-12-12 02:18:39 --> Severity: Notice --> Trying to get property of non-object C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Stock.php 67
+ERROR - 2016-12-12 02:18:39 --> Severity: Notice --> Undefined variable: price C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Stock.php 78
+ERROR - 2016-12-12 02:20:50 --> Severity: Notice --> Trying to get property of non-object C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Stock.php 172
+ERROR - 2016-12-12 02:20:50 --> Severity: Notice --> Undefined variable: name C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Stock.php 183
+ERROR - 2016-12-12 02:20:50 --> Severity: Notice --> Trying to get property of non-object C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Stock.php 67
+ERROR - 2016-12-12 02:20:50 --> Severity: Notice --> Undefined variable: price C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Stock.php 78

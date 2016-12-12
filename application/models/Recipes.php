@@ -199,7 +199,7 @@ class Recipes extends CI_Model {
 		$sc_sql = "SELECT s.supplyCode FROM recipes r
 					JOIN recipe_supply s ON s.recipeCode <=> r.code
 					JOIN supplies e ON e.code <=> s.supplyCode
-					WHERE r.name <=> " . $_GET['id'];
+					WHERE r.code <=> " . $_GET['id'];
 					
 		$result = $conn->query($sc_sql);
 		
@@ -217,7 +217,11 @@ class Recipes extends CI_Model {
             echo "0 results";
         }
 		
-        // Template for adding product
+		// goes through 
+		
+		// iterate over the supplyCodes to update the ingreidients
+		
+        // Below doesn't operate correctly
         $quantity = $_GET['production_quantity/' . $_GET['id']];
         $sql = "UPDATE recipes_supply SET quantity = quantity + " . $quantity . " WHERE code <=>" . $_GET['id'] . ";";
         $result = $conn->query($sql);
