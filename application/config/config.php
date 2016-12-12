@@ -34,7 +34,7 @@ $config['menudata'] = array(
   | a PHP script and you can easily do that on your own.
   |
  */
-$config['base_url'] = 'frontend.local/';
+$config['base_url'] = '/';
 
 /*
   |--------------------------------------------------------------------------
