@@ -51,16 +51,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   |		my-controller/my-method	-> my_controller/my_method
  */
 
-$route['Sales/item/(:num)'] = 'sales/gimme/$1';
-$route['Receiving/supply/(:num)'] = 'receiving/gimme/$1';
-$route['default_controller'] = 'homepage';
-$route['Production/ingredients/(:num)'] = 'production/gimme/$1';
+$route['Sales/item/(:num)'] = 'Sales/gimme/$1';
+$route['Receiving/supply/(:num)'] = 'Receiving/gimme/$1';
+$route['default_controller'] = 'Homepage';
+$route['Production/ingredients/(:num)'] = 'Production/gimme/$1';
 
 //edit routing
-$route['Administration/editsupply/(:num)'] = 'administration/editsupply/$1';
-$route['Administration/editstock/(:num)'] = 'administration/editstock/$1';
-$route['Administration/editrecipe/(:num)'] = 'administration/editrecipe/$1';
-$route['Administration/addrecipe/(:num)'] = 'administration/addrecipe/$1';
+$route['Administration/editsupply/(:num)'] = 'Administration/editsupply/$1';
+$route['Administration/editstock/(:num)'] = 'Administration/editstock/$1';
+$route['Administration/editrecipe/(:num)'] = 'Administration/editrecipe/$1';
+$route['Administration/addrecipe/(:num)'] = 'Administration/addrecipe/$1';
 
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
