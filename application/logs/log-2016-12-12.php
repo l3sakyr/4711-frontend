@@ -166,3 +166,18 @@ ERROR - 2016-12-12 02:22:29 --> Severity: Notice --> Undefined variable: price C
 ERROR - 2016-12-12 02:29:15 --> Severity: Notice --> Trying to get property of non-object C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Stock.php 174
 ERROR - 2016-12-12 02:29:15 --> Severity: Notice --> Trying to get property of non-object C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Stock.php 67
 ERROR - 2016-12-12 02:29:15 --> Severity: Notice --> Undefined variable: price C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Stock.php 78
+ERROR - 2016-12-12 02:33:07 --> Severity: Notice --> Trying to get property of non-object C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Stock.php 174
+ERROR - 2016-12-12 02:33:07 --> Severity: Notice --> Trying to get property of non-object C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Stock.php 67
+ERROR - 2016-12-12 02:33:07 --> Severity: Notice --> Undefined variable: price C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Stock.php 78
+ERROR - 2016-12-12 02:33:47 --> Severity: Notice --> Trying to get property of non-object C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Stock.php 176
+ERROR - 2016-12-12 02:33:47 --> Severity: Notice --> Trying to get property of non-object C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Stock.php 69
+ERROR - 2016-12-12 02:42:17 --> Severity: Notice --> Trying to get property of non-object C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Stock.php 176
+ERROR - 2016-12-12 02:42:17 --> Severity: Notice --> Trying to get property of non-object C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Stock.php 69
+ERROR - 2016-12-12 02:42:57 --> Severity: error --> Exception: syntax error, unexpected '}' C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Recipes.php 222
+ERROR - 2016-12-12 02:42:59 --> Severity: error --> Exception: syntax error, unexpected '}' C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Recipes.php 222
+ERROR - 2016-12-12 02:43:43 --> Severity: Notice --> Trying to get property of non-object C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Stock.php 176
+ERROR - 2016-12-12 02:43:43 --> Severity: Notice --> Trying to get property of non-object C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Stock.php 69
+ERROR - 2016-12-12 02:43:51 --> Severity: Notice --> Trying to get property of non-object C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Stock.php 176
+ERROR - 2016-12-12 02:43:51 --> Severity: Notice --> Trying to get property of non-object C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Stock.php 69
+ERROR - 2016-12-12 02:43:59 --> Severity: Warning --> Invalid argument supplied for foreach() C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Stock.php 142
+ERROR - 2016-12-12 02:43:59 --> Severity: Notice --> Undefined variable: quantity C:\Apps\XAMPP\htdocs\4711-frontend\application\models\Stock.php 148

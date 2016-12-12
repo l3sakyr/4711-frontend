@@ -217,6 +217,9 @@ class Recipes extends CI_Model {
             echo "0 results";
         }
 		
+		foreach($sc as $value) {
+			
+		}
 		// goes through 
 		
 		// iterate over the supplyCodes to update the ingreidients

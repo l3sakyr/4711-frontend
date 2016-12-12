@@ -61,7 +61,9 @@ class Stock extends CI_Model {
         }
 
         $sql = "SELECT price FROM stock WHERE code <=> " . $id . ";";
-
+		
+		$price = "";
+		
         $result = $conn->query($sql);
 
         if ($result->num_rows > 0) {
